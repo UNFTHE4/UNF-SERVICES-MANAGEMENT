@@ -4,7 +4,7 @@ https://flussonic.deltainfonet.com/01_Tsports_HD/tracks-v1a1/mono.m3u8
 #EXTINF:-1, SOMOY TV | BAN/ENG | online | false
 https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
 #EXTINF:-1, 4K | GOES UP TO 4k | online | false
-https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
+https://cp11.adabmedia.com/hls2/rasf1.m3u8
 #EXTINF:-1, beIN SPORTS 1 | FRA | online | false
 https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
 #EXTINF:-1, beIN SPORTS 2 | ENG | offline | false
@@ -27,6 +27,8 @@ https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/374.m3u8
 https://andro.evrenesoglu57.click/checklist/androstreamliveexn1.m3u8
 #EXTINF:-1, FOX SPORTS | ENG | online | false
 https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports720p.m3u8
+#EXTINF:-1, TYC SPORTS FAN | ARABIC | online | false
+https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
 #EXTINF:-1, ESPN | DUT | offline | false
 https://1nyaler.streamhostingcdn.top/stream/97/index.m3u8
 #EXTINF:-1, SKY SPORTS MAIN EVENT | ENG | offline | false
