@@ -1,0 +1,51 @@
+#EXTM3U
+#EXTINF:-1, T SPORTS | BAN/ENG | online | false
+https://flussonic.deltainfonet.com/01_Tsports_HD/tracks-v1a1/mono.m3u8
+#EXTINF:-1, SOMOY TV | BAN/ENG | online | false
+https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
+#EXTINF:-1, 4K | GOES UP TO 4k | online | false
+https://ezlivetv-proxy.martvila-com.workers.dev/proxy?url=https%3A%2F%2Fproxy1.livekhela.qzz.io%2Fstream9%2F720p%2Findex.m3u8
+#EXTINF:-1, beIN SPORTS 1 | FRA | online | false
+https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
+#EXTINF:-1, beIN SPORTS 2 | ENG | offline | false
+https://1nyaler.streamhostingcdn.top/stream/21/index.m3u8
+#EXTINF:-1, beIN SPORT 5 | ENG | online | false
+https://node8.no-612.workers.dev/resource/MjQwNTk5MDY0MTY5OjI0MDU5OTA2NDE2OToxMjAzNTpsaXZl/index
+#EXTINF:-1, beIN SPORT EXTRA Ñ | SPA | online | false
+https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
+#EXTINF:-1, D SPORTS+ | SPA | online | false
+https://tv.dsat.bd/api/proxy.php?url=http%3A%2F%2F190.108.83.69%3A8000%2Fplay%2Fa05w%2Findex.m3u8
+#EXTINF:-1, D SPORTS | ENG | online | false
+https://stmv6.voxtvhd.com.br/cnardeportes/cnardeportes/playlist.m3u8
+#EXTINF:-1, F1 TV | ENG | online | false
+https://tv.dsat.bd/api/proxy.php?url=https%3A%2F%2Famg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv%2Fplaylist1080p.m3u8
+#EXTINF:-1, DAZN SPORTS | SPA | online | false
+https://tv.dsat.bd/api/proxy.php?url=http%3A%2F%2F23.237.104.106%3A8080%2FDAZN_4%2Findex.m3u8
+#EXTINF:-1, DAZN F1 | SPA | online | false
+https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/374.m3u8
+#EXTINF:-1, FOX | ENG | online | false
+https://andro.evrenesoglu57.click/checklist/androstreamliveexn1.m3u8
+#EXTINF:-1, FOX SPORTS | ENG | online | false
+https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports720p.m3u8
+#EXTINF:-1, ESPN | DUT | offline | false
+https://1nyaler.streamhostingcdn.top/stream/97/index.m3u8
+#EXTINF:-1, SKY SPORTS MAIN EVENT | ENG | offline | false
+https://smartbox.digital/stream-load/SKY%20SPORTS%20MAIN%20EVENT%20HD/playlist.m3u8
+#EXTINF:-1, SKY SPORTS FOOTBALL | ENG | offline | false
+https://smartbox.digital/stream-load/skysports_football/playlist.m3u8
+#EXTINF:-1, SKY SPORTS CRICKET | ENG | online | false
+https://atc.hopto.org/sly-sprts-cricket-hd-sport/tracks-v1a1/mono.m3u8
+#EXTINF:-1, SKY SPORTS F1 | ENG | offline | false
+https://xstm.250909.cc/live/SPORTSFLUX-POOL-20acb0a9c8/5ffe6c552a88/1037.m3u8
+#EXTINF:-1, CAZE TV | SPA | offline | false
+https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8
+#EXTINF:-1, TSN 1 | ENG | offline | false
+https://lb1.strmd.st/secure/VbpREJIAPOwJffvBkBLwdOLkijfWWtdX/rtmp/stream/5HMsdFli38ZR8RhCi7LGuPGg6oUqYeipyYhGmvZ-M9-FZJwR1CTqSLHgGA_AfeRO2D7K7WGhjw/1/high/mono.m3u8
+#EXTINF:-1, WIN SPORTS | SPA | offline | false
+https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
+#EXTINF:-1, SPORT TV | SPA | offline | false
+https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8
+#EXTINF:-1, koora city | weird lang? | offline | false
+https://am.homom.store/braz1_480/index.m3u8
+#EXTINF:-1, BRS | 18+ | online | true
+https://fl1004.bozztv.com/ushba-mafia/tracks-v1a1/mono.m3u8
