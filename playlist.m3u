@@ -7,7 +7,7 @@ https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
 https://cp11.adabmedia.com/hls2/rasf1.m3u8
 #EXTINF:-1, beIN SPORTS 1 | FRA | online | false
 https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
-#EXTINF:-1, beIN SPORTS 3 | UKN | offline | false
+#EXTINF:-1, beIN SPORTS 3 | UKN | online | false
 https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8
 #EXTINF:-1, beIN SPORT 5 | ENG | online | false
 https://node8.no-612.workers.dev/resource/MjQwNTk5MDY0MTY5OjI0MDU5OTA2NDE2OToxMjAzNTpsaXZl/index
@@ -41,8 +41,8 @@ https://atc.hopto.org/sly-sprts-cricket-hd-sport/tracks-v1a1/mono.m3u8
 https://xstm.250909.cc/live/SPORTSFLUX-POOL-20acb0a9c8/5ffe6c552a88/1037.m3u8
 #EXTINF:-1, CAZE TV | SPA | online | false
 https://fifa-stream-proxy.mdsabbirhowlader420.workers.dev/https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
-#EXTINF:-1, TSN 1 | ENG | offline | false
-https://lb1.strmd.st/secure/VbpREJIAPOwJffvBkBLwdOLkijfWWtdX/rtmp/stream/5HMsdFli38ZR8RhCi7LGuPGg6oUqYeipyYhGmvZ-M9-FZJwR1CTqSLHgGA_AfeRO2D7K7WGhjw/1/high/mono.m3u8
+#EXTINF:-1, TSN 1 | ENG | online | false
+https://www.sportsnationbd.com/api/stream-proxy?url=https%3A%2F%2Fotte.cache.aiv-cdn.net%2Fbom-nitro%2Flive%2Fclients%2Fdash%2Fenc%2Fw0rehjjrwe%2Fout%2Fv1%2F69a2a7041395406b970598f61680e7cf%2Fcenc.mpd
 #EXTINF:-1, WIN SPORTS | SPA | offline | false
 https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
 #EXTINF:-1, SPORT TV | SPA | offline | false
