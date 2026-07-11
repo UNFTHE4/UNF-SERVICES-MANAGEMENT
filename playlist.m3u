@@ -39,8 +39,8 @@ https://smartbox.digital/stream-load/skysports_football/playlist.m3u8
 https://atc.hopto.org/sly-sprts-cricket-hd-sport/tracks-v1a1/mono.m3u8
 #EXTINF:-1, SKY SPORTS F1 | ENG | offline | false
 https://xstm.250909.cc/live/SPORTSFLUX-POOL-20acb0a9c8/5ffe6c552a88/1037.m3u8
-#EXTINF:-1, CAZE TV | SPA | online | false
-https://fifa-stream-proxy.mdsabbirhowlader420.workers.dev/https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
+#EXTINF:-1, Servus TV | GER | online | false
+https://live-manifest.production-public.tubi.io/live/13a764a8-a91d-4a17-a7f7-ee99250598b5/playlist.m3u8
 #EXTINF:-1, TSN 1 | ENG | online | false
 https://www.sportsnationbd.com/api/stream-proxy?url=https%3A%2F%2Fotte.cache.aiv-cdn.net%2Fbom-nitro%2Flive%2Fclients%2Fdash%2Fenc%2Fw0rehjjrwe%2Fout%2Fv1%2F69a2a7041395406b970598f61680e7cf%2Fcenc.mpd
 #EXTINF:-1, WIN SPORTS | SPA | offline | false
