@@ -1,5 +1,6 @@
 #EXTM3U
 #EXTINF:-1, T SPORTS | BAN/ENG | online | false
+http://rgkkw.live:80/live/1Aoen7elp5/IgMJ60tmAa/130714.m3u8
 https://flussonic.deltainfonet.com/01_Tsports_HD/tracks-v1a1/mono.m3u8
 #EXTINF:-1, SOMOY TV | BAN/ENG | online | false
 https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
@@ -13,6 +14,8 @@ https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8
 https://node8.no-612.workers.dev/resource/MjQwNTk5MDY0MTY5OjI0MDU5OTA2NDE2OToxMjAzNTpsaXZl/index 
 #EXTINF:-1, beIN SPORT EXTRA Ñ | SPA | online | false
 https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
+#EXTINF:-1, SOCO TV | UNK? | online | false
+https://pull.niues.live/live/stream-9912060_lhd.m3u8?auth_key=1783284383-0-0-ba541e77b9330eab42075af6aa5029e4
 #EXTINF:-1, UNITE8 SPORTS 1 | HIN | online | false
 https://hugh.cdn.rumble.cloud/live/k1ub38pe/live-hls/y835-iiaw/chunklist_i1.m3u8
 #EXTINF:-1, D SPORTS+ | SPA | online | false
@@ -44,7 +47,7 @@ https://xstm.250909.cc/live/SPORTSFLUX-POOL-20acb0a9c8/5ffe6c552a88/1037.m3u8
 #EXTINF:-1, Servus TV | GER | online | false
 https://live-manifest.production-public.tubi.io/live/13a764a8-a91d-4a17-a7f7-ee99250598b5/playlist.m3u8
 #EXTINF:-1, TSN 1 | ENG | online | false
-https://www.sportsnationbd.com/api/stream-proxy?url=https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd
 #EXTINF:-1, WIN SPORTS | SPA | offline | false
 https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
 #EXTINF:-1, SPORT TV | SPA | offline | false
@@ -53,3 +56,6 @@ https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8
 https://am.homom.store/braz1_480/index.m3u8
 #EXTINF:-1, BRS | 18+ | online | true
 https://fl1004.bozztv.com/ushba-mafia/tracks-v1a1/mono.m3u8
+#EXTINF:-1, T SPORTS | BAN/ENG | online | false
+http://rgkkw.live:80/live/1Aoen7elp5/IgMJ60tmAa/130714.m3u8
+https://flussonic.deltainfonet.com/01_Tsports_HD/tracks-v1a1/mono.m3u8
