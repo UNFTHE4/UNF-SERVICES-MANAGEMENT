@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1, T SPORTS | BAN/ENG | online | false
-http://rgkkw.live:80/live/1Aoen7elp5/IgMJ60tmAa/130714.m3u8
+https://sports-fire.lovable.app/api/proxy?url=http%3A%2F%2Frgkkw.live%3A80%2Flive%2F1Aoen7elp5%2FIgMJ60tmAa%2F130714.m3u8
 #EXTINF:-1, SOMOY TV | BAN/ENG | online | false
 https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
 #EXTINF:-1, FUSSBALL TV 1 | GOES UP TO 4k | online | false
