@@ -1,32 +1,17 @@
 [
   {
     "name": "FIFA WORLC CUP",
-    "url": "https://www.twitch.tv/gigguk",
+    "url": "https://unfnetwork.rf.gd/proxy.php?url=https://www.twitch.tv/gigguk",
     "icon": "https://assets.football-logos.cc/logos/tournaments/512x512/fifa-world-cup-2026--white.12f8795d.png"
   },
   {
     "name": "F1 Commentary",
-    "url": "https://m.twitch.tv/onlyvic",
+    "url": "https://unfnetwork.rf.gd/proxy.php?url=https://m.twitch.tv/onlyvic",
     "icon": "https://justcalendars.com.au/cdn/shop/files/9781804232712_1_09f125b5-b210-428b-8bf0-988f90b2d85a.png"
   },
   {
     "name": "24/7 MUSIC BOX",
-    "url": "https://www.twitch.tv/starlightslumber",
+    "url": "https://unfnetwork.rf.gd/proxy.php?url=https://www.twitch.tv/starlightslumber",
     "icon": "https://i.pinimg.com/736x/1a/67/c7/1a67c780fdd6a92e6c5deba716c19358.jpg"
   },
-  {
-    "name": "Radio YSKL 104.1 FM",
-    "url": "http://media.dominiocreativo.com:8000/stream/1/",
-    "icon": "http://radio.pervii.com/im/3/1576192753.jpg"
-  },
-  {
-    "name": "talkSPORT 2 World",
-    "url": "http://radio.talksport.com/stream2",
-    "icon": "http://radio.pervii.com/im/3/1563164463.jpg"
-  },
-  {
-    "name": "Eisradio (Chill/Sport)",
-    "url": "http://stream.eisradio.de:8000/radio.mp3",
-    "icon": "http://radio.pervii.com/im/3/1574003183.jpg"
-  }
 ]
