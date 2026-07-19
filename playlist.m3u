@@ -15,7 +15,7 @@ https://unfnetwork.rf.gd/proxy.php?url=https://node8.no-612.workers.dev/resource
 https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 #EXTINF:-1, SOCO TV | UNK? | online | false
 https://tiny-recipe-a871.mominulislamm3u8.workers.dev/proxy/stream?u=https%3A%2F%2Ftv.beyondtaxconsultants.com%2Fapi%2Frobi%2Flps%2Fhttp%3A%2F%2F198.195.239.50%3A8095%2Fbtv%2Ftracks-v1a1%2Fmono.m3u8
-#EXTINF:-1, UNITE8 SPORTS 1 | HIN | online | false
+#EXTINF:-1, UNITE8 SPORTS 1 | HIN | offline | false
 https://hugh.cdn.rumble.cloud/live/k1ub38pe/live-hls/y835-iiaw/chunklist_i1.m3u8
 #EXTINF:-1, D SPORTS+ | SPA | online | false
 https://tv.dsat.bd/api/proxy.php?url=http%3A%2F%2F190.108.83.69%3A8000%2Fplay%2Fa05w%2Findex.m3u8
@@ -33,7 +33,7 @@ https://andro.evrenesoglu57.click/checklist/androstreamliveexn1.m3u8
 https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports720p.m3u8
 #EXTINF:-1, TYC SPORTS FAN | ARABIC | online | false
 https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
-#EXTINF:-1, ARENA 1 | UNK | online | false
+#EXTINF:-1, ARENA 1 | UNK | offline | false
 https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8
 #EXTINF:-1, ESPN | DUT | offline | false
 https://1nyaler.streamhostingcdn.top/stream/97/index.m3u8
@@ -41,19 +41,19 @@ https://1nyaler.streamhostingcdn.top/stream/97/index.m3u8
 https://smartbox.digital/stream-load/SKY%20SPORTS%20MAIN%20EVENT%20HD/playlist.m3u8
 #EXTINF:-1, SKY SPORTS FOOTBALL | ENG | offline | false
 https://smartbox.digital/stream-load/skysports_football/playlist.m3u8
-#EXTINF:-1, SKY SPORTS CRICKET | ENG | online | false
+#EXTINF:-1, SKY SPORTS CRICKET | ENG | offline | false
 https://atc.hopto.org/sly-sprts-cricket-hd-sport/tracks-v1a1/mono.m3u8
-#EXTINF:-1, SKY SPORTS F1 | ENG | online | false
+#EXTINF:-1, SKY SPORTS F1 | ENG | offline | false
 https://unfnetwork.rf.gd/proxy.php?url=https://xstm.250909.cc/live/SPORTSFLUX-POOL-20acb0a9c8/5ffe6c552a88/1037.m3u8
 #EXTINF:-1, Servus TV | GER | online | false
 https://live-manifest.production-public.tubi.io/live/13a764a8-a91d-4a17-a7f7-ee99250598b5/playlist.m3u8
-#EXTINF:-1, TSN 1 | ENG | online | false
+#EXTINF:-1, TSN 1 | ENG | offline | false
 https://unfnetwork.rf.gd/proxy.php?url=https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd
 #EXTINF:-1, WIN SPORTS | SPA | online | false
 https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
-#EXTINF:-1, SPORT TV | SPA | online | false
+#EXTINF:-1, SPORT TV | SPA | offline | false
 https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8
-#EXTINF:-1, TEMPORARY | weird lang? | online | false
+#EXTINF:-1, TEMPORARY | weird lang? | offline | false
 https://lb6.strmd.st/secure/XUxHanGhTAwSTjAuSqOCGonhXVphgEyu/rtmp/stream/BxFuwGIZwdYdTP3rWtIssFOrUdPpcsefuPcQDVSFHM9Z4Lq7nGp9eUW6F0IwiSK66sJ_9NpD8cRxKfVORhlquMDcTy6Qdw/1/high/mono.m3u8
 #EXTINF:-1, BRS | 18+ | online | true
 https://fl1004.bozztv.com/ushba-mafia/tracks-v1a1/mono.m3u8
