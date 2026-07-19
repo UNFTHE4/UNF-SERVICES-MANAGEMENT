@@ -45,8 +45,10 @@ https://smartbox.digital/stream-load/skysports_football/playlist.m3u8
 https://atc.hopto.org/sly-sprts-cricket-hd-sport/tracks-v1a1/mono.m3u8
 #EXTINF:-1, SKY SPORTS F1 | ENG | offline | false
 https://unfnetwork.rf.gd/proxy.php?url=https://xstm.250909.cc/live/SPORTSFLUX-POOL-20acb0a9c8/5ffe6c552a88/1037.m3u8
-#EXTINF:-1, Servus TV | GER | online | false
-https://eu.nexalure.site/loock1_720/index.m3u8
+#EXTINF:-1, SKY SPORTS CALCIO | ITA | online | false
+https://1nyaler.streamhostingcdn.top/stream/21/index.m3u8
+#EXTINF:-1, TV Nova | GER | online | false
+https://stream.agatin.hr:3727/live/tvnovalive.m3u8
 #EXTINF:-1, TSN 1 | ENG | offline | false
 https://unfnetwork.rf.gd/proxy.php?url=https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd
 #EXTINF:-1, WIN SPORTS | SPA | online | false
