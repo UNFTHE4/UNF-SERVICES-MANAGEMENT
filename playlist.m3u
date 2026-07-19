@@ -1,16 +1,16 @@
 #EXTM3U
 #EXTINF:-1, T SPORTS | BAN/ENG | online | false
-https://unfnetwork.rf.gd/proxy.php?url=https://bdixserver.tvhunter.top/ant1009/tracks-v1a1/mono.m3u8
+https://bdixserver.tvhunter.top/ant1009/tracks-v1a1/mono.m3u8
 #EXTINF:-1, SOMOY TV | BAN/ENG | online | false
 https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
 #EXTINF:-1, FUSSBALL TV 1 | GOES UP TO 4k | online | false 
 https://ir14.livekadeh.com/hls2/bein1.m3u8
 #EXTINF:-1, beIN SPORTS 1 | FRA | online | false
-https://unfnetwork.rf.gd/proxy.php?url=https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
+https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
 #EXTINF:-1, beIN SPORTS 3 | UKN | online | false
 https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8
 #EXTINF:-1, beIN SPORT 5 | ENG | online | false
-https://node8.no-612.workers.dev/resource/MjQwNTk5MDY0MTY5OjI0MDU5OTA2NDE2OToxMjAzNTpsaXZl/index 
+https://unfnetwork.rf.gd/proxy.php?url=https://node8.no-612.workers.dev/resource/MjQwNTk5MDY0MTY5OjI0MDU5OTA2NDE2OToxMjAzNTpsaXZl/index 
 #EXTINF:-1, beIN SPORT EXTRA Ñ | SPA | online | false
 https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 #EXTINF:-1, SOCO TV | UNK? | online | false
@@ -33,8 +33,8 @@ https://andro.evrenesoglu57.click/checklist/androstreamliveexn1.m3u8
 https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports720p.m3u8
 #EXTINF:-1, TYC SPORTS FAN | ARABIC | online | false
 https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
-#EXTINF:-1, Canal+ Sports | FRE | online | false
-https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+#EXTINF:-1, ARENA 1 | UNK | online | false
+https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8
 #EXTINF:-1, ESPN | DUT | offline | false
 https://1nyaler.streamhostingcdn.top/stream/97/index.m3u8
 #EXTINF:-1, SKY SPORTS MAIN EVENT | ENG | offline | false
@@ -42,7 +42,7 @@ https://smartbox.digital/stream-load/SKY%20SPORTS%20MAIN%20EVENT%20HD/playlist.m
 #EXTINF:-1, SKY SPORTS FOOTBALL | ENG | offline | false
 https://smartbox.digital/stream-load/skysports_football/playlist.m3u8
 #EXTINF:-1, SKY SPORTS CRICKET | ENG | online | false
-https://unfnetwork.rf.gd/proxy.php?url=https://atc.hopto.org/sly-sprts-cricket-hd-sport/tracks-v1a1/mono.m3u8
+https://atc.hopto.org/sly-sprts-cricket-hd-sport/tracks-v1a1/mono.m3u8
 #EXTINF:-1, SKY SPORTS F1 | ENG | online | false
 https://unfnetwork.rf.gd/proxy.php?url=https://xstm.250909.cc/live/SPORTSFLUX-POOL-20acb0a9c8/5ffe6c552a88/1037.m3u8
 #EXTINF:-1, Servus TV | GER | online | false
