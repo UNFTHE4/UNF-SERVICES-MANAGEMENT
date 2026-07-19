@@ -13,5 +13,20 @@
     "name": "24/7 MUSIC BOX",
     "url": "https://www.twitch.tv/starlightslumber",
     "icon": "https://i.pinimg.com/736x/1a/67/c7/1a67c780fdd6a92e6c5deba716c19358.jpg"
+  },
+  {
+    "name": "Radio YSKL 104.1 FM",
+    "url": "http://media.dominiocreativo.com:8000/stream/1/",
+    "icon": "http://radio.pervii.com/im/3/1576192753.jpg"
+  },
+  {
+    "name": "talkSPORT 2 World",
+    "url": "http://radio.talksport.com/stream2",
+    "icon": "http://radio.pervii.com/im/3/1563164463.jpg"
+  },
+  {
+    "name": "Eisradio (Chill/Sport)",
+    "url": "http://stream.eisradio.de:8000/radio.mp3",
+    "icon": "http://radio.pervii.com/im/3/1574003183.jpg"
   }
 ]
