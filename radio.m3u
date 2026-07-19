@@ -7,6 +7,8 @@ http://as-hls-ww-live.akamaized.net/pool_89021708/live/ww/bbc_radio_five_live/bb
 https://ice3.somafm.com/groovesalad-256-mp3
 #EXTINF:-1 tvg-logo="http://radio.pervii.com/im/3/1563164463.jpg",talkSPORT 2 (Sports Talk)
 http://radio.talksport.com/stream2
-#EXTINF:-1 tvg-logo="http://radio.pervii.com/logo/30695.jpg",WCCP 105.5FM (US Sports)
-http://s2.radioreformation.com:8056
+#EXTINF:-1 tvg-logo="https://kick.com/favicon.ico",Kick: Ponden (Live)
+https://unfnetwork.rf.gd/proxy.php?url=https://kick.com/ponden
+#EXTINF:-1 tvg-logo="https://kick.com/favicon.ico",Kick: Ponden (Live)
+https://kick.com/ponden
 
