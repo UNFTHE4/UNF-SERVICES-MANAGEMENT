@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Twitch Streamer 1",
+    "url": "https://twitch.tv/streamer1",
+    "icon": "https://raw.githubusercontent.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/icons/streamer1.png"
+  },
+  {
+    "name": "F1 Commentary",
+    "url": "https://m.twitch.tv/onlyvic",
+    "icon": "https://i.ibb.co.com/abc123/sports-icon.png"
+  },
+  {
+    "name": "Live Radio",
+    "url": "https://radio-stream-url.com/audio",
+    "icon": "https://raw.githubusercontent.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/icons/radio.png"
+  }
+]
