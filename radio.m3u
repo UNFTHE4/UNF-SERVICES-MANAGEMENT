@@ -5,3 +5,9 @@ https://lsn.lv/bbcradio.m3u8?station=bbc_world_service&bitrate=96000
 https://lsn.lv/bbcradio.m3u8?station=bbc_radio_five_live&bitrate=96000
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/1a/67/c7/1a67c780fdd6a92e6c5deba716c19358.jpg",24/7 MUSIC BOX
 https://ice3.somafm.com/groovesalad-256-mp3
+#EXTINF:-1 tvg-logo="http://radio.pervii.com/im/3/1563164463.jpg",talkSPORT 2 (Sports Talk)
+http://radio.talksport.com/stream2
+#EXTINF:-1 tvg-logo="http://radio.pervii.com/logo/30695.jpg",WCCP 105.5FM (US Sports)
+http://s2.radioreformation.com:8056
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/1a/67/c7/1a67c780fdd6a92e6c5deba716c19358.jpg",24/7 MUSIC BOX (Chill)
+https://ice3.somafm.com/groovesalad-256-mp3
