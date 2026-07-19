@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1, T SPORTS | BAN/ENG | online | false
-https://bdixserver.tvhunter.top/ant1009/tracks-v1a1/mono.m3u8
+https://bdixserver.tvhunter.top/ant1004/tracks-v1a1/mono.m3u8
 #EXTINF:-1, SOMOY TV | BAN/ENG | online | false
 https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
 #EXTINF:-1, FUSSBALL TV 1 | GOES UP TO 4k | online | false 
@@ -14,7 +14,7 @@ https://unfnetwork.rf.gd/proxy.php?url=https://node8.no-612.workers.dev/resource
 #EXTINF:-1, beIN SPORT EXTRA Ñ | SPA | online | false
 https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 #EXTINF:-1, SOCO TV | UNK? | online | false
-https://pull.niues.live/live/stream-9912060_lhd.m3u8?auth_key=1783284383-0-0-ba541e77b9330eab42075af6aa5029e4
+https://tiny-recipe-a871.mominulislamm3u8.workers.dev/proxy/stream?u=https%3A%2F%2Ftv.beyondtaxconsultants.com%2Fapi%2Frobi%2Flps%2Fhttp%3A%2F%2F198.195.239.50%3A8095%2Fbtv%2Ftracks-v1a1%2Fmono.m3u8
 #EXTINF:-1, UNITE8 SPORTS 1 | HIN | online | false
 https://hugh.cdn.rumble.cloud/live/k1ub38pe/live-hls/y835-iiaw/chunklist_i1.m3u8
 #EXTINF:-1, D SPORTS+ | SPA | online | false
@@ -49,12 +49,12 @@ https://unfnetwork.rf.gd/proxy.php?url=https://xstm.250909.cc/live/SPORTSFLUX-PO
 https://live-manifest.production-public.tubi.io/live/13a764a8-a91d-4a17-a7f7-ee99250598b5/playlist.m3u8
 #EXTINF:-1, TSN 1 | ENG | online | false
 https://unfnetwork.rf.gd/proxy.php?url=https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd
-#EXTINF:-1, WIN SPORTS | SPA | offline | false
+#EXTINF:-1, WIN SPORTS | SPA | online | false
 https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
-#EXTINF:-1, SPORT TV | SPA | offline | false
+#EXTINF:-1, SPORT TV | SPA | online | false
 https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8
-#EXTINF:-1, koora city | weird lang? | offline | false
-https://am.homom.store/braz1_480/index.m3u8
+#EXTINF:-1, TEMPORARY | weird lang? | online | false
+https://lb6.strmd.st/secure/XUxHanGhTAwSTjAuSqOCGonhXVphgEyu/rtmp/stream/BxFuwGIZwdYdTP3rWtIssFOrUdPpcsefuPcQDVSFHM9Z4Lq7nGp9eUW6F0IwiSK66sJ_9NpD8cRxKfVORhlquMDcTy6Qdw/1/high/mono.m3u8
 #EXTINF:-1, BRS | 18+ | online | true
 https://fl1004.bozztv.com/ushba-mafia/tracks-v1a1/mono.m3u8
 
