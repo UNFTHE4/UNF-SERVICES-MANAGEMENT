@@ -21,10 +21,14 @@ https://bdixserver.tvhunter.top/ant1002/tracks-v1a1/mono.m3u8
 https://tv.dsat.bd/api/proxy.php?url=http%3A%2F%2F190.108.83.69%3A8000%2Fplay%2Fa05w%2Findex.m3u8
 #EXTINF:-1, D SPORTS | ENG | online | false
 https://stmv6.voxtvhd.com.br/cnardeportes/cnardeportes/playlist.m3u8
-#EXTINF:-1, DAZN SPORTS | SPA | online | false
+#EXTINF:-1, DAZN 1 | SPA | online | false
+http://znty.dyndns.org:5010/hls/eleven5.m3u8
+#EXTINF:-1, DAZN 4 | SPA | online | false
 https://tv.dsat.bd/api/proxy.php?url=http%3A%2F%2F23.237.104.106%3A8080%2FDAZN_4%2Findex.m3u8
+#EXTINF:-1, DAZN 5 | SPA | online | false
+https://tv.dsat.bd/stream/?url=http%3A%2F%2Fznty.dyndns.org%3A5010%2Fhls%2Feleven5.m3u8
 #EXTINF:-1, DAZN F1 | SPA | online | false
-https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/374.m3u8
+https://tv.dsat.bd/stream/?url=https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/374.m3u8
 #EXTINF:-1, F1 TV | ENG | online | false
 https://tv.dsat.bd/api/proxy.php?url=https%3A%2F%2Famg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv%2Fplaylist1080p.m3u8
 #EXTINF:-1, FOX | ENG | online | false
