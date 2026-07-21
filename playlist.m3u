@@ -20,7 +20,7 @@ https://tv.dsat.bd/api/proxy.php?url=http%3A%2F%2F190.108.83.69%3A8000%2Fplay%2F
 #EXTINF:-1, D SPORTS | ENG | online | false
 https://stmv6.voxtvhd.com.br/cnardeportes/cnardeportes/playlist.m3u8
 #EXTINF:-1, DAZN 1 | SPA | online | false
-https://tv.dsat.bd/api/proxy.php?url=http://znty.dyndns.org:5010/hls/eleven5.m3u8
+https://tv.dsat.bd/stream/?url=http%3A%2F%2Fznty.dyndns.org%3A5010%2Fhls%2Feleven1.m3u8
 #EXTINF:-1, DAZN 4 | SPA | online | false
 https://tv.dsat.bd/api/proxy.php?url=http%3A%2F%2F23.237.104.106%3A8080%2FDAZN_4%2Findex.m3u8
 #EXTINF:-1, DAZN 5 | SPA | online | false
