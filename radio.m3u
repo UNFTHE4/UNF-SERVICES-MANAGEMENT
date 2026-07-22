@@ -9,6 +9,8 @@ http://radio.talksport.com/stream2
 http://162.254.149.187:9302/;stream/1;?listening-from-radio-garden=1601015834943
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/3d/46/11/3d461166daeef75a2e669815a335057a.jpg",Radio Quran
 https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/3d/46/11/3d461166daeef75a2e669815a335057a.jpg",Radio Quran 2
+http://m.live.net.sa:1935/live/quran/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/1a/67/c7/1a67c780fdd6a92e6c5deba716c19358.jpg",24/7 MUSIC BOX
 https://ice3.somafm.com/groovesalad-256-mp3
 
