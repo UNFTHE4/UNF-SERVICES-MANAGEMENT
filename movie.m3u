@@ -1,3 +1,7 @@
 #EXTM3U
-#EXTINF:-1, SuperGirl (2026)
-https://vod-normal-global-cdn-z02.sooplive.com/spkt/save/afreeca/station/2026/0728/16/1785222638586898.mp4/manifest.m3u8
+
+#EXTINF:-1 group-title="Movies",Deadpool 3 | MOVIE | ENG | online | false
+https://vidsrc.sbs/embed/movie/533535
+
+#EXTINF:-1 group-title="Movies",SUPER GIRL | MOVIE | ENG | online | false
+https://vidsrc.sbs/embed/movie/1081003
