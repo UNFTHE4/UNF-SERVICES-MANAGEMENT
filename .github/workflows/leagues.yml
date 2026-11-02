@@ -25,7 +25,6 @@ jobs:
         run: |
           node - <<'JS'
           const fs = require('fs');
-          const path = require('path');
           const BASE = 'https://site.api.espn.com/apis/site/v2/sports';
 
           // [sport, league-slug] pairs — greedy list
@@ -70,51 +69,6 @@ jobs:
             ['field-hockey','usa.1'],
           ];
 
-          // ---- Load RENAMES from api/VisualFantasy.js (Bigg-Bang -> ESPN) ----
-          // The file exports a map keyed by the schedule/Bigg-Bang spelling.
-          // We invert it here because the feed generator starts from ESPN names.
-          function loadRenames() {
-            const candidates = [
-              path.join(process.cwd(), 'api', 'VisualFantasy.js'),
-              path.join(process.cwd(), 'VisualFantasy.js'),
-            ];
-            for (const p of candidates) {
-              try {
-                if (!fs.existsSync(p)) continue;
-                const src = fs.readFileSync(p, 'utf8');
-                // Pull out the object literal assigned to RENAMES / module.exports / export default
-                const m =
-                  src.match(/const\s+RENAMES\s*=\s*(\{[\s\S]*?\})\s*;?/) ||
-                  src.match(/module\.exports\s*=\s*(\{[\s\S]*?\})\s*;?/) ||
-                  src.match(/export\s+default\s+(\{[\s\S]*?\})\s*;?/);
-                if (!m) continue;
-                // Safe-eval the object literal (no code execution beyond object literal)
-                const fn = new Function(`return (${m[1]});`);
-                const obj = fn();
-                if (obj && typeof obj === 'object') {
-                  console.log(`📚 Loaded ${Object.keys(obj).length} renames from ${p}`);
-                  return obj;
-                }
-              } catch (e) {
-                console.log(`⚠️  Could not load renames from ${p}: ${e.message}`);
-              }
-            }
-            console.log('ℹ️  No VisualFantasy.js found — using ESPN names unchanged');
-            return {};
-          }
-
-          // Bigg-Bang -> ESPN  becomes  ESPN -> Bigg-Bang
-          function invert(map) {
-            const out = {};
-            for (const [k, v] of Object.entries(map)) {
-              if (typeof v === 'string' && v) out[v] = k;
-            }
-            return out;
-          }
-
-          const RENAMES_BB_TO_ESPN = loadRenames();
-          const RENAMES = invert(RENAMES_BB_TO_ESPN);
-
           async function getJSON(url) {
             const r = await fetch(url);
             if (!r.ok) throw new Error(`HTTP ${r.status}`);
@@ -135,13 +89,12 @@ jobs:
                   const lg = data?.sports?.[0]?.leagues?.[0];
                   const teams = lg?.teams ?? [];
                   for (const { team } of teams) {
-                    const raw = team.displayName;
                     all.push({
                       sport,
                       league: lg?.name ?? league,
                       league_slug: league,
                       id: Number(team.id),
-                      name: RENAMES[raw] ?? raw,
+                      name: team.displayName,
                       abbreviation: team.abbreviation ?? null,
                       logo: team.logos?.[0]?.href ?? null,
                     });
