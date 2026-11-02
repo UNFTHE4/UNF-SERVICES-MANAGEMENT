@@ -1,0 +1,115 @@
+name: All Sports Upcoming Schedule
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */4 * * *' # Runs every 4 hours
+
+permissions:
+  contents: write
+
+jobs:
+  update-schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+
+      - name: Fetch Upcoming Games
+        run: |
+          node - <<'JS'
+          const fs = require('fs');
+          const BASE = 'https://site.api.espn.com/apis/site/v2/sports';
+
+          // 1. Define the sports you want
+          const LEAGUES = [
+            ['basketball', 'nba'],
+            ['football', 'nfl'],
+            ['soccer', 'eng.1'],    // Premier League
+            ['soccer', 'esp.1'],    // La Liga
+            ['soccer', 'usa.1'],    // MLS
+            ['baseball', 'mlb'],
+            ['hockey', 'nhl'],
+            ['mma', 'ufc']
+          ];
+
+          // 2. Get date range (Today to 7 days from now)
+          const today = new Date();
+          const nextWeek = new Date();
+          nextWeek.setDate(today.getDate() + 7);
+          const fmt = (d) => d.toISOString().split('T')[0].replace(/-/g, '');
+          const dateRange = `${fmt(today)}-${fmt(nextWeek)}`;
+
+          async function getUpcoming(sport, league) {
+            const url = `${BASE}/${sport}/${league}/scoreboard?dates=${dateRange}`;
+            try {
+              const res = await fetch(url);
+              if (!res.ok) return [];
+              const data = await res.json();
+              
+              const events = data.events || [];
+              const now = new Date();
+              const cleanEvents = [];
+
+              for (const ev of events) {
+                // Filter out finished ("post") or live ("in") games
+                if (ev.status.type.state === 'post' || ev.status.type.state === 'in') continue;
+                if (new Date(ev.date) <= now) continue;
+
+                // Grab the teams
+                const comp = ev.competitions?.[0] || {};
+                const home = comp.competitors?.find(c => c.homeAway === 'home');
+                const away = comp.competitors?.find(c => c.homeAway === 'away');
+
+                // Build the clean object
+                cleanEvents.push({
+                  sport,
+                  league: data.leagues?.[0]?.name || league,
+                  league_logo: data.leagues?.[0]?.logos?.[0]?.href || null,
+                  start_time_utc: ev.date,
+                  name: ev.name,
+                  short_name: ev.shortName,
+                  venue: comp.venue?.fullName || null,
+                  home_team: home?.team?.displayName || null,
+                  home_logo: home?.team?.logo || null,
+                  away_team: away?.team?.displayName || null,
+                  away_logo: away?.team?.logo || null,
+                });
+              }
+              return cleanEvents;
+            } catch (e) {
+              console.log(`Error ${sport}/${league}: ${e.message}`);
+              return [];
+            }
+          }
+
+          (async () => {
+            let allUpcoming = [];
+            
+            for (const [sport, league] of LEAGUES) {
+              const events = await getUpcoming(sport, league);
+              console.log(`✅ ${sport}/${league}: ${events.length} upcoming`);
+              allUpcoming.push(...events);
+            }
+
+            // Sort everything chronologically (closest game first)
+            allUpcoming.sort((a, b) => new Date(a.start_time_utc) - new Date(b.start_time_utc));
+
+            fs.mkdirSync('api', { recursive: true });
+            fs.writeFileSync('api/schedule.json', JSON.stringify({
+              generated_at: new Date().toISOString(),
+              total_upcoming: allUpcoming.length,
+              events: allUpcoming
+            }, null, 2));
+
+            console.log(`🎉 Saved ${allUpcoming.length} upcoming events.`);
+          })();
+          JS
+
+      - name: Commit
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add api/schedule.json
+          git diff --staged --quiet || (git commit -m "auto: update all-sports schedule" && git push)
