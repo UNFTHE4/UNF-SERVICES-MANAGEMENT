@@ -1,13 +1,9 @@
-name: Leagues Feed (ESPN)
+name: Leagues Feed (ESPN – all)
 
 on:
-  push:
-    paths:
-      - 'assets/Sports-logo/leagues.yml'
-      - '.github/workflows/leagues.yml'
   workflow_dispatch:
   schedule:
-    - cron: '0 3 * * 1'
+    - cron: '0 3 * * 1'   # weekly, Mon 03:00 UTC
 
 permissions:
   contents: write
@@ -19,60 +15,82 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: '20' }
 
-      - name: Fetch from ESPN & build feeds
+      - name: Fetch all leagues from ESPN
         run: |
           node - <<'JS'
           const fs = require('fs');
           const BASE = 'https://site.api.espn.com/apis/site/v2/sports/soccer';
 
-          // Your YAML keys -> ESPN slugs
-          const SLUGS = {
-            premier_league: 'eng.1',
-            la_liga:        'esp.1',
-            serie_a:        'ita.1',
-            bundesliga:     'ger.1',
-            ligue_1:        'fra.1',
-          };
-
-          async function fetchLeague(name, slug) {
-            const res = await fetch(`${BASE}/${slug}/teams`);
-            if (!res.ok) { console.log(`⚠️ ${name} -> HTTP ${res.status}`); return []; }
-            const data = await res.json();
-            return (data?.sports?.[0]?.leagues?.[0]?.teams ?? []).map(({ team }) => ({
-              league: name,
-              id: Number(team.id),
-              name: team.displayName,
-              abbreviation: team.abbreviation ?? null,
-              logo: team.logos?.[0]?.href ?? null,
-            }));
+          async function getJSON(url) {
+            const r = await fetch(url);
+            if (!r.ok) throw new Error(`${url} -> ${r.status}`);
+            return r.json();
           }
 
           (async () => {
+            // 1. Get every league ESPN knows about
+            const list = await getJSON(`${BASE}/leagues`);
+            const leagues = list.sports?.[0]?.leagues ?? [];
+            console.log(`📋 ${leagues.length} leagues discovered`);
+
             const all = [];
-            for (const [name, slug] of Object.entries(SLUGS)) {
-              const teams = await fetchLeague(name, slug);
-              console.log(`✅ ${name}: ${teams.length} teams`);
-              all.push(...teams);
+            const failed = [];
+
+            // 2. Fetch teams for each league (with small concurrency)
+            const CONCURRENCY = 5;
+            let i = 0;
+            async function worker() {
+              while (i < leagues.length) {
+                const lg = leagues[i++];
+                const slug = lg.slug;
+                try {
+                  const data = await getJSON(`${BASE}/${slug}/teams`);
+                  const teams = data?.sports?.[0]?.leagues?.[0]?.teams ?? [];
+                  for (const { team } of teams) {
+                    all.push({
+                      league: lg.name,
+                      league_slug: slug,
+                      country: lg.country ?? null,
+                      id: Number(team.id),
+                      name: team.displayName,
+                      abbreviation: team.abbreviation ?? null,
+                      logo: team.logos?.[0]?.href ?? null,
+                    });
+                  }
+                  console.log(`✅ ${slug} (${lg.name}): ${teams.length}`);
+                } catch (e) {
+                  failed.push({ slug, name: lg.name, error: e.message });
+                  console.log(`⚠️  ${slug}: ${e.message}`);
+                }
+              }
             }
+            await Promise.all(Array.from({ length: CONCURRENCY }, worker));
+
             fs.mkdirSync('api', { recursive: true });
             fs.writeFileSync('api/leagues.json', JSON.stringify({
               generated_at: new Date().toISOString(),
-              count: all.length,
-              source: 'ESPN',
+              leagues_count: leagues.length,
+              teams_count: all.length,
+              failed,
               teams: all,
             }, null, 2));
+
             const esc = s => String(s ?? '').replace(/[<>&"']/g, c =>
               ({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&apos;'}[c]));
             fs.writeFileSync('api/leagues.xml',
-              '<?xml version="1.0"?>\n<leagues>\n' +
-              all.map(t => `  <team league="${esc(t.league)}" id="${t.id}"><name>${esc(t.name)}</name><logo>${esc(t.logo)}</logo></team>`).join('\n') +
+              '<?xml version="1.0" encoding="UTF-8"?>\n' +
+              `<leagues leagues_count="${leagues.length}" teams_count="${all.length}" generated="${new Date().toISOString()}">\n` +
+              all.map(t => `  <team league="${esc(t.league)}" league_slug="${esc(t.league_slug)}" country="${esc(t.country)}" id="${t.id}"><name>${esc(t.name)}</name><logo>${esc(t.logo)}</logo></team>`).join('\n') +
               '\n</leagues>\n');
+
+            console.log(`🎉 ${all.length} teams from ${leagues.length} leagues written`);
+            if (failed.length) console.log(`⚠️ ${failed.length} leagues failed`);
           })();
           JS
 
@@ -81,4 +99,4 @@ jobs:
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add api
-          git diff --staged --quiet || (git commit -m "auto: refresh leagues" && git push)
+          git diff --staged --quiet || (git commit -m "auto: refresh all leagues from ESPN" && git push)
