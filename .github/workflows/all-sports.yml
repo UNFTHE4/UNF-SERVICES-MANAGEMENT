@@ -3,14 +3,19 @@ name: All Sports Upcoming Schedule
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */4 * * *' # Runs every 4 hours
+    - cron: '0 */4 * * *'
 
 permissions:
   contents: write
 
+concurrency:
+  group: all-sports-feed
+  cancel-in-progress: true
+
 jobs:
   update-schedule:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -22,88 +27,144 @@ jobs:
           const fs = require('fs');
           const BASE = 'https://site.api.espn.com/apis/site/v2/sports';
 
-          // 1. Define the sports you want
+          // THE GREEDY LIST - Everything ESPN tracks
           const LEAGUES = [
-            ['basketball', 'nba'],
+            // --- US SPORTS ---
             ['football', 'nfl'],
-            ['soccer', 'eng.1'],    // Premier League
-            ['soccer', 'esp.1'],    // La Liga
-            ['soccer', 'usa.1'],    // MLS
+            ['football', 'college-football'],
+            ['basketball', 'nba'],
+            ['basketball', 'wnba'],
+            ['basketball', 'mens-college-basketball'],
+            ['basketball', 'womens-college-basketball'],
             ['baseball', 'mlb'],
+            ['baseball', 'college-baseball'],
             ['hockey', 'nhl'],
-            ['mma', 'ufc']
+            ['hockey', 'mens-college-hockey'],
+            ['mma', 'ufc'],
+            ['golf', 'pga'],
+            ['golf', 'lpga'],
+            ['tennis', 'atp'],
+            ['tennis', 'wta'],
+            ['racing', 'f1'],
+            ['racing', 'nascar-premier'],
+            ['racing', 'irl'],
+            ['boxing', 'all'],
+            ['lacrosse', 'pll'],
+            ['rugby', 'super-rugby'],
+            ['cricket', '8039'],
+            ['volleyball', 'usa.1'],
+            ['water-polo', 'usa.1'],
+
+            // --- SOCCER: EUROPE TOP FLIGHTS ---
+            ['soccer', 'eng.1'], ['soccer', 'esp.1'], ['soccer', 'ita.1'], ['soccer', 'ger.1'], ['soccer', 'fra.1'],
+            ['soccer', 'ned.1'], ['soccer', 'por.1'], ['soccer', 'bel.1'], ['soccer', 'tur.1'], ['soccer', 'gre.1'],
+            ['soccer', 'sco.1'], ['soccer', 'rus.1'], ['soccer', 'ukr.1'], ['soccer', 'aut.1'], ['soccer', 'sui.1'],
+            ['soccer', 'den.1'], ['soccer', 'swe.1'], ['soccer', 'nor.1'], ['soccer', 'fin.1'], ['soccer', 'pol.1'],
+            ['soccer', 'cze.1'], ['soccer', 'cro.1'], ['soccer', 'srb.1'], ['soccer', 'rom.1'], ['soccer', 'hun.1'],
+            ['soccer', 'bul.1'], ['soccer', 'isr.1'], ['soccer', 'cyp.1'], ['soccer', 'irl.1'], ['soccer', 'wal.1'],
+
+            // --- SOCCER: EUROPE 2ND TIERS ---
+            ['soccer', 'eng.2'], ['soccer', 'esp.2'], ['soccer', 'ita.2'], ['soccer', 'ger.2'], ['soccer', 'fra.2'],
+
+            // --- SOCCER: AMERICAS ---
+            ['soccer', 'usa.1'], ['soccer', 'usa.nwsl'], ['soccer', 'mex.1'], ['soccer', 'bra.1'], ['soccer', 'arg.1'],
+            ['soccer', 'chi.1'], ['soccer', 'col.1'], ['soccer', 'per.1'], ['soccer', 'uru.1'], ['soccer', 'ecu.1'],
+            ['soccer', 'par.1'], ['soccer', 'ven.1'], ['soccer', 'bol.1'], ['soccer', 'crc.1'], ['soccer', 'hon.1'],
+            ['soccer', 'gua.1'], ['soccer', 'slv.1'], ['soccer', 'pan.1'],
+
+            // --- SOCCER: ASIA / OCEANIA / AFRICA ---
+            ['soccer', 'jpn.1'], ['soccer', 'kor.1'], ['soccer', 'chn.1'], ['soccer', 'aus.1'], ['soccer', 'ind.1'],
+            ['soccer', 'ksa.1'], ['soccer', 'uae.1'], ['soccer', 'qat.1'], ['soccer', 'irn.1'], ['soccer', 'tha.1'],
+            ['soccer', 'rsa.1'], ['soccer', 'egy.1'], ['soccer', 'mar.1'], ['soccer', 'nga.1'], ['soccer', 'tun.1'],
+            ['soccer', 'alg.1'],
+
+            // --- SOCCER: CONTINENTAL COMPETITIONS ---
+            ['soccer', 'uefa.champions'], ['soccer', 'uefa.europa'], ['soccer', 'uefa.europa.conf'], ['soccer', 'uefa.super_cup'],
+            ['soccer', 'conmebol.libertadores'], ['soccer', 'conmebol.sudamericana'],
+            ['soccer', 'concacaf.champions'], ['soccer', 'concacaf.leagues.cup'],
+            ['soccer', 'afc.champions'], ['soccer', 'caf.champions']
           ];
 
-          // 2. Get date range (Today to 7 days from now)
-          const today = new Date();
-          const nextWeek = new Date();
-          nextWeek.setDate(today.getDate() + 7);
-          const fmt = (d) => d.toISOString().split('T')[0].replace(/-/g, '');
-          const dateRange = `${fmt(today)}-${fmt(nextWeek)}`;
-
           async function getUpcoming(sport, league) {
-            const url = `${BASE}/${sport}/${league}/scoreboard?dates=${dateRange}`;
-            try {
-              const res = await fetch(url);
-              if (!res.ok) return [];
-              const data = await res.json();
+            let allEvents = [];
+            const today = new Date();
+
+            // Loop through the next 7 days
+            for (let i = 0; i < 7; i++) {
+              const d = new Date(today);
+              d.setDate(d.getDate() + i);
+              const dateStr = d.toISOString().split('T')[0].replace(/-/g, '');
               
-              const events = data.events || [];
-              const now = new Date();
-              const cleanEvents = [];
+              const url = `${BASE}/${sport}/${league}/scoreboard?dates=${dateStr}`;
+              
+              try {
+                const res = await fetch(url);
+                if (!res.ok) continue; 
+                const data = await res.json();
+                const events = data.events || [];
+                const now = new Date();
 
-              for (const ev of events) {
-                // Filter out finished ("post") or live ("in") games
-                if (ev.status.type.state === 'post' || ev.status.type.state === 'in') continue;
-                if (new Date(ev.date) <= now) continue;
+                for (const ev of events) {
+                  // Skip finished ("post") or live ("in") games
+                  if (ev.status.type.state === 'post' || ev.status.type.state === 'in') continue;
+                  if (new Date(ev.date) <= now) continue;
 
-                // Grab the teams
-                const comp = ev.competitions?.[0] || {};
-                const home = comp.competitors?.find(c => c.homeAway === 'home');
-                const away = comp.competitors?.find(c => c.homeAway === 'away');
+                  const comp = ev.competitions?.[0] || {};
+                  const home = comp.competitors?.find(c => c.homeAway === 'home');
+                  const away = comp.competitors?.find(c => c.homeAway === 'away');
 
-                // Build the clean object
-                cleanEvents.push({
-                  sport,
-                  league: data.leagues?.[0]?.name || league,
-                  league_logo: data.leagues?.[0]?.logos?.[0]?.href || null,
-                  start_time_utc: ev.date,
-                  name: ev.name,
-                  short_name: ev.shortName,
-                  venue: comp.venue?.fullName || null,
-                  home_team: home?.team?.displayName || null,
-                  home_logo: home?.team?.logo || null,
-                  away_team: away?.team?.displayName || null,
-                  away_logo: away?.team?.logo || null,
-                });
+                  allEvents.push({
+                    sport,
+                    league: data.leagues?.[0]?.name || league,
+                    league_logo: data.leagues?.[0]?.logos?.[0]?.href || null,
+                    start_time_utc: ev.date,
+                    name: ev.name,
+                    short_name: ev.shortName,
+                    venue: comp.venue?.fullName || null,
+                    home_team: home?.team?.displayName || null,
+                    home_logo: home?.team?.logo || null,
+                    away_team: away?.team?.displayName || null,
+                    away_logo: away?.team?.logo || null,
+                  });
+                }
+              } catch (e) {
+                // Ignore errors for single days/leagues
               }
-              return cleanEvents;
-            } catch (e) {
-              console.log(`Error ${sport}/${league}: ${e.message}`);
-              return [];
             }
+            return allEvents;
           }
 
           (async () => {
             let allUpcoming = [];
             
-            for (const [sport, league] of LEAGUES) {
-              const events = await getUpcoming(sport, league);
-              console.log(`✅ ${sport}/${league}: ${events.length} upcoming`);
-              allUpcoming.push(...events);
+            // Process in chunks so we don't get rate-limited by ESPN
+            for (let i = 0; i < LEAGUES.length; i += 5) {
+              const chunk = LEAGUES.slice(i, i + 5);
+              const results = await Promise.all(chunk.map(([sport, league]) => getUpcoming(sport, league)));
+              
+              results.forEach((events, index) => {
+                const [sport, league] = chunk[index];
+                if (events.length > 0) {
+                  console.log(`✅ ${sport}/${league}: ${events.length} upcoming`);
+                  allUpcoming.push(...events);
+                }
+              });
             }
 
-            // Sort everything chronologically (closest game first)
-            allUpcoming.sort((a, b) => new Date(a.start_time_utc) - new Date(b.start_time_utc));
+            // Remove duplicates
+            const uniqueEvents = Array.from(new Map(allUpcoming.map(item => [item.name + item.start_time_utc, item])).values());
+
+            // Sort chronologically
+            uniqueEvents.sort((a, b) => new Date(a.start_time_utc) - new Date(b.start_time_utc));
 
             fs.mkdirSync('api', { recursive: true });
             fs.writeFileSync('api/schedule.json', JSON.stringify({
               generated_at: new Date().toISOString(),
-              total_upcoming: allUpcoming.length,
-              events: allUpcoming
+              total_upcoming: uniqueEvents.length,
+              events: uniqueEvents
             }, null, 2));
 
-            console.log(`🎉 Saved ${allUpcoming.length} upcoming events.`);
+            console.log(`🎉 Saved ${uniqueEvents.length} upcoming events.`);
           })();
           JS
 
@@ -112,4 +173,4 @@ jobs:
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add api/schedule.json
-          git diff --staged --quiet || (git commit -m "auto: update all-sports schedule" && git push)
+          git diff --staged --quiet || (git commit -m "auto: update greedy schedule" && git push)
