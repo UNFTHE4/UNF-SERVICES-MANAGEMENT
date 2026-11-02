@@ -1,3 +1,4 @@
+// Bigg-Bang / schedule spelling  ->  ESPN displayName (all-sports.xml)
 const RENAMES = {
   // ===== BUNDESLIGA / GERMANY =====
   "FC Bayern München":            "Bayern Munich",
