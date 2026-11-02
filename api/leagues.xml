@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<leagues>
+  <team league="premier_league" id="349"><name>AFC Bournemouth</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/349.png</logo></team>
+  <team league="premier_league" id="359"><name>Arsenal</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/359.png</logo></team>
+  <team league="premier_league" id="362"><name>Aston Villa</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/362.png</logo></team>
+  <team league="premier_league" id="337"><name>Brentford</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/337.png</logo></team>
+  <team league="premier_league" id="331"><name>Brighton &amp; Hove Albion</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/331.png</logo></team>
+  <team league="premier_league" id="363"><name>Chelsea</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/363.png</logo></team>
+  <team league="premier_league" id="388"><name>Coventry City</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/388.png</logo></team>
+  <team league="premier_league" id="384"><name>Crystal Palace</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/384.png</logo></team>
+  <team league="premier_league" id="368"><name>Everton</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/368.png</logo></team>
+  <team league="premier_league" id="370"><name>Fulham</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/370.png</logo></team>
+  <team league="premier_league" id="306"><name>Hull City</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/306.png</logo></team>
+  <team league="premier_league" id="373"><name>Ipswich Town</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/373.png</logo></team>
+  <team league="premier_league" id="357"><name>Leeds United</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/357.png</logo></team>
+  <team league="premier_league" id="364"><name>Liverpool</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/364.png</logo></team>
+  <team league="premier_league" id="382"><name>Manchester City</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/382.png</logo></team>
+  <team league="premier_league" id="360"><name>Manchester United</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/360.png</logo></team>
+  <team league="premier_league" id="361"><name>Newcastle United</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/361.png</logo></team>
+  <team league="premier_league" id="393"><name>Nottingham Forest</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/393.png</logo></team>
+  <team league="premier_league" id="366"><name>Sunderland</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/366.png</logo></team>
+  <team league="premier_league" id="367"><name>Tottenham Hotspur</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/367.png</logo></team>
+  <team league="la_liga" id="96"><name>Alavés</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/96.png</logo></team>
+  <team league="la_liga" id="93"><name>Athletic Club</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/93.png</logo></team>
+  <team league="la_liga" id="1068"><name>Atlético Madrid</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/1068.png</logo></team>
+  <team league="la_liga" id="83"><name>Barcelona</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/83.png</logo></team>
+  <team league="la_liga" id="85"><name>Celta Vigo</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/85.png</logo></team>
+  <team league="la_liga" id="90"><name>Deportivo</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/90.png</logo></team>
+  <team league="la_liga" id="3751"><name>Elche</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/3751.png</logo></team>
+  <team league="la_liga" id="88"><name>Espanyol</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/88.png</logo></team>
+  <team league="la_liga" id="2922"><name>Getafe</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/2922.png</logo></team>
+  <team league="la_liga" id="1538"><name>Levante</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/1538.png</logo></team>
+  <team league="la_liga" id="99"><name>Málaga</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/99.png</logo></team>
+  <team league="la_liga" id="97"><name>Osasuna</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/97.png</logo></team>
+  <team league="la_liga" id="87"><name>Racing Santander</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/87.png</logo></team>
+  <team league="la_liga" id="101"><name>Rayo Vallecano</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/101.png</logo></team>
+  <team league="la_liga" id="244"><name>Real Betis</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/244.png</logo></team>
+  <team league="la_liga" id="86"><name>Real Madrid</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/86.png</logo></team>
+  <team league="la_liga" id="89"><name>Real Sociedad</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/89.png</logo></team>
+  <team league="la_liga" id="243"><name>Sevilla</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/243.png</logo></team>
+  <team league="la_liga" id="94"><name>Valencia</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/94.png</logo></team>
+  <team league="la_liga" id="102"><name>Villarreal</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/102.png</logo></team>
+  <team league="serie_a" id="103"><name>AC Milan</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/103.png</logo></team>
+  <team league="serie_a" id="104"><name>AS Roma</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/104.png</logo></team>
+  <team league="serie_a" id="105"><name>Atalanta</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/105.png</logo></team>
+  <team league="serie_a" id="107"><name>Bologna</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/107.png</logo></team>
+  <team league="serie_a" id="2925"><name>Cagliari</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/2925.png</logo></team>
+  <team league="serie_a" id="2572"><name>Como</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/2572.png</logo></team>
+  <team league="serie_a" id="109"><name>Fiorentina</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/109.png</logo></team>
+  <team league="serie_a" id="4057"><name>Frosinone</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/4057.png</logo></team>
+  <team league="serie_a" id="3263"><name>Genoa</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/3263.png</logo></team>
+  <team league="serie_a" id="110"><name>Internazionale</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/110.png</logo></team>
+  <team league="serie_a" id="111"><name>Juventus</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/111.png</logo></team>
+  <team league="serie_a" id="112"><name>Lazio</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/112.png</logo></team>
+  <team league="serie_a" id="113"><name>Lecce</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/113.png</logo></team>
+  <team league="serie_a" id="4007"><name>Monza</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/4007.png</logo></team>
+  <team league="serie_a" id="114"><name>Napoli</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/114.png</logo></team>
+  <team league="serie_a" id="115"><name>Parma</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/115.png</logo></team>
+  <team league="serie_a" id="3997"><name>Sassuolo</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/3997.png</logo></team>
+  <team league="serie_a" id="239"><name>Torino</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/239.png</logo></team>
+  <team league="serie_a" id="118"><name>Udinese</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/118.png</logo></team>
+  <team league="serie_a" id="17530"><name>Venezia</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/17530.png</logo></team>
+  <team league="bundesliga" id="598"><name>1. FC Union Berlin</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/598.png</logo></team>
+  <team league="bundesliga" id="131"><name>Bayer Leverkusen</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/131.png</logo></team>
+  <team league="bundesliga" id="132"><name>Bayern Munich</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/132.png</logo></team>
+  <team league="bundesliga" id="124"><name>Borussia Dortmund</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/124.png</logo></team>
+  <team league="bundesliga" id="268"><name>Borussia Mönchengladbach</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/268.png</logo></team>
+  <team league="bundesliga" id="125"><name>Eintracht Frankfurt</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/125.png</logo></team>
+  <team league="bundesliga" id="3841"><name>FC Augsburg</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/3841.png</logo></team>
+  <team league="bundesliga" id="122"><name>FC Cologne</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/122.png</logo></team>
+  <team league="bundesliga" id="127"><name>Hamburg SV</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/127.png</logo></team>
+  <team league="bundesliga" id="2950"><name>Mainz</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/2950.png</logo></team>
+  <team league="bundesliga" id="11420"><name>RB Leipzig</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/11420.png</logo></team>
+  <team league="bundesliga" id="126"><name>SC Freiburg</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/126.png</logo></team>
+  <team league="bundesliga" id="3307"><name>SC Paderborn 07</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/3307.png</logo></team>
+  <team league="bundesliga" id="10388"><name>SV Elversberg</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/10388.png</logo></team>
+  <team league="bundesliga" id="133"><name>Schalke 04</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/133.png</logo></team>
+  <team league="bundesliga" id="7911"><name>TSG Hoffenheim</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/7911.png</logo></team>
+  <team league="bundesliga" id="134"><name>VfB Stuttgart</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/134.png</logo></team>
+  <team league="bundesliga" id="137"><name>Werder Bremen</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/137.png</logo></team>
+  <team league="ligue_1" id="172"><name>AJ Auxerre</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/172.png</logo></team>
+  <team league="ligue_1" id="174"><name>AS Monaco</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/174.png</logo></team>
+  <team league="ligue_1" id="7868"><name>Angers</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/7868.png</logo></team>
+  <team league="ligue_1" id="6997"><name>Brest</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/6997.png</logo></team>
+  <team league="ligue_1" id="3236"><name>Le Havre AC</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/3236.png</logo></team>
+  <team league="ligue_1" id="2697"><name>Le Mans</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/2697.png</logo></team>
+  <team league="ligue_1" id="175"><name>Lens</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/175.png</logo></team>
+  <team league="ligue_1" id="166"><name>Lille</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/166.png</logo></team>
+  <team league="ligue_1" id="273"><name>Lorient</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/273.png</logo></team>
+  <team league="ligue_1" id="167"><name>Lyon</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/167.png</logo></team>
+  <team league="ligue_1" id="176"><name>Marseille</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/176.png</logo></team>
+  <team league="ligue_1" id="2502"><name>Nice</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/2502.png</logo></team>
+  <team league="ligue_1" id="6851"><name>Paris FC</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/6851.png</logo></team>
+  <team league="ligue_1" id="160"><name>Paris Saint-Germain</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/160.png</logo></team>
+  <team league="ligue_1" id="169"><name>Stade Rennais</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/169.png</logo></team>
+  <team league="ligue_1" id="180"><name>Strasbourg</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/180.png</logo></team>
+  <team league="ligue_1" id="179"><name>Toulouse</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/179.png</logo></team>
+  <team league="ligue_1" id="170"><name>Troyes</name><logo>https://a.espncdn.com/i/teamlogos/soccer/500/170.png</logo></team>
+</leagues>
