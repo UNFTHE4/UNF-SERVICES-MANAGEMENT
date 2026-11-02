@@ -1,0 +1,84 @@
+name: Leagues Feed (ESPN)
+
+on:
+  push:
+    paths:
+      - 'assets/Sports-logo/leagues.yml'
+      - '.github/workflows/leagues.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3 * * 1'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: leagues-feed
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+
+      - name: Fetch from ESPN & build feeds
+        run: |
+          node - <<'JS'
+          const fs = require('fs');
+          const BASE = 'https://site.api.espn.com/apis/site/v2/sports/soccer';
+
+          // Your YAML keys -> ESPN slugs
+          const SLUGS = {
+            premier_league: 'eng.1',
+            la_liga:        'esp.1',
+            serie_a:        'ita.1',
+            bundesliga:     'ger.1',
+            ligue_1:        'fra.1',
+          };
+
+          async function fetchLeague(name, slug) {
+            const res = await fetch(`${BASE}/${slug}/teams`);
+            if (!res.ok) { console.log(`⚠️ ${name} -> HTTP ${res.status}`); return []; }
+            const data = await res.json();
+            return (data?.sports?.[0]?.leagues?.[0]?.teams ?? []).map(({ team }) => ({
+              league: name,
+              id: Number(team.id),
+              name: team.displayName,
+              abbreviation: team.abbreviation ?? null,
+              logo: team.logos?.[0]?.href ?? null,
+            }));
+          }
+
+          (async () => {
+            const all = [];
+            for (const [name, slug] of Object.entries(SLUGS)) {
+              const teams = await fetchLeague(name, slug);
+              console.log(`✅ ${name}: ${teams.length} teams`);
+              all.push(...teams);
+            }
+            fs.mkdirSync('api', { recursive: true });
+            fs.writeFileSync('api/leagues.json', JSON.stringify({
+              generated_at: new Date().toISOString(),
+              count: all.length,
+              source: 'ESPN',
+              teams: all,
+            }, null, 2));
+            const esc = s => String(s ?? '').replace(/[<>&"']/g, c =>
+              ({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&apos;'}[c]));
+            fs.writeFileSync('api/leagues.xml',
+              '<?xml version="1.0"?>\n<leagues>\n' +
+              all.map(t => `  <team league="${esc(t.league)}" id="${t.id}"><name>${esc(t.name)}</name><logo>${esc(t.logo)}</logo></team>`).join('\n') +
+              '\n</leagues>\n');
+          })();
+          JS
+
+      - name: Commit
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add api
+          git diff --staged --quiet || (git commit -m "auto: refresh leagues" && git push)
