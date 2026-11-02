@@ -1,0 +1,116 @@
+name: Leagues Feed (ESPN)
+
+on:
+  push:
+    paths:
+      - 'assets/Sports-logo/leagues.yml'
+      - '.github/workflows/leagues.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3 * * 1'   # optional: weekly refresh, Mon 03:00 UTC
+
+permissions:
+  contents: write
+
+concurrency:
+  group: leagues-feed
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+
+      - name: Fetch from ESPN & build feeds
+        run: |
+          node - <<'JS'
+          const fs = require('fs');
+
+          // Map your friendly league names -> ESPN slugs
+          const LEAGUES = {
+            premier_league: 'eng.1',
+            la_liga:        'esp.1',
+            serie_a:        'ita.1',
+            bundesliga:     'ger.1',
+            ligue_1:        'fra.1',
+            mls:            'usa.1',
+            saudi_league:   'ksa.1',
+          };
+
+          const BASE = 'https://site.api.espn.com/apis/site/v2/sports/soccer';
+
+          async function fetchLeague(name, slug) {
+            const url = `${BASE}/${slug}/teams`;
+            const res = await fetch(url);
+            if (!res.ok) {
+              console.log(`⚠️ ${name} (${slug}) -> HTTP ${res.status}`);
+              return [];
+            }
+            const data = await res.json();
+            const teams = data?.sports?.[0]?.leagues?.[0]?.teams ?? [];
+            return teams.map(({ team }) => ({
+              league: name,
+              espn_league: slug,
+              id: Number(team.id),
+              name: team.displayName,
+              short: team.shortDisplayName ?? team.name,
+              abbreviation: team.abbreviation ?? null,
+              logo: team.logos?.[0]?.href ?? null,
+            }));
+          }
+
+          (async () => {
+            const all = [];
+            for (const [name, slug] of Object.entries(LEAGUES)) {
+              const teams = await fetchLeague(name, slug);
+              console.log(`✅ ${name} (${slug}): ${teams.length} teams`);
+              all.push(...teams);
+            }
+
+            fs.mkdirSync('api', { recursive: true });
+
+            // ---- JSON ----
+            fs.writeFileSync('api/leagues.json', JSON.stringify({
+              generated_at: new Date().toISOString(),
+              count: all.length,
+              source: 'ESPN site.api',
+              teams: all,
+            }, null, 2));
+
+            // ---- XML ----
+            const esc = s => String(s ?? '').replace(/[<>&"']/g, c =>
+              ({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&apos;'}[c]));
+            const xml =
+              '<?xml version="1.0" encoding="UTF-8"?>\n' +
+              `<leagues generated="${new Date().toISOString()}" count="${all.length}">\n` +
+              all.map(t =>
+                `  <team league="${esc(t.league)}" espn_league="${esc(t.espn_league)}" ` +
+                `id="${t.id}" abbr="${esc(t.abbreviation)}">` +
+                `<name>${esc(t.name)}</name>` +
+                `<logo>${esc(t.logo)}</logo></team>`
+              ).join('\n') +
+              '\n</leagues>\n';
+            fs.writeFileSync('api/leagues.xml', xml);
+
+            console.log(`🎉 Wrote api/leagues.json + api/leagues.xml (${all.length} teams)`);
+          })();
+          JS
+
+      - name: Show output
+        run: |
+          echo "=== JSON head ==="; head -n 20 api/leagues.json
+          echo "=== XML head ===";  head -n 10 api/leagues.xml
+
+      - name: Commit feeds
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add api/leagues.json api/leagues.xml
+          if git diff --staged --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "auto: refresh league feed from ESPN"
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+          git push || echo "push skipped"
