@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-11-02T14:21:35.597Z",
+  "total_upcoming": 1,
+  "events": [
+    {
+      "sport": "mma",
+      "league": "Ultimate Fighting Championship",
+      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
+      "start_time_utc": "2026-11-07T22:00Z",
+      "name": "UFC Fight Night: Cortes Acosta vs. Walker",
+      "short_name": "UFC Fight Night",
+      "venue": "Meta APEX",
+      "home_team": null,
+      "home_logo": null,
+      "away_team": null,
+      "away_logo": null
+    }
+  ]
+}
