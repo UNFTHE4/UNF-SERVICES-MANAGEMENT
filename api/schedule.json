@@ -1,46 +1,7 @@
 {
-  "generated_at": "2026-11-04T05:36:15.222Z",
-  "total_upcoming": 772,
+  "generated_at": "2026-11-04T16:04:34.024Z",
+  "total_upcoming": 766,
   "events": [
-    {
-      "sport": "soccer",
-      "league": "AFC Champions League Elite",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png",
-      "start_time_utc": "2026-11-04T10:00Z",
-      "name": "Gamba Osaka at Pohang Steelers",
-      "short_name": "GAM @ POH",
-      "venue": "Steelyard Stadium",
-      "home_team": "Pohang Steelers",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9693.png",
-      "away_team": "Gamba Osaka",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7102.png"
-    },
-    {
-      "sport": "soccer",
-      "league": "AFC Champions League Elite",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png",
-      "start_time_utc": "2026-11-04T12:15Z",
-      "name": "Kashima Antlers at Buriram United",
-      "short_name": "KAN @ BUR",
-      "venue": "Chang Arena",
-      "home_team": "Buriram United",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7138.png",
-      "away_team": "Kashima Antlers",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7115.png"
-    },
-    {
-      "sport": "soccer",
-      "league": "UEFA Europa League",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png",
-      "start_time_utc": "2026-11-04T15:30Z",
-      "name": "Olympiacos at Stade Rennais",
-      "short_name": "OLY @ REN",
-      "venue": "Roazhon Park",
-      "home_team": "Stade Rennais",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
-      "away_team": "Olympiacos",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png"
-    },
     {
       "sport": "soccer",
       "league": "UEFA Champions League",
@@ -4294,19 +4255,6 @@
     },
     {
       "sport": "soccer",
-      "league": "French Ligue 1",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
-      "start_time_utc": "2026-11-07T16:15Z",
-      "name": "Paris FC at AJ Auxerre",
-      "short_name": "PAR @ AUX",
-      "venue": "Stade de l'Abbé-Deschamps",
-      "home_team": "AJ Auxerre",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
-      "away_team": "Paris FC",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png"
-    },
-    {
-      "sport": "soccer",
       "league": "Italian Serie B",
       "league_logo": "http://a.espncdn.com/i/leaguelogos/soccer/500/99.png",
       "start_time_utc": "2026-11-07T16:15Z",
@@ -4749,6 +4697,19 @@
     },
     {
       "sport": "soccer",
+      "league": "French Ligue 1",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
+      "start_time_utc": "2026-11-07T18:00Z",
+      "name": "Paris FC at AJ Auxerre",
+      "short_name": "PAR @ AUX",
+      "venue": "Stade de l'Abbé-Deschamps",
+      "home_team": "AJ Auxerre",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
+      "away_team": "Paris FC",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png"
+    },
+    {
+      "sport": "soccer",
       "league": "Portuguese Primeira Liga",
       "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png",
       "start_time_utc": "2026-11-07T18:00Z",
@@ -4931,19 +4892,6 @@
     },
     {
       "sport": "soccer",
-      "league": "French Ligue 1",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
-      "start_time_utc": "2026-11-07T19:45Z",
-      "name": "Troyes at Paris Saint-Germain",
-      "short_name": "TRY @ PSG",
-      "venue": "Parc des Princes",
-      "home_team": "Paris Saint-Germain",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-      "away_team": "Troyes",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png"
-    },
-    {
-      "sport": "soccer",
       "league": "Belgian Pro League",
       "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/6.png",
       "start_time_utc": "2026-11-07T19:45Z",
@@ -5074,19 +5022,6 @@
     },
     {
       "sport": "soccer",
-      "league": "Spanish LALIGA 2",
-      "league_logo": "http://a.espncdn.com/i/leaguelogos/soccer/500/107.png",
-      "start_time_utc": "2026-11-07T20:00Z",
-      "name": "Tenerife at Granada",
-      "short_name": "TEN @ GRA",
-      "venue": "Nuevo Estadio de Los Cármenes",
-      "home_team": "Granada",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3747.png",
-      "away_team": "Tenerife",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/245.png"
-    },
-    {
-      "sport": "soccer",
       "league": "Paraguayan Primera División",
       "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1892.png",
       "start_time_utc": "2026-11-07T20:00Z",
@@ -5097,6 +5032,19 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7385.png",
       "away_team": "Club Olimpia",
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2675.png"
+    },
+    {
+      "sport": "soccer",
+      "league": "French Ligue 1",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
+      "start_time_utc": "2026-11-07T20:05Z",
+      "name": "Troyes at Paris Saint-Germain",
+      "short_name": "TRY @ PSG",
+      "venue": "Parc des Princes",
+      "home_team": "Paris Saint-Germain",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+      "away_team": "Troyes",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png"
     },
     {
       "sport": "football",
@@ -5773,19 +5721,6 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7312.png",
       "away_team": "Juan Pablo II",
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22534.png"
-    },
-    {
-      "sport": "soccer",
-      "league": "Guatemalan Liga Nacional",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2248.png",
-      "start_time_utc": "2026-11-07T23:00Z",
-      "name": "Aurora FC at Municipal",
-      "short_name": "AUR @ MUN",
-      "venue": "Estadio El Trébol",
-      "home_team": "Municipal",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7258.png",
-      "away_team": "Aurora FC",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131213.png"
     },
     {
       "sport": "soccer",
@@ -6806,8 +6741,8 @@
       "league": "WTA",
       "league_logo": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-tennis.png",
       "start_time_utc": "2026-11-08T05:00Z",
-      "name": "WTA Finals",
-      "short_name": "WTA Finals",
+      "name": "FAGE WTA Finals Indian Wells",
+      "short_name": "FAGE WTA Finals Indian Wells",
       "venue": null,
       "home_team": null,
       "home_logo": null,
@@ -7164,19 +7099,6 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2556.png",
       "away_team": "Malmö FF",
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2720.png"
-    },
-    {
-      "sport": "soccer",
-      "league": "Spanish LALIGA 2",
-      "league_logo": "http://a.espncdn.com/i/leaguelogos/soccer/500/107.png",
-      "start_time_utc": "2026-11-08T13:00Z",
-      "name": "Mallorca at FC Andorra",
-      "short_name": "MLL @ AND",
-      "venue": "Estadi de la FAF d'Encamp",
-      "home_team": "FC Andorra",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20179.png",
-      "away_team": "Mallorca",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/84.png"
     },
     {
       "sport": "soccer",
