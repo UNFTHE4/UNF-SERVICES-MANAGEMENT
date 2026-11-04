@@ -26,7 +26,6 @@ jobs:
           node - <<'JS'
           const fs = require('fs');
           const BASE = 'https://site.api.espn.com/apis/site/v2/sports';
-
           // [sport, league-slug] pairs — greedy list
           const PAIRS = [
             // ---- SOCCER (75+) ----
@@ -43,7 +42,6 @@ jobs:
                 'concacaf.champions','concacaf.leagues.cup',
                 'afc.champions','caf.champions'
               ].map(s => ['soccer', s]),
-
             // ---- US SPORTS ----
             ['football',   'nfl'],
             ['football',   'college-football'],
@@ -68,17 +66,14 @@ jobs:
             ['water-polo', 'usa.1'],
             ['field-hockey','usa.1'],
           ];
-
           async function getJSON(url) {
             const r = await fetch(url);
             if (!r.ok) throw new Error(`HTTP ${r.status}`);
             return r.json();
           }
-
           (async () => {
             const all = [];
             const failed = [];
-
             const CONCURRENCY = 6;
             let i = 0;
             async function worker() {
@@ -107,7 +102,6 @@ jobs:
               }
             }
             await Promise.all(Array.from({ length: CONCURRENCY }, worker));
-
             fs.mkdirSync('api', { recursive: true });
             fs.writeFileSync('api/all-sports.json', JSON.stringify({
               generated_at: new Date().toISOString(),
@@ -116,7 +110,6 @@ jobs:
               failed,
               teams: all,
             }, null, 2));
-
             const esc = s => String(s ?? '').replace(/[<>&"']/g, c =>
               ({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&apos;'}[c]));
             fs.writeFileSync('api/all-sports.xml',
@@ -124,10 +117,42 @@ jobs:
               `<sports pairs="${PAIRS.length}" teams="${all.length}" generated="${new Date().toISOString()}">\n` +
               all.map(t => `  <team sport="${esc(t.sport)}" league="${esc(t.league)}" league_slug="${esc(t.league_slug)}" id="${t.id}"><name>${esc(t.name)}</name><logo>${esc(t.logo)}</logo></team>`).join('\n') +
               '\n</sports>\n');
-
             console.log(`🎉 ${all.length} teams from ${PAIRS.length} sport/league pairs`);
             if (failed.length) console.log(`⚠️ ${failed.length} pairs failed`);
           })();
+          JS
+
+      - name: Append cricket national teams
+        run: |
+          node - <<'JS'
+          const fs = require('fs');
+          const BASE = 'https://raw.githubusercontent.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/refs/heads/main/assets/CRICKET/';
+          const CRICKET = {
+            'Afghanistan': 'Afghanistan.webp',
+            'Bangladesh':  'Bangladesh.png',
+            'India':       'India.png',
+            'New Zealand': 'New Zealand.webp',
+            'Sri Lanka':   'Sri Lanka.webp',
+            'West Indies': 'West Indies.jpg',
+            'Zimbabwe':    'Zimbabwe.webp'
+          };
+          const esc = s => String(s ?? '').replace(/[<>&"']/g, c =>
+            ({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&apos;'}[c]));
+          const file = 'api/all-sports.xml';
+          let xml = fs.readFileSync(file, 'utf8');
+          if (xml.includes('sport="cricket"')) {
+            console.log('Cricket teams already present, skipping.');
+            process.exit(0);
+          }
+          let i = 0;
+          const rows = Object.entries(CRICKET).map(([name, f]) => {
+            i++;
+            const logo = BASE + encodeURIComponent(f);
+            return `  <team sport="cricket" league="Cricket" league_slug="cricket" id="cric-${i}"><name>${esc(name)}</name><logo>${esc(logo)}</logo></team>`;
+          }).join('\n');
+          xml = xml.replace('</sports>', rows + '\n</sports>');
+          fs.writeFileSync(file, xml);
+          console.log(`Appended ${i} cricket teams to ${file}`);
           JS
 
       - name: Commit
