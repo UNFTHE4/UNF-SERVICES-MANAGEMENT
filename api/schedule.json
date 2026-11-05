@@ -1,33 +1,7 @@
 {
-  "generated_at": "2026-11-05T00:47:58.700Z",
-  "total_upcoming": 714,
+  "generated_at": "2026-11-05T12:00:07.746Z",
+  "total_upcoming": 712,
   "events": [
-    {
-      "sport": "golf",
-      "league": "PGA Tour",
-      "league_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/pgatour.png",
-      "start_time_utc": "2026-11-05T05:00Z",
-      "name": "World Wide Technology Championship",
-      "short_name": "World Wide Technology Championship",
-      "venue": null,
-      "home_team": null,
-      "home_logo": null,
-      "away_team": null,
-      "away_logo": null
-    },
-    {
-      "sport": "soccer",
-      "league": "Indian Super League",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2334.png",
-      "start_time_utc": "2026-11-05T11:30Z",
-      "name": "NorthEast United FC at Churchill Brothers",
-      "short_name": "NEU @ CHU",
-      "venue": "Pandit Jawaharlal Nehru Stadium",
-      "home_team": "Churchill Brothers",
-      "home_logo": null,
-      "away_team": "NorthEast United FC",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18004.png"
-    },
     {
       "sport": "soccer",
       "league": "Indian Super League",
