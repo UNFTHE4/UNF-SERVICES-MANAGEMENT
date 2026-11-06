@@ -3,12 +3,11 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { generatePoster } = require('./generatePoster');
 
-const GITHUB_USER = 'UNF-SERVICES-MANAGEMENT';
+const GITHUB_USER = 'UNFTHE4';
 const GITHUB_REPO = 'UNF-SERVICES-MANAGEMENT';
 const BRANCH      = 'main';
 
-const FEED_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${BRANCH}/events.json`;
-
+const FEED_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/refs/heads/${BRANCH}/api/events.json`;
 
 (async () => {
   const postersDir = path.join(__dirname, '..', 'posters');
