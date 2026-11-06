@@ -3,15 +3,12 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { generatePoster } = require('./generatePoster');
 
-// ⚠️ CHANGE THESE:
-const GITHUB_USER = 'YOUR_GITHUB_USERNAME';
-const GITHUB_REPO = 'YOUR_REPO_NAME';
+const GITHUB_USER = 'UNF-SERVICES-MANAGEMENT';
+const GITHUB_REPO = 'UNF-SERVICES-MANAGEMENT';
 const BRANCH      = 'main';
 
-// ⚠️ CHANGE THIS to where your events come from:
-const FEED_URL = 'https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/events.json';
-// OR if it's already in the repo:
-// const FEED_URL = null;
+const FEED_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${BRANCH}/events.json`;
+
 
 (async () => {
   const postersDir = path.join(__dirname, '..', 'posters');
