@@ -6,37 +6,68 @@ const GITHUB_USER = 'UNFTHE4';
 const GITHUB_REPO = 'UNF-SERVICES-MANAGEMENT';
 const BRANCH      = 'main';
 
-(async () => {
-  // 1. Read your original massive JSON file
-  // (Assuming your file is named events.json and is in the root of the repo)
-  const sourcePath = path.join(__dirname, '..', 'events.json');
-  const outDir = path.join(__dirname, '..', 'posters');
-  
-  fs.mkdirSync(outDir, { recursive: true });
+// YOUR REAL DATA SOURCE
+const LIVE_FEED_URL = 'https://raw.githubusercontent.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/refs/heads/main/api/schedule.json';
 
-  console.log(`Reading your data from ${sourcePath}...`);
-  const feed = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
+(async () => {
+  const postersDir = path.join(__dirname, '..', 'posters');
+  const apiOutPath = path.join(__dirname, '..', 'api', 'events.json');
+  
+  fs.mkdirSync(postersDir, { recursive: true });
+  fs.mkdirSync(path.dirname(apiOutPath), { recursive: true });
+
+  console.log(`Fetching live feed from: ${LIVE_FEED_URL}`);
+  const res = await fetch(LIVE_FEED_URL);
+  if (!res.ok) throw new Error(`Feed fetch failed: ${res.status}`);
+  const schedule = await res.json();
+  
+  const events = schedule.events;
+  if (!events || events.length === 0) {
+    throw new Error("Fetched schedule is empty or invalid format.");
+  }
+  console.log(`Loaded ${events.length} events. Generating banners...`);
 
   let generated = 0;
 
-  // 2. Loop through every event
-  console.log(`Starting to generate ${feed.events.length} banners...`);
-  
-  for (const ev of feed.events) {
-    const outPath = path.join(outDir, `${ev.id}.svg`);
+  for (const ev of events) {
+    // Generate a unique ID based on the event name and time
+    const cleanName = ev.name.replace(/[^a-z0-9]/gi, '-').toLowerCase();
+    const eventId = `${cleanName}-${new Date(ev.start_time_utc).getTime()}`;
+    const outPath = path.join(postersDir, `${eventId}.svg`);
     
-    // 3. Take the ESPN logo link, make the banner
-    const dataUrl = await generatePoster(ev);
-    fs.writeFileSync(outPath, decodeURIComponent(dataUrl.split(',')[1]));
+    // Construct the URL your app will use
+    const publicUrl = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/refs/heads/${BRANCH}/posters/${eventId}.svg`;
 
-    // 4. Add the link to the new poster into the data
-    ev.posterUrl = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/refs/heads/${BRANCH}/posters/${ev.id}.svg`;
-    generated++;
+    // Map the ESPN schedule data to what the poster generator expects
+    const posterEvent = {
+      id: eventId,
+      isSolo: !ev.home_team, // If no home_team, it's a solo event (F1, UFC)
+      sport: ev.sport,
+      poster: ev.league_logo,
+      homeTeam: ev.home_team || '',
+      awayTeam: ev.away_team || ''
+    };
+
+    try {
+      // Generate the SVG banner
+      const dataUrl = await generatePoster(posterEvent);
+      fs.writeFileSync(outPath, decodeURIComponent(dataUrl.split(',')[1]));
+      
+      // Add the new poster URL to the event object
+      ev.posterUrl = publicUrl;
+      generated++;
+      
+      if (generated % 50 === 0) console.log(`Generated ${generated} banners...`);
+    } catch (e) {
+      console.error(`❌ Failed to generate banner for ${ev.name}: ${e.message}`);
+      ev.posterUrl = ev.league_logo; // Fallback to the original logo
+    }
   }
 
-  // 5. Save the new JSON file so your app can use it
-  fs.writeFileSync(path.join(__dirname, '..', 'api', 'events.json'), JSON.stringify(feed, null, 2));
+  // Save the new API file
+  fs.writeFileSync(apiOutPath, JSON.stringify(schedule, null, 2));
 
-  console.log(`✅ DONE! Made ${generated} banners.`);
-  console.log(`✅ Saved new data to api/events.json`);
+  console.log(`\n✅ DONE!`);
+  console.log(`   Generated ${generated} banners.`);
+  console.log(`   Saved new API feed to api/events.json`);
 })();
