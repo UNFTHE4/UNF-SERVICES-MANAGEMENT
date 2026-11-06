@@ -15,13 +15,13 @@ jobs:
         with:
           node-version: '20'
           
-      - name: Generate banners
+      - name: Generate banners and create API
         run: node POSTA/build-posters.js
 
-      - name: Save the new files to GitHub
+      - name: Save files to GitHub
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add posters/ api/events.json
-          git commit -m "Generate banners" || echo "No changes"
+          git commit -m "Generated custom banners for schedule" || echo "No changes"
           git push
