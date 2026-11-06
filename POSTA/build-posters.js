@@ -3,27 +3,42 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { generatePoster } = require('./generatePoster');
 
-// ⚠️ IMPORTANT: Change these to match your GitHub details
+// ⚠️ CHANGE THESE:
 const GITHUB_USER = 'YOUR_GITHUB_USERNAME';
 const GITHUB_REPO = 'YOUR_REPO_NAME';
-const BRANCH = 'main';
+const BRANCH      = 'main';
+
+// ⚠️ CHANGE THIS to where your events come from:
+const FEED_URL = 'https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/events.json';
+// OR if it's already in the repo:
+// const FEED_URL = null;
 
 (async () => {
-  // Paths relative to the repo root
-  const apiFilePath = path.join(__dirname, '..', 'api', 'events.json');
-  const outDir = path.join(__dirname, '..', 'posters');
-  
-  // Read the existing events feed
-  const feed = JSON.parse(fs.readFileSync(apiFilePath, 'utf8'));
-  fs.mkdirSync(outDir, { recursive: true });
+  const postersDir = path.join(__dirname, '..', 'posters');
+  const apiOutPath = path.join(__dirname, '..', 'api', 'events.json');
+  fs.mkdirSync(postersDir, { recursive: true });
+  fs.mkdirSync(path.dirname(apiOutPath), { recursive: true });
 
-  let generated = 0, skipped = 0;
+  // ---- Load the feed ----
+  let feed;
+  if (FEED_URL) {
+    console.log(`Fetching feed from: ${FEED_URL}`);
+    const res = await fetch(FEED_URL);
+    if (!res.ok) throw new Error(`Feed fetch failed: ${res.status}`);
+    feed = await res.json();
+  } else {
+    const localPath = path.join(__dirname, '..', 'events.json');
+    console.log(`Reading feed from: ${localPath}`);
+    feed = JSON.parse(fs.readFileSync(localPath, 'utf8'));
+  }
 
-  // Clean up old posters that are no longer in the feed
+  let generated = 0, skipped = 0, failed = 0;
+
+  // Clean up old posters
   const validIds = new Set(feed.events.map(e => e.id));
-  for (const f of fs.readdirSync(outDir)) {
+  for (const f of fs.readdirSync(postersDir)) {
     if (f.endsWith('.svg') && !validIds.has(f.slice(0, -4))) {
-      fs.unlinkSync(path.join(outDir, f));
+      fs.unlinkSync(path.join(postersDir, f));
     }
   }
 
@@ -31,18 +46,15 @@ const BRANCH = 'main';
   const queue = [...feed.events];
 
   async function worker() {
-    while (queue.length) {
+    while (queue.length > 0) {
       const ev = queue.shift();
-      const outPath = path.join(outDir, `${ev.id}.svg`);
-      
-      // The URL your app will consume
+      const outPath = path.join(postersDir, `${ev.id}.svg`);
       const publicUrl = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${BRANCH}/posters/${ev.id}.svg`;
 
-      // Skip generating if file already exists to save time
       if (fs.existsSync(outPath)) {
-        ev.posterUrl = publicUrl; 
-        skipped++; 
-        continue; 
+        ev.posterUrl = publicUrl;
+        skipped++;
+        continue;
       }
 
       try {
@@ -50,18 +62,22 @@ const BRANCH = 'main';
         fs.writeFileSync(outPath, decodeURIComponent(dataUrl.split(',')[1]));
         ev.posterUrl = publicUrl;
         generated++;
+        if (generated % 50 === 0) console.log(`Generated ${generated}...`);
       } catch (e) {
-        console.error(`❌ Failed to generate ${ev.id}: ${e.message}`);
-        ev.posterUrl = ev.poster; // Fallback to original logo if it fails
+        console.error(`❌ ${ev.id}: ${e.message}`);
+        ev.posterUrl = ev.poster || ev.sportIcon;
+        failed++;
       }
     }
   }
 
   await Promise.all(Array.from({ length: CONCURRENCY }, worker));
-  
-  // Write the updated feed back into the API folder
-  fs.writeFileSync(apiFilePath, JSON.stringify(feed, null, 2));
-  
-  console.log(`✅ Generated ${generated}, skipped ${skipped}, total ${feed.events.length}`);
-  console.log(`✅ Saved updated API feed to: api/events.json`);
+
+  fs.writeFileSync(apiOutPath, JSON.stringify(feed, null, 2));
+
+  console.log(`\n✅ DONE!`);
+  console.log(`   Generated: ${generated}`);
+  console.log(`   Skipped:   ${skipped}`);
+  console.log(`   Failed:    ${failed}`);
+  console.log(`   Total:     ${feed.events.length}`);
 })();
