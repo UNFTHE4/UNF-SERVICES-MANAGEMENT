@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-11-06T00:54:24.880Z",
+  "generated_at": "2026-11-06T11:56:10.290Z",
   "total_upcoming": 663,
   "events": [
-    {
-      "sport": "soccer",
-      "league": "Australian A-League Men",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1308.png",
-      "start_time_utc": "2026-11-06T08:40Z",
-      "name": "Central Coast Mariners FC at Sydney FC",
-      "short_name": "CCM @ SYD",
-      "venue": "Allianz Stadium",
-      "home_team": "Sydney FC",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5327.png",
-      "away_team": "Central Coast Mariners FC",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5325.png"
-    },
     {
       "sport": "soccer",
       "league": "Indian Super League",
@@ -750,7 +737,7 @@
       "start_time_utc": "2026-11-07T00:00Z",
       "name": "Isidro Metapán at Inca Aruba",
       "short_name": "MTP @ IAR",
-      "venue": null,
+      "venue": "Estadio Anna Mercedes Campos",
       "home_team": "Inca Aruba",
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132480.png",
       "away_team": "Isidro Metapán",
@@ -3207,7 +3194,7 @@
       "start_time_utc": "2026-11-07T21:00Z",
       "name": "Cacahuatique at C.D. Platense",
       "short_name": "CAC @ CDP",
-      "venue": null,
+      "venue": "Estadio Antonio Toledo Valle",
       "home_team": "C.D. Platense",
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21092.png",
       "away_team": "Cacahuatique",
@@ -3472,19 +3459,6 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7312.png",
       "away_team": "Juan Pablo II",
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22534.png"
-    },
-    {
-      "sport": "soccer",
-      "league": "Salvadoran Primera Division",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2244.png",
-      "start_time_utc": "2026-11-07T23:00Z",
-      "name": "Luis Ángel Firpo at Internacional Santa Tecla",
-      "short_name": "LAF @ IST",
-      "venue": null,
-      "home_team": "Internacional Santa Tecla",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131295.png",
-      "away_team": "Luis Ángel Firpo",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7232.png"
     },
     {
       "sport": "hockey",
@@ -3916,6 +3890,19 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7234.png"
     },
     {
+      "sport": "soccer",
+      "league": "Salvadoran Primera Division",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2244.png",
+      "start_time_utc": "2026-11-08T00:00Z",
+      "name": "Luis Ángel Firpo at Internacional Santa Tecla",
+      "short_name": "LAF @ IST",
+      "venue": "Estadio Las Delicias",
+      "home_team": "Internacional Santa Tecla",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131295.png",
+      "away_team": "Luis Ángel Firpo",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7232.png"
+    },
+    {
       "sport": "hockey",
       "league": "NCAA Men's Ice Hockey",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/ESPN-icon-hockey.png",
@@ -4286,24 +4273,11 @@
       "start_time_utc": "2026-11-08T01:30Z",
       "name": "Olancho FC at Club Deportivo Olimpia",
       "short_name": "OLA @ OLI",
-      "venue": null,
+      "venue": "Estadio José de la Paz Herrera Uclés",
       "home_team": "Club Deportivo Olimpia",
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/884.png",
       "away_team": "Olancho FC",
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21583.png"
-    },
-    {
-      "sport": "soccer",
-      "league": "Salvadoran Primera Division",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2244.png",
-      "start_time_utc": "2026-11-08T01:30Z",
-      "name": "Águila at Alianza FC",
-      "short_name": "AGU @ ALI",
-      "venue": null,
-      "home_team": "Alianza FC",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7225.png",
-      "away_team": "Águila",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7226.png"
     },
     {
       "sport": "basketball",
@@ -4369,6 +4343,19 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7252.png",
       "away_team": "Comunicaciones",
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7257.png"
+    },
+    {
+      "sport": "soccer",
+      "league": "Salvadoran Primera Division",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2244.png",
+      "start_time_utc": "2026-11-08T02:00Z",
+      "name": "Águila at Alianza FC",
+      "short_name": "AGU @ ALI",
+      "venue": "Estadio Mágico González",
+      "home_team": "Alianza FC",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7225.png",
+      "away_team": "Águila",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7226.png"
     },
     {
       "sport": "football",
@@ -6392,7 +6379,7 @@
       "start_time_utc": "2026-11-08T21:00Z",
       "name": "Génesis PN at Platense",
       "short_name": "GEN @ PLA",
-      "venue": null,
+      "venue": "Estadio Excelsior",
       "home_team": "Platense",
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7243.png",
       "away_team": "Génesis PN",
@@ -6581,6 +6568,19 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png"
     },
     {
+      "sport": "hockey",
+      "league": "National Hockey League",
+      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nhl.png",
+      "start_time_utc": "2026-11-08T23:00Z",
+      "name": "Tampa Bay Lightning at Winnipeg Jets",
+      "short_name": "TB @ WPG",
+      "venue": "Canada Life Centre",
+      "home_team": "Winnipeg Jets",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wpg.png",
+      "away_team": "Tampa Bay Lightning",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tb.png"
+    },
+    {
       "sport": "soccer",
       "league": "Chilean Primera División",
       "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/86.png",
@@ -6613,7 +6613,7 @@
       "start_time_utc": "2026-11-08T23:00Z",
       "name": "Atletico Balboa at CD Municipal Limeño",
       "short_name": "BAL @ LIM",
-      "venue": null,
+      "venue": "Estadio Doctor José Ramón Flores Berríos",
       "home_team": "CD Municipal Limeño",
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7231.png",
       "away_team": "Atletico Balboa",
@@ -6639,7 +6639,7 @@
       "start_time_utc": "2026-11-08T23:15Z",
       "name": "Real España at CA Independiente Siguatepeque",
       "short_name": "ESP @ INDS",
-      "venue": null,
+      "venue": "Estadio Municipal Carlos Miranda",
       "home_team": "CA Independiente Siguatepeque",
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132448.png",
       "away_team": "Real España",
@@ -6696,19 +6696,6 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png",
       "away_team": "New Jersey Devils",
       "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nj.png"
-    },
-    {
-      "sport": "hockey",
-      "league": "National Hockey League",
-      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nhl.png",
-      "start_time_utc": "2026-11-09T00:00Z",
-      "name": "Tampa Bay Lightning at Winnipeg Jets",
-      "short_name": "TB @ WPG",
-      "venue": "Canada Life Centre",
-      "home_team": "Winnipeg Jets",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wpg.png",
-      "away_team": "Tampa Bay Lightning",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tb.png"
     },
     {
       "sport": "hockey",
@@ -6821,7 +6808,7 @@
       "start_time_utc": "2026-11-09T01:00Z",
       "name": "Fuerte San Francisco at CD FAS",
       "short_name": "FSF @ FAS",
-      "venue": null,
+      "venue": "Estadio Óscar Alberto Quiteño",
       "home_team": "CD FAS",
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7229.png",
       "away_team": "Fuerte San Francisco",
@@ -6886,7 +6873,7 @@
       "start_time_utc": "2026-11-09T01:30Z",
       "name": "CD Choloma at Club Deportivo Marathón",
       "short_name": "CHO @ MAR",
-      "venue": null,
+      "venue": "Estadio Olímpico Metropolitano",
       "home_team": "Club Deportivo Marathón",
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7249.png",
       "away_team": "CD Choloma",
@@ -7440,6 +7427,19 @@
     },
     {
       "sport": "hockey",
+      "league": "National Hockey League",
+      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nhl.png",
+      "start_time_utc": "2026-11-11T00:00Z",
+      "name": "New Jersey Devils at Winnipeg Jets",
+      "short_name": "NJ @ WPG",
+      "venue": "Canada Life Centre",
+      "home_team": "Winnipeg Jets",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wpg.png",
+      "away_team": "New Jersey Devils",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nj.png"
+    },
+    {
+      "sport": "hockey",
       "league": "NCAA Men's Ice Hockey",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/ESPN-icon-hockey.png",
       "start_time_utc": "2026-11-11T00:00Z",
@@ -7580,19 +7580,6 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/stl.png",
       "away_team": "Detroit Red Wings",
       "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/det.png"
-    },
-    {
-      "sport": "hockey",
-      "league": "National Hockey League",
-      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nhl.png",
-      "start_time_utc": "2026-11-11T01:00Z",
-      "name": "New Jersey Devils at Winnipeg Jets",
-      "short_name": "NJ @ WPG",
-      "venue": "Canada Life Centre",
-      "home_team": "Winnipeg Jets",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wpg.png",
-      "away_team": "New Jersey Devils",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nj.png"
     },
     {
       "sport": "soccer",
@@ -8243,6 +8230,19 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png",
       "away_team": "Oklahoma State Cowgirls",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png"
+    },
+    {
+      "sport": "soccer",
+      "league": "Liga AUF Uruguaya",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1592.png",
+      "start_time_utc": "2026-11-12T23:00Z",
+      "name": "Progreso at Cerro Largo",
+      "short_name": "PSO @ CERR",
+      "venue": "Estadio Arquitecto Antonio Eleuterio Ubilla",
+      "home_team": "Cerro Largo",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9902.png",
+      "away_team": "Progreso",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6866.png"
     },
     {
       "sport": "basketball",
