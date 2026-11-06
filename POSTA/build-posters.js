@@ -1,4 +1,3 @@
-// POSTA/build-posters.js
 const fs = require('node:fs');
 const path = require('node:path');
 const { generatePoster } = require('./generatePoster');
@@ -7,73 +6,37 @@ const GITHUB_USER = 'UNFTHE4';
 const GITHUB_REPO = 'UNF-SERVICES-MANAGEMENT';
 const BRANCH      = 'main';
 
-const FEED_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/refs/heads/${BRANCH}/api/events.json`;
-
 (async () => {
-  const postersDir = path.join(__dirname, '..', 'posters');
-  const apiOutPath = path.join(__dirname, '..', 'api', 'events.json');
-  fs.mkdirSync(postersDir, { recursive: true });
-  fs.mkdirSync(path.dirname(apiOutPath), { recursive: true });
+  // 1. Read your original massive JSON file
+  // (Assuming your file is named events.json and is in the root of the repo)
+  const sourcePath = path.join(__dirname, '..', 'events.json');
+  const outDir = path.join(__dirname, '..', 'posters');
+  
+  fs.mkdirSync(outDir, { recursive: true });
 
-  // ---- Load the feed ----
-  let feed;
-  if (FEED_URL) {
-    console.log(`Fetching feed from: ${FEED_URL}`);
-    const res = await fetch(FEED_URL);
-    if (!res.ok) throw new Error(`Feed fetch failed: ${res.status}`);
-    feed = await res.json();
-  } else {
-    const localPath = path.join(__dirname, '..', 'events.json');
-    console.log(`Reading feed from: ${localPath}`);
-    feed = JSON.parse(fs.readFileSync(localPath, 'utf8'));
+  console.log(`Reading your data from ${sourcePath}...`);
+  const feed = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
+
+  let generated = 0;
+
+  // 2. Loop through every event
+  console.log(`Starting to generate ${feed.events.length} banners...`);
+  
+  for (const ev of feed.events) {
+    const outPath = path.join(outDir, `${ev.id}.svg`);
+    
+    // 3. Take the ESPN logo link, make the banner
+    const dataUrl = await generatePoster(ev);
+    fs.writeFileSync(outPath, decodeURIComponent(dataUrl.split(',')[1]));
+
+    // 4. Add the link to the new poster into the data
+    ev.posterUrl = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/refs/heads/${BRANCH}/posters/${ev.id}.svg`;
+    generated++;
   }
 
-  let generated = 0, skipped = 0, failed = 0;
+  // 5. Save the new JSON file so your app can use it
+  fs.writeFileSync(path.join(__dirname, '..', 'api', 'events.json'), JSON.stringify(feed, null, 2));
 
-  // Clean up old posters
-  const validIds = new Set(feed.events.map(e => e.id));
-  for (const f of fs.readdirSync(postersDir)) {
-    if (f.endsWith('.svg') && !validIds.has(f.slice(0, -4))) {
-      fs.unlinkSync(path.join(postersDir, f));
-    }
-  }
-
-  const CONCURRENCY = 12;
-  const queue = [...feed.events];
-
-  async function worker() {
-    while (queue.length > 0) {
-      const ev = queue.shift();
-      const outPath = path.join(postersDir, `${ev.id}.svg`);
-      const publicUrl = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${BRANCH}/posters/${ev.id}.svg`;
-
-      if (fs.existsSync(outPath)) {
-        ev.posterUrl = publicUrl;
-        skipped++;
-        continue;
-      }
-
-      try {
-        const dataUrl = await generatePoster(ev);
-        fs.writeFileSync(outPath, decodeURIComponent(dataUrl.split(',')[1]));
-        ev.posterUrl = publicUrl;
-        generated++;
-        if (generated % 50 === 0) console.log(`Generated ${generated}...`);
-      } catch (e) {
-        console.error(`❌ ${ev.id}: ${e.message}`);
-        ev.posterUrl = ev.poster || ev.sportIcon;
-        failed++;
-      }
-    }
-  }
-
-  await Promise.all(Array.from({ length: CONCURRENCY }, worker));
-
-  fs.writeFileSync(apiOutPath, JSON.stringify(feed, null, 2));
-
-  console.log(`\n✅ DONE!`);
-  console.log(`   Generated: ${generated}`);
-  console.log(`   Skipped:   ${skipped}`);
-  console.log(`   Failed:    ${failed}`);
-  console.log(`   Total:     ${feed.events.length}`);
+  console.log(`✅ DONE! Made ${generated} banners.`);
+  console.log(`✅ Saved new data to api/events.json`);
 })();
