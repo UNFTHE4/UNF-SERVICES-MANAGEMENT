@@ -1,0 +1,42 @@
+name: Generate Event Posters
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Runs every 6 hours
+  workflow_dispatch:      # Allows manual trigger
+  push:
+    paths:
+      - 'api/events.json' # Runs whenever you update the raw feed
+
+permissions:
+  contents: write         # Needed to commit the generated files
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate posters and update API
+        run: node POSTA/build-posters.js
+
+      - name: Commit & push changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Add both the images and the updated API file
+          git add posters/ api/events.json
+          
+          if git diff --cached --quiet; then
+            echo "No changes, skipping commit."
+          else
+            git commit -m "chore: regenerate posters and update api feed [skip ci]"
+            git push
+          fi
