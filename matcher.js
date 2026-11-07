@@ -1,11 +1,15 @@
 // ============================================================
-// matcher.js — ESPN schedule  +  Sky/beIN EPG  →  real channels
+// matcher.js — ESPN schedule + Sky + beIN AU + India XMLTV
 // ============================================================
-const fs    = require('fs');
-const axios = require('axios');
-const dayjs = require('dayjs');
-const utc   = require('dayjs/plugin/utc');
+const fs      = require('fs');
+const axios   = require('axios');
+const zlib    = require('zlib');
+const dayjs   = require('dayjs');
+const utc     = require('dayjs/plugin/utc');
+const customParseFormat = require('dayjs/plugin/customParseFormat');
+const { XMLParser } = require('fast-xml-parser');
 dayjs.extend(utc);
+dayjs.extend(customParseFormat);
 
 const CHANNELS_FILE = 'assets/tv/channels.json';
 const SCHEDULE_FILE = 'api/schedule.json';
@@ -16,45 +20,39 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 // ─── helpers ───────────────────────────────────────────────
 
 const norm = (s = '') =>
-  String(s)
-    .toLowerCase()
-    .replace(/\b(at|v|vs|versus|@|the)\b/g, ' ')
+  String(s).toLowerCase()
+    .replace(/\b(at|v|vs|versus|@|the|and)\b/g, ' ')
     .replace(/[^\w\s]/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
 
-function teamsMatch(espnTitle, epgTitle) {
-  const a = norm(espnTitle);
-  const b = norm(epgTitle);
-  if (!a || !b) return false;
-  const words = a.split(' ').filter(w => w.length > 2);
+function teamsMatch(a, b) {
+  const A = norm(a), B = norm(b);
+  if (!A || !B) return false;
+  const words = A.split(' ').filter(w => w.length > 2);
   if (!words.length) return false;
   let hits = 0;
-  for (const w of words) if (b.includes(w)) hits++;
-  return hits >= Math.ceil(words.length * 0.6); // 60% word overlap
+  for (const w of words) if (B.includes(w)) hits++;
+  return hits >= Math.ceil(words.length * 0.6);
 }
 
-function minutesDiff(a, b) {
-  return Math.abs(a.diff(b, 'minute'));
-}
+function minutesDiff(a, b) { return Math.abs(a.diff(b, 'minute')); }
 
-// ─── Sky fetcher ───────────────────────────────────────────
+// ─── Sky ───────────────────────────────────────────────────
 
 async function fetchSky(cfg, dates) {
   const out = [];
   if (!cfg || !cfg.channels) return out;
-
-  const sids = Object.keys(cfg.channels);         // e.g. ["4002","4010",...]
+  const sids = Object.keys(cfg.channels);
   const territory = cfg.territory || 'GB';
 
-  for (const dateStr of dates) {                   // "20261107"
+  for (const dateStr of dates) {
     const url = `https://awk.epgsky.com/hawk/linear/schedule/${dateStr}/${sids.join(',')}`;
     try {
       const { data } = await axios.get(url, {
         headers: { 'X-SkyOTT-Territory': territory },
         timeout: 20000
       });
-
       for (const sched of (data.schedule || [])) {
         const ourId = cfg.channels[String(sched.sid)];
         if (!ourId) continue;
@@ -64,24 +62,21 @@ async function fetchSky(cfg, dates) {
             channelId: String(ourId),
             title: ev.t,
             start: dayjs.unix(ev.st),
-            end:   dayjs.unix(ev.st + (ev.d || 0))
+            end: dayjs.unix(ev.st + (ev.d || 0))
           });
         }
       }
-    } catch (e) {
-      console.warn(`[warn] Sky ${dateStr}: ${e.message}`);
-    }
+    } catch (e) { console.warn(`[warn] Sky ${dateStr}: ${e.message}`); }
   }
   return out;
 }
 
-// ─── beIN AU fetcher ───────────────────────────────────────
+// ─── beIN AU ───────────────────────────────────────────────
 
 async function fetchBeinAU(cfg, dates) {
   const out = [];
   if (!cfg || !cfg.channels) return out;
-
-  const ids = Object.keys(cfg.channels);           // UUIDs
+  const ids = Object.keys(cfg.channels);
 
   for (const dateStr of dates) {
     const day = dayjs.utc(dateStr, 'YYYYMMDD');
@@ -90,41 +85,107 @@ async function fetchBeinAU(cfg, dates) {
       endAfter:    day.format('YYYY-MM-DDTHH:mm:ss.SSS') + 'Z',
       channelIds:  ids.join(',')
     });
-    const url = `https://www.beinsports.com/api/opta/tv-event?${qs}`;
     try {
-      const { data } = await axios.get(url, { headers: { 'User-Agent': UA }, timeout: 20000 });
+      const { data } = await axios.get(
+        `https://www.beinsports.com/api/opta/tv-event?${qs}`,
+        { headers: { 'User-Agent': UA }, timeout: 20000 }
+      );
       for (const row of (data.rows || [])) {
-        // Row may include a channel id field — try common names
         const chId = row.channelId || row.channel_id || row.channel;
         const ourId = cfg.channels[String(chId)];
-        if (!ourId) continue;
-        if (!row.title || !row.startDate) continue;
+        if (!ourId || !row.title || !row.startDate) continue;
         out.push({
           channelId: String(ourId),
           title: row.title,
           start: dayjs.utc(row.startDate),
-          end:   row.endDate ? dayjs.utc(row.endDate) : dayjs.utc(row.startDate).add(2, 'hour')
+          end: row.endDate ? dayjs.utc(row.endDate) : dayjs.utc(row.startDate).add(2, 'hour')
         });
       }
-    } catch (e) {
-      console.warn(`[warn] beIN ${dateStr}: ${e.message}`);
-    }
+    } catch (e) { console.warn(`[warn] beIN ${dateStr}: ${e.message}`); }
   }
   return out;
 }
 
-// ─── match one event against EPG index ─────────────────────
+// ─── XMLTV (epgshare01 / any .xml.gz) ──────────────────────
+
+function parseXmltvDate(s) {
+  // "20261107140000 +0530"
+  if (!s) return null;
+  const m = String(s).match(/^(\d{14})\s*([+-]\d{4})?/);
+  if (!m) return null;
+  return dayjs.utc(m[1], 'YYYYMMDDHHmmss').subtract(
+    m[2] ? (m[2][0] === '-' ? -1 : 1) * (parseInt(m[2].slice(1, 3), 10) * 60 + parseInt(m[2].slice(3, 5), 10)) : 0,
+    'minute'
+  );
+}
+
+async function fetchXmltv(cfg) {
+  const out = [];
+  if (!cfg || !cfg.url || !cfg.channels) return out;
+
+  let raw;
+  try {
+    const res = await axios.get(cfg.url, {
+      responseType: 'arraybuffer',
+      headers: { 'User-Agent': UA, 'Accept-Encoding': 'gzip' },
+      timeout: 60000
+    });
+    raw = res.data;
+  } catch (e) { console.warn(`[warn] XMLTV fetch: ${e.message}`); return out; }
+
+  let xml;
+  try { xml = zlib.gunzipSync(Buffer.from(raw)).toString('utf8'); }
+  catch { xml = Buffer.from(raw).toString('utf8'); }
+
+  const parser = new XMLParser({
+    ignoreAttributes: false,
+    attributeNamePrefix: '',
+    textNodeName: '_text'
+  });
+  let doc;
+  try { doc = parser.parse(xml); }
+  catch (e) { console.warn(`[warn] XMLTV parse: ${e.message}`); return out; }
+
+  const programmes = doc?.tv?.programme;
+  if (!programmes) return out;
+  const list = Array.isArray(programmes) ? programmes : [programmes];
+
+  const wanted = new Set(Object.keys(cfg.channels));
+
+  for (const p of list) {
+    const ch = p.channel;
+    if (!wanted.has(ch)) continue;
+    const titleRaw = p.title;
+    const title = Array.isArray(titleRaw)
+      ? (titleRaw[0]?._text || titleRaw[0])
+      : (titleRaw?._text || titleRaw);
+    if (!title) continue;
+
+    const start = parseXmltvDate(p.start);
+    const end   = parseXmltvDate(p.stop);
+    if (!start) continue;
+
+    out.push({
+      channelId: String(cfg.channels[ch]),
+      title: String(title),
+      start,
+      end: end || start.add(2, 'hour')
+    });
+  }
+  console.log(`[info] XMLTV ${cfg.url.split('/').pop()} → ${out.length} matched programmes`);
+  return out;
+}
+
+// ─── matcher ───────────────────────────────────────────────
 
 function matchEvent(event, epg, channelsMeta, leagueRules) {
   const kickoff = dayjs.utc(event.start_time_utc || event.start);
   const title   = event.name || event.title ||
     `${event.home_team || ''} at ${event.away_team || ''}`;
 
-  // 1) Try EPG exact match
   const matched = new Map();
   for (const entry of epg) {
-    const dMin = minutesDiff(kickoff, entry.start);
-    if (dMin > 90) continue;                       // ±90min window
+    if (minutesDiff(kickoff, entry.start) > 90) continue;
     if (!teamsMatch(title, entry.title)) continue;
     matched.set(entry.channelId, {
       id: entry.channelId,
@@ -134,7 +195,6 @@ function matchEvent(event, epg, channelsMeta, leagueRules) {
   }
   if (matched.size) return [...matched.values()];
 
-  // 2) Fall back to league rules
   const league = (event.league || '').toLowerCase();
   for (const rule of leagueRules) {
     if (rule.league && !league.includes(rule.league.toLowerCase())) continue;
@@ -153,21 +213,20 @@ function matchEvent(event, epg, channelsMeta, leagueRules) {
 async function main() {
   const cfg      = JSON.parse(fs.readFileSync(CHANNELS_FILE, 'utf8'));
   const schedule = JSON.parse(fs.readFileSync(SCHEDULE_FILE, 'utf8'));
-
   const events = Array.isArray(schedule) ? schedule : (schedule.events || []);
 
-  // Dates to fetch — today and tomorrow in UTC
   const today    = dayjs.utc().format('YYYYMMDD');
   const tomorrow = dayjs.utc().add(1, 'd').format('YYYYMMDD');
   const dates    = [today, tomorrow];
 
-  console.log(`[info] fetching EPG for ${dates.join(', ')}`);
+  console.log(`[info] EPG dates: ${dates.join(', ')}`);
 
   const epg = [
     ...await fetchSky(cfg.broadcasters?.sky, dates),
-    ...await fetchBeinAU(cfg.broadcasters?.bein_au, dates)
+    ...await fetchBeinAU(cfg.broadcasters?.bein_au, dates),
+    ...await fetchXmltv(cfg.broadcasters?.india_xmltv)
   ];
-  console.log(`[info] got ${epg.length} EPG entries`);
+  console.log(`[info] total EPG entries: ${epg.length}`);
 
   const channelsMeta = cfg.channels || {};
   const leagueRules  = cfg.rules    || [];
@@ -189,15 +248,14 @@ async function main() {
 
   const confirmed = matches.filter(m => m.channels.some(c => c.source === 'epg')).length;
 
-  const out = {
+  fs.writeFileSync(OUTPUT_FILE, JSON.stringify({
     generated: new Date().toISOString(),
     count: matches.length,
     confirmed,
     matches
-  };
+  }, null, 2));
 
-  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(out, null, 2));
-  console.log(`[done] ${OUTPUT_FILE} — ${matches.length} matches, ${confirmed} with confirmed channel`);
+  console.log(`[done] ${OUTPUT_FILE} — ${matches.length} matches, ${confirmed} confirmed`);
 }
 
 main().catch(e => { console.error(e); process.exit(1); });
