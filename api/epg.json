@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07T13:55:52.184Z",
+  "generated": "2026-11-07T14:12:15.846Z",
   "count": 622,
   "confirmed": 10,
   "matches": [
@@ -14,28 +14,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19001.png",
       "venue": "Best Denki Stadium",
       "start": "2026-11-07T06:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -48,28 +27,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7115.png",
       "venue": "Tokyo Stadium",
       "start": "2026-11-07T06:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -82,28 +40,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7112.png",
       "venue": "Sankyo Frontier Kashiwa Stadium",
       "start": "2026-11-07T07:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -116,28 +53,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/13696.png",
       "venue": "Melbourne Rectangular Stadium",
       "start": "2026-11-07T08:40Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -188,28 +104,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/596.png",
       "venue": "Stadion Fakel",
       "start": "2026-11-07T11:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -470,28 +365,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21927.png",
       "venue": "Akhmat-Arena",
       "start": "2026-11-07T13:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -815,28 +689,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21969.png",
       "venue": "Panthessaliko Stadium",
       "start": "2026-11-07T15:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -1163,28 +1016,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21846.png",
       "venue": "SUN MINIMEAL Arena",
       "start": "2026-11-07T16:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -1216,28 +1048,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1963.png",
       "venue": "Krasnodar Stadium",
       "start": "2026-11-07T16:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -1250,28 +1061,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8222.png",
       "venue": "Stora Valla",
       "start": "2026-11-07T16:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -1284,28 +1074,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22163.png",
       "venue": "Gamla Ullevi",
       "start": "2026-11-07T16:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "football",
@@ -1603,28 +1372,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3153.png",
       "venue": "Nature Energy Park",
       "start": "2026-11-07T17:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -1637,28 +1385,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6750.png",
       "venue": "Lerkendal Stadion",
       "start": "2026-11-07T17:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -1868,28 +1595,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11431.png",
       "venue": "Kleánthis Vikelídis Stadium",
       "start": "2026-11-07T17:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -2185,28 +1891,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4422.png",
       "venue": "Estadio La Portada",
       "start": "2026-11-07T18:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -2219,28 +1904,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2673.png",
       "venue": "Estadio Unión Tarma",
       "start": "2026-11-07T18:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -2253,28 +1917,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
       "venue": "Innviertel Arena",
       "start": "2026-11-07T18:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -2344,28 +1987,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2668.png",
       "venue": "Estadio Federativo Reina del Cisne",
       "start": "2026-11-07T19:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -2378,28 +2000,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22523.png",
       "venue": "Estadio Jesús Bermúdez",
       "start": "2026-11-07T19:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "football",
@@ -2724,28 +2325,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2675.png",
       "venue": "Estadio Villa Alegre",
       "start": "2026-11-07T20:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -3119,28 +2699,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8110.png",
       "venue": "Estadio Sausalito",
       "start": "2026-11-07T20:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -3153,28 +2712,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5267.png",
       "venue": "Estadio Héroes de San Ramón",
       "start": "2026-11-07T20:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "football",
@@ -3524,28 +3062,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132449.png",
       "venue": "Estadio Juan Ramón Brevé Vargas",
       "start": "2026-11-07T21:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -3558,28 +3075,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131835.png",
       "venue": "Estadio Santo Domingo de Guzmán",
       "start": "2026-11-07T21:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -3592,28 +3088,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22330.png",
       "venue": "Estadio Antonio Toledo Valle",
       "start": "2026-11-07T21:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -3626,28 +3101,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9762.png",
       "venue": "Palogrande",
       "start": "2026-11-07T21:05Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "football",
@@ -3718,28 +3172,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/130875.png",
       "venue": "Municipal Villa Ingenio",
       "start": "2026-11-07T21:15Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "hockey",
@@ -3771,28 +3204,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11124.png",
       "venue": "Estadio Olímpico de Ibarra",
       "start": "2026-11-07T21:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -3805,28 +3217,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18995.png",
       "venue": "Estadio Olímpico de la UCV",
       "start": "2026-11-07T21:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -3839,28 +3230,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4818.png",
       "venue": "Estadio Monumental de Maturín",
       "start": "2026-11-07T21:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "football",
@@ -4027,28 +3397,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5584.png",
       "venue": "Estadio Tigo La Huerta",
       "start": "2026-11-07T22:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "football",
@@ -4171,28 +3520,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22534.png",
       "venue": "Estadio Monumental de la UNSA",
       "start": "2026-11-07T23:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "hockey",
@@ -4281,28 +3609,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5486.png",
       "venue": "Atanasio Girardot",
       "start": "2026-11-07T23:10Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "football",
@@ -4344,28 +3651,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7242.png",
       "venue": "Estadio Emilio Williams Agasse",
       "start": "2026-11-07T23:15Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -4378,28 +3664,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22137.png",
       "venue": "Estadio Gilberto Parada",
       "start": "2026-11-07T23:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "football",
@@ -4924,28 +4189,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7234.png",
       "venue": "Estadio Carlos Ugalde Álvarez",
       "start": "2026-11-08T00:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -4958,28 +4202,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7232.png",
       "venue": "Estadio Las Delicias",
       "start": "2026-11-08T00:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "hockey",
@@ -5632,28 +4855,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2672.png",
       "venue": "Pascual Guerrero",
       "start": "2026-11-08T01:15Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -5695,28 +4897,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10318.png",
       "venue": "Estadio Inca Garcilaso de la Vega",
       "start": "2026-11-08T01:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -5729,28 +4910,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21583.png",
       "venue": "Estadio José de la Paz Herrera Uclés",
       "start": "2026-11-08T01:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -5850,28 +5010,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20705.png",
       "venue": "Alejandro Morera Soto",
       "start": "2026-11-08T02:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -5884,28 +5023,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7257.png",
       "venue": "Estadio Marquesa de la Ensenada",
       "start": "2026-11-08T02:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -5918,28 +5036,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7226.png",
       "venue": "Estadio Mágico González",
       "start": "2026-11-08T02:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "football",
@@ -6200,23 +5297,8 @@
       "start": "2026-11-08T05:00Z",
       "channels": [
         {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
+          "id": "232",
+          "name": "TENNIS + HD",
           "source": "guess"
         }
       ]
@@ -6232,28 +5314,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7114.png",
       "venue": "Machida Gion Stadium",
       "start": "2026-11-08T05:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -6266,28 +5327,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3385.png",
       "venue": "Japan National Stadium",
       "start": "2026-11-08T05:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -6300,28 +5340,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7109.png",
       "venue": "Suita City Football Stadium",
       "start": "2026-11-08T06:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -6358,28 +5377,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131704.png",
       "venue": "Workers' Stadium",
       "start": "2026-11-08T07:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -6392,28 +5390,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8239.png",
       "venue": "Dalian Suoyuwan Football Stadium",
       "start": "2026-11-08T07:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -6426,28 +5403,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22199.png",
       "venue": "Qingdao Youth Football Stadium",
       "start": "2026-11-08T07:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -6460,28 +5416,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21355.png",
       "venue": "Jinan Olympic Sports Center Stadium",
       "start": "2026-11-08T07:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -6494,28 +5429,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131705.png",
       "venue": "SAIC Motor Pudong Arena",
       "start": "2026-11-08T07:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -6528,28 +5442,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22198.png",
       "venue": "Shanghai Stadium",
       "start": "2026-11-08T07:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -6562,28 +5455,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21506.png",
       "venue": "Yuxi Plateau Sports Center Stadium",
       "start": "2026-11-08T07:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -6596,28 +5468,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8240.png",
       "venue": "Yellow Dragon Sports Center Stadium",
       "start": "2026-11-08T07:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -6630,28 +5481,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131701.png",
       "venue": "Fukuda Denshi Arena",
       "start": "2026-11-08T08:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -6683,28 +5513,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18285.png",
       "venue": "Samara Arena",
       "start": "2026-11-08T11:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -6717,28 +5526,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/575.png",
       "venue": "Parken Stadium",
       "start": "2026-11-08T11:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -6913,28 +5701,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3585.png",
       "venue": "Vejlby Stadion",
       "start": "2026-11-08T13:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -6947,28 +5714,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2339.png",
       "venue": "Örjans Vall",
       "start": "2026-11-08T13:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -6981,28 +5727,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2720.png",
       "venue": "Gamla Ullevi",
       "start": "2026-11-08T13:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -7015,28 +5740,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22271.png",
       "venue": "Lukoil Arena",
       "start": "2026-11-08T13:15Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -7068,28 +5772,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4405.png",
       "venue": "Profertil Arena",
       "start": "2026-11-08T13:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -7102,28 +5785,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1382.png",
       "venue": "Tivoli Stadion Tirol",
       "start": "2026-11-08T13:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -7136,28 +5798,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
       "venue": "Romssa Arena",
       "start": "2026-11-08T13:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -7419,28 +6060,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5276.png",
       "venue": "OPAP Arena",
       "start": "2026-11-08T15:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -7453,28 +6073,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132429.png",
       "venue": "Theodoros Kolokotronis Stadium",
       "start": "2026-11-08T15:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -7506,28 +6105,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3101.png",
       "venue": "Cepheus Park Randers",
       "start": "2026-11-08T15:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -7645,28 +6223,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/443.png",
       "venue": "Kaftanzoglio Ethniko Stadio",
       "start": "2026-11-08T15:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -7679,28 +6236,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3852.png",
       "venue": "Saint Petersburg Stadium",
       "start": "2026-11-08T15:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -7713,28 +6249,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7834.png",
       "venue": "Friends Arena",
       "start": "2026-11-08T15:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -7747,28 +6262,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20301.png",
       "venue": "Grimsta IP",
       "start": "2026-11-08T15:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -7781,28 +6275,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8547.png",
       "venue": "Guldfageln Arena",
       "start": "2026-11-08T15:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -7815,28 +6288,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8186.png",
       "venue": "Estadio Municipal de La Florida",
       "start": "2026-11-08T15:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -7849,28 +6301,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19195.png",
       "venue": "Estadio San Carlos de Apoquindo",
       "start": "2026-11-08T15:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -7940,28 +6371,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2790.png",
       "venue": "Merkur Arena",
       "start": "2026-11-08T16:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -7974,28 +6384,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5002.png",
       "venue": "Briskeby Stadion",
       "start": "2026-11-08T16:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -8008,28 +6397,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3278.png",
       "venue": "Arasen Stadion",
       "start": "2026-11-08T16:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -8042,28 +6410,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2715.png",
       "venue": "Jotun Arena",
       "start": "2026-11-08T16:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -8076,28 +6423,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22165.png",
       "venue": "Viking Stadion",
       "start": "2026-11-08T16:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -8225,28 +6551,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9283.png",
       "venue": "Estadio Bellavista",
       "start": "2026-11-08T16:15Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -8307,28 +6612,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6790.png",
       "venue": "Pankritio Stadium",
       "start": "2026-11-08T16:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -8341,28 +6625,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20695.png",
       "venue": "Banco del Austro Alejandro Serrano Aguil",
       "start": "2026-11-08T16:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -8428,28 +6691,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8118.png",
       "venue": "MCH Arena",
       "start": "2026-11-08T17:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -8462,28 +6704,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132447.png",
       "venue": "Estadio José Rafael \"Fello\" Meza Ivankovich",
       "start": "2026-11-08T17:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -8630,28 +6851,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22300.png",
       "venue": "Kaliningrad Stadium",
       "start": "2026-11-08T17:45Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "football",
@@ -9035,28 +7235,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2688.png",
       "venue": "Estadio Municipal Oyarzún Arenas",
       "start": "2026-11-08T18:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -9069,28 +7248,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4133.png",
       "venue": "Estadio El Teniente",
       "start": "2026-11-08T18:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -9103,28 +7261,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2680.png",
       "venue": "Estadio Los Chankas",
       "start": "2026-11-08T18:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -9156,28 +7293,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/620.png",
       "venue": "Fredrikstad Stadion",
       "start": "2026-11-08T18:15Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -9233,28 +7349,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17086.png",
       "venue": "Estadio Gonzalo Pozo Ripalda",
       "start": "2026-11-08T18:45Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -9377,28 +7472,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/605.png",
       "venue": "Georgios Karaiskakis Stadium",
       "start": "2026-11-08T19:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -9411,28 +7485,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5485.png",
       "venue": "Estadio Nemesio Camacho El Campín",
       "start": "2026-11-08T19:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -9445,28 +7498,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6051.png",
       "venue": "Estadio Víctor Agustín Ugarte",
       "start": "2026-11-08T19:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -9601,23 +7633,13 @@
       "start": "2026-11-08T20:00Z",
       "channels": [
         {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
+          "id": "224",
+          "name": "MotoGP FHD",
           "source": "guess"
         },
         {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
+          "id": "249",
+          "name": "DAZN SPORTS FHD",
           "source": "guess"
         }
       ]
@@ -9676,28 +7698,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22517.png",
       "venue": "Estadio ueno La Nueva Olla",
       "start": "2026-11-08T20:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -9806,28 +7807,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4134.png",
       "venue": "Estadio Municipal Nicolás Chahuán",
       "start": "2026-11-08T20:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -9840,28 +7820,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png",
       "venue": "Estadio Cincuentenario",
       "start": "2026-11-08T20:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -9874,28 +7833,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4928.png",
       "venue": "Estadio Alfonso López",
       "start": "2026-11-08T20:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -9908,28 +7846,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2919.png",
       "venue": "Atanasio Girardot",
       "start": "2026-11-08T20:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -9942,28 +7859,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10309.png",
       "venue": "General Santander",
       "start": "2026-11-08T20:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -9976,28 +7872,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5489.png",
       "venue": "Deportivo Cali",
       "start": "2026-11-08T20:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -10010,28 +7885,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4815.png",
       "venue": "Departamental Libertad",
       "start": "2026-11-08T20:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -10044,28 +7898,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8109.png",
       "venue": "Hernán Ramirez Villegas",
       "start": "2026-11-08T20:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -10078,28 +7911,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5488.png",
       "venue": "Metropolitano de Techo",
       "start": "2026-11-08T20:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -10112,28 +7924,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5480.png",
       "venue": "Estadio Bello Horizonte - Rey Pele",
       "start": "2026-11-08T20:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -10146,28 +7937,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9761.png",
       "venue": null,
       "start": "2026-11-08T20:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -10180,28 +7950,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10122.png",
       "venue": "Estadio Miguel Grau del Callao",
       "start": "2026-11-08T20:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -10238,28 +7987,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/13481.png",
       "venue": "Estadio General José Antonio Páez",
       "start": "2026-11-08T21:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -10272,28 +8000,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131282.png",
       "venue": "Estadio Excelsior",
       "start": "2026-11-08T21:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -10306,28 +8013,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7259.png",
       "venue": "Estadio Verapaz Jose Angel Rossi",
       "start": "2026-11-08T21:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "football",
@@ -10369,28 +8055,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6137.png",
       "venue": "Estadio Jaraguay (Municipal de Montería)",
       "start": "2026-11-08T21:05Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -10403,28 +8068,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2687.png",
       "venue": "Estadio Hernando Siles",
       "start": "2026-11-08T21:15Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "football",
@@ -10524,28 +8168,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4816.png",
       "venue": "Estadio Banco Pichincha",
       "start": "2026-11-08T21:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -10558,28 +8181,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6037.png",
       "venue": "Estadio Olímpico de la UCV",
       "start": "2026-11-08T21:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -10592,28 +8194,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7237.png",
       "venue": "Estadio Ricardo Saprissa",
       "start": "2026-11-08T22:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -10669,28 +8250,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21313.png",
       "venue": "Estadio Martín Torres",
       "start": "2026-11-08T22:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -10761,28 +8321,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6072.png",
       "venue": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
       "start": "2026-11-08T23:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -10795,28 +8334,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18153.png",
       "venue": "Estadio Inca Garcilaso de la Vega",
       "start": "2026-11-08T23:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -10829,28 +8347,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7369.png",
       "venue": "Estadio Doctor José Ramón Flores Berríos",
       "start": "2026-11-08T23:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -10863,28 +8360,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5484.png",
       "venue": "Estadio Manuel Murillo Toro",
       "start": "2026-11-08T23:10Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -10897,28 +8373,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7245.png",
       "venue": "Estadio Municipal Carlos Miranda",
       "start": "2026-11-08T23:15Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -10931,28 +8386,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2682.png",
       "venue": "Estadio Ramón Tahuichi",
       "start": "2026-11-08T23:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -11076,28 +8510,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7870.png",
       "venue": "Estadio Pensativo",
       "start": "2026-11-09T00:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -11139,28 +8552,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131790.png",
       "venue": "Estadio Carlos Alvarado",
       "start": "2026-11-09T00:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -11255,28 +8647,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21987.png",
       "venue": "Estadio Óscar Alberto Quiteño",
       "start": "2026-11-09T01:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -11289,28 +8660,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7915.png",
       "venue": "Armando Maestre Pavajeau",
       "start": "2026-11-09T01:15Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "football",
@@ -11381,28 +8731,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131654.png",
       "venue": "Estadio Monumental de Lima",
       "start": "2026-11-09T01:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -11415,28 +8744,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11677.png",
       "venue": "Estadio Olímpico Metropolitano",
       "start": "2026-11-09T01:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -11584,28 +8892,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2791.png",
       "venue": "Nordmore Stadion",
       "start": "2026-11-09T18:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -11618,28 +8905,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1011.png",
       "venue": "Estadio COAC Mushuc Runa",
       "start": "2026-11-09T18:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -11676,28 +8942,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10080.png",
       "venue": "Estadio Gunther Vogel",
       "start": "2026-11-09T20:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -11710,28 +8955,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10307.png",
       "venue": "Estadio Bellavista",
       "start": "2026-11-09T20:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -11744,28 +8968,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6097.png",
       "venue": "Estadio Luis Alberto Salinas Tanasio",
       "start": "2026-11-09T22:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -11981,28 +9184,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6101.png",
       "venue": "Romelio Martínez",
       "start": "2026-11-10T00:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -12097,28 +9279,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21379.png",
       "venue": "Estadio Félix Capriles",
       "start": "2026-11-10T00:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -12363,28 +9524,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7232.png",
       "venue": null,
       "start": "2026-11-10T21:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -13024,28 +10164,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21092.png",
       "venue": null,
       "start": "2026-11-11T01:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -13401,28 +10520,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7225.png",
       "venue": null,
       "start": "2026-11-11T21:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -14014,28 +11112,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131295.png",
       "venue": null,
       "start": "2026-11-12T01:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -14282,23 +11359,13 @@
       "start": "2026-11-12T05:00Z",
       "channels": [
         {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
+          "id": "205",
+          "name": "Fox Sports 1 USA",
           "source": "guess"
         },
         {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
+          "id": "249",
+          "name": "DAZN SPORTS FHD",
           "source": "guess"
         }
       ]
@@ -14316,23 +11383,13 @@
       "start": "2026-11-12T05:00Z",
       "channels": [
         {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
+          "id": "205",
+          "name": "Fox Sports 1 USA",
           "source": "guess"
         },
         {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
+          "id": "249",
+          "name": "DAZN SPORTS FHD",
           "source": "guess"
         }
       ]
@@ -14377,28 +11434,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7231.png",
       "venue": null,
       "start": "2026-11-12T21:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -14411,28 +11447,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132480.png",
       "venue": null,
       "start": "2026-11-12T21:30Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -14469,28 +11484,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6866.png",
       "venue": "Estadio Arquitecto Antonio Eleuterio Ubilla",
       "start": "2026-11-12T23:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -15303,28 +12297,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22168.png",
       "venue": "Estadio Héroes de San Ramón",
       "start": "2026-11-13T18:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -15361,28 +12334,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9903.png",
       "venue": "Estadio Luis Franzini",
       "start": "2026-11-13T20:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -15448,28 +12400,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21403.png",
       "venue": "Gran Parque Central",
       "start": "2026-11-13T23:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "hockey",
@@ -16388,28 +13319,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7232.png",
       "venue": null,
       "start": "2026-11-14T01:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "hockey",
@@ -16624,28 +13534,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20036.png",
       "venue": "Estadio Cementos Progreso",
       "start": "2026-11-14T02:00Z",
-      "channels": [
-        {
-          "id": "103",
-          "name": "SKY CRICKET FHD",
-          "source": "guess"
-        },
-        {
-          "id": "112",
-          "name": "STAR SPORTS HD",
-          "source": "guess"
-        },
-        {
-          "id": "113",
-          "name": "STAR SPORTS HD 2",
-          "source": "guess"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "guess"
-        }
-      ]
+      "channels": []
     },
     {
       "sport": "hockey",
