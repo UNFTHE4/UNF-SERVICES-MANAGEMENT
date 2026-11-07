@@ -14,39 +14,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Install yaml
-        run: npm install --no-save --no-package-lock yaml
-
       - name: Convert YAML to JSON
         run: |
           mkdir -p api
-          node -e '
-            const yaml = require("yaml");
-            const fs = require("fs");
-            const data = yaml.parse(fs.readFileSync("epg.yml","utf8"));
-            const out = {
-              generated: new Date().toISOString(),
-              matches: (data.matches || []).map(m => ({
-                sport: m.sport,
-                league: m.league,
-                home: m.home,
-                away: m.away,
-                title: m.title || ((m.home || "") + " vs " + (m.away || "")),
-                start: m.start,
-                end: m.end,
-                channels: (m.channels || []).map(id => {
-                  const c = (data.channels || {})[id] || {};
-                  return { id: id, name: c.name || id, logo: c.logo || null };
-                })
-              }))
-            };
-            fs.writeFileSync("api/epg.json", JSON.stringify(out, null, 2));
-            console.log("OK - wrote api/epg.json - " + out.matches.length + " matches");
-          '
+          yq -o=json epg.yml > api/epg.json
 
       - name: Commit
         run: |
