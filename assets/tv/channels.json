@@ -35,7 +35,7 @@
     "205": { "name": "Fox Sports 1 USA" },
     "206": { "name": "FANCODE FHD" },
     "207": { "name": "FANCODE2 FHD" },
-    "208": { "name": "DSPORTS+ᶠᴴᴰ (Astro)" },
+    "208": { "name": "DSPORTS+ FHD (Astro)" },
     "209": { "name": "TNT1UK SPORTS FHD" },
     "210": { "name": "TNT2UK SPORTS FHD" },
     "211": { "name": "TNT 3" },
@@ -78,11 +78,59 @@
     "251": { "name": "APPLE TV+" },
     "252": { "name": "Sky Sports Premier League" }
   },
+
+  "broadcasters": {
+    "sky": {
+      "territory": "GB",
+      "channels": {
+        "4002": "102",
+        "4010": "252",
+        "3843": "104",
+        "4081": "103",
+        "1094": "232",
+        "1362": "232",
+        "3625": "209",
+        "3627": "210",
+        "3629": "211",
+        "4040": "212"
+      }
+    },
+    "bein_au": {
+      "channels": {
+        "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F": "201",
+        "63A30D9C-609D-4A30-8730-2CA391DF287A": "202",
+        "2E8A6222-8D90-4291-81E3-AF2F72557746": "203"
+      }
+    },
+    "india_xmltv": {
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz",
+      "channels": {
+        "StarSports1.in": "112",
+        "StarSports1.in@HD": "112",
+        "StarSports2.in": "113",
+        "StarSports2.in@HD": "113",
+        "StarSports3.in": "114",
+        "StarSportsSelect1.in": "110",
+        "StarSportsSelect1.in@HD": "110",
+        "StarSportsSelect2.in": "111",
+        "StarSportsSelect2.in@HD": "111",
+        "SonySportsTen1.in": "105",
+        "SonySportsTen1.in@HD": "105",
+        "SonySportsTen2.in": "106",
+        "SonySportsTen2.in@HD": "106",
+        "SonySportsTen3.in": "107",
+        "SonySportsTen3Hindi.in": "107",
+        "SonySportsTen4.in": "108",
+        "SonySportsTen5.in": "109",
+        "SonySportsTen5.in@HD": "109",
+        "DDSports.in": "105"
+      }
+    }
+  },
+
   "rules": [
     { "league": "English Premier League",          "channels": ["252", "102"] },
     { "league": "English League Championship",     "channels": ["252"] },
-    { "league": "English FA Cup",                  "channels": ["104", "102"] },
-    { "league": "English Carabao Cup",             "channels": ["104"] },
     { "league": "Spanish LALIGA",                  "channels": ["209", "210"] },
     { "league": "Spanish LALIGA 2",                "channels": ["209"] },
     { "league": "Italian Serie A",                 "channels": ["209", "210"] },
@@ -101,7 +149,6 @@
     { "league": "Belgian Pro League",              "channels": ["238"] },
     { "league": "Mexican Liga BBVA MX",            "channels": ["229", "230"] },
     { "league": "Argentine Liga Profesional de Fútbol", "channels": ["229"] },
-    { "league": "Brazilian Serie A",               "channels": ["225", "246"] },
     { "league": "MLS",                             "channels": ["227", "228"] },
     { "league": "NWSL",                            "channels": ["227"] },
     { "league": "National Football League",        "channels": ["242", "127", "205"] },
@@ -114,14 +161,10 @@
     { "league": "Ultimate Fighting Championship",  "channels": ["221"] },
     { "sport": "cricket",                          "channels": ["103", "112", "113", "114"] },
     { "league": "IPL",                             "channels": ["112", "113", "114"] },
-    { "league": "Big Bash League",                 "channels": ["103"] },
     { "league": "International Cricket",           "channels": ["103", "112"] },
-    { "league": "WTA",                             "channels": ["232"] },
-    { "league": "ATP",                             "channels": ["232"] },
     { "sport": "tennis",                           "channels": ["232"] },
     { "sport": "mma",                              "channels": ["221"] },
     { "sport": "racing",                           "channels": ["224", "249"] },
-    { "league": "NASCAR Cup Series",               "channels": ["205", "249"] },
     { "sport": "golf",                             "channels": ["205", "249"] }
   ]
 }
