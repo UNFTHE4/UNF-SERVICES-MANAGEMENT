@@ -1,11 +1,11 @@
 // ============================================================
-// matcher.js — ESPN schedule + Sky + beIN AU + India XMLTV
+// matcher.js — ESPN schedule + Sky + beIN AU + Airtel + XMLTV
 // ============================================================
-const fs      = require('fs');
-const axios   = require('axios');
-const zlib    = require('zlib');
-const dayjs   = require('dayjs');
-const utc     = require('dayjs/plugin/utc');
+const fs    = require('fs');
+const axios = require('axios');
+const zlib  = require('zlib');
+const dayjs = require('dayjs');
+const utc   = require('dayjs/plugin/utc');
 const customParseFormat = require('dayjs/plugin/customParseFormat');
 const { XMLParser } = require('fast-xml-parser');
 dayjs.extend(utc);
@@ -106,17 +106,63 @@ async function fetchBeinAU(cfg, dates) {
   return out;
 }
 
-// ─── XMLTV (epgshare01 / any .xml.gz) ──────────────────────
+// ─── Airtel Xstream (India — replaces Tata Play) ───────────
+
+async function fetchAirtel(cfg, dates) {
+  const out = [];
+  if (!cfg || !cfg.channels) return out;
+
+  const HEADERS = {
+    'User-Agent': UA,
+    'Referer': 'https://www.airtelxstream.in/',
+    'Origin': 'https://www.airtelxstream.in'
+  };
+
+  for (const dateStr of dates) {
+    const day = dayjs.utc(dateStr, 'YYYYMMDD');
+    const startTime = day.valueOf();
+    const endTime = day.add(1, 'd').valueOf();
+
+    for (const siteId of Object.keys(cfg.channels)) {
+      const ourId = cfg.channels[siteId];
+      const url = `https://epg.airtel.tv/app/v2/content/channel/epg?channelId=${encodeURIComponent(siteId)}&startTime=${startTime}&endTime=${endTime}`;
+
+      try {
+        const { data } = await axios.get(url, { headers: HEADERS, timeout: 15000 });
+        const guide = data?.programGuide || {};
+        const programs = guide[siteId] || Object.values(guide)[0] || [];
+
+        for (const p of programs) {
+          if (!p.title || !p.startTime) continue;
+          out.push({
+            channelId: String(ourId),
+            title: p.title,
+            start: dayjs(p.startTime),
+            end: p.endTime ? dayjs(p.endTime) : dayjs(p.startTime).add(2, 'hour')
+          });
+        }
+      } catch (e) {
+        console.warn(`[warn] Airtel ${siteId}: ${e.message}`);
+      }
+
+      await new Promise(r => setTimeout(r, 120));
+    }
+  }
+  console.log(`[info] Airtel → ${out.length} entries`);
+  return out;
+}
+
+// ─── XMLTV (epgshare01) ────────────────────────────────────
 
 function parseXmltvDate(s) {
-  // "20261107140000 +0530"
   if (!s) return null;
   const m = String(s).match(/^(\d{14})\s*([+-]\d{4})?/);
   if (!m) return null;
-  return dayjs.utc(m[1], 'YYYYMMDDHHmmss').subtract(
-    m[2] ? (m[2][0] === '-' ? -1 : 1) * (parseInt(m[2].slice(1, 3), 10) * 60 + parseInt(m[2].slice(3, 5), 10)) : 0,
-    'minute'
-  );
+  const base = dayjs.utc(m[1], 'YYYYMMDDHHmmss');
+  if (!m[2]) return base;
+  const sign = m[2][0] === '-' ? -1 : 1;
+  const offMin = sign * (parseInt(m[2].slice(1, 3), 10) * 60 + parseInt(m[2].slice(3, 5), 10));
+  return base.subtract(offMin, 'minute');
 }
 
 async function fetchXmltv(cfg) {
@@ -137,11 +183,7 @@ async function fetchXmltv(cfg) {
   try { xml = zlib.gunzipSync(Buffer.from(raw)).toString('utf8'); }
   catch { xml = Buffer.from(raw).toString('utf8'); }
 
-  const parser = new XMLParser({
-    ignoreAttributes: false,
-    attributeNamePrefix: '',
-    textNodeName: '_text'
-  });
+  const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: '', textNodeName: '_text' });
   let doc;
   try { doc = parser.parse(xml); }
   catch (e) { console.warn(`[warn] XMLTV parse: ${e.message}`); return out; }
@@ -149,7 +191,6 @@ async function fetchXmltv(cfg) {
   const programmes = doc?.tv?.programme;
   if (!programmes) return out;
   const list = Array.isArray(programmes) ? programmes : [programmes];
-
   const wanted = new Set(Object.keys(cfg.channels));
 
   for (const p of list) {
@@ -160,23 +201,20 @@ async function fetchXmltv(cfg) {
       ? (titleRaw[0]?._text || titleRaw[0])
       : (titleRaw?._text || titleRaw);
     if (!title) continue;
-
     const start = parseXmltvDate(p.start);
-    const end   = parseXmltvDate(p.stop);
     if (!start) continue;
-
     out.push({
       channelId: String(cfg.channels[ch]),
       title: String(title),
       start,
-      end: end || start.add(2, 'hour')
+      end: parseXmltvDate(p.stop) || start.add(2, 'hour')
     });
   }
-  console.log(`[info] XMLTV ${cfg.url.split('/').pop()} → ${out.length} matched programmes`);
+  console.log(`[info] XMLTV → ${out.length} entries`);
   return out;
 }
 
-// ─── matcher ───────────────────────────────────────────────
+// ─── matcher (sport check bug fixed) ───────────────────────
 
 function matchEvent(event, epg, channelsMeta, leagueRules) {
   const kickoff = dayjs.utc(event.start_time_utc || event.start);
@@ -195,8 +233,12 @@ function matchEvent(event, epg, channelsMeta, leagueRules) {
   }
   if (matched.size) return [...matched.values()];
 
+  // fallback: check sport AND league
+  const sport = (event.sport || '').toLowerCase();
   const league = (event.league || '').toLowerCase();
+
   for (const rule of leagueRules) {
+    if (rule.sport && rule.sport.toLowerCase() !== sport) continue;
     if (rule.league && !league.includes(rule.league.toLowerCase())) continue;
     const hit = (rule.channels || []).map(id => ({
       id: String(id),
@@ -221,11 +263,17 @@ async function main() {
 
   console.log(`[info] EPG dates: ${dates.join(', ')}`);
 
-  const epg = [
-    ...await fetchSky(cfg.broadcasters?.sky, dates),
-    ...await fetchBeinAU(cfg.broadcasters?.bein_au, dates),
-    ...await fetchXmltv(cfg.broadcasters?.india_xmltv)
-  ];
+  const skyEpg   = await fetchSky(cfg.broadcasters?.sky, dates);
+  console.log(`[info] Sky → ${skyEpg.length} entries`);
+
+  const beinEpg  = await fetchBeinAU(cfg.broadcasters?.bein_au, dates);
+  console.log(`[info] beIN AU → ${beinEpg.length} entries`);
+
+  const airtelEpg = await fetchAirtel(cfg.broadcasters?.airtel, dates);
+
+  const xmltvEpg = await fetchXmltv(cfg.broadcasters?.india_xmltv);
+
+  const epg = [...skyEpg, ...beinEpg, ...airtelEpg, ...xmltvEpg];
   console.log(`[info] total EPG entries: ${epg.length}`);
 
   const channelsMeta = cfg.channels || {};
