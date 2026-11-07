@@ -1,0 +1,13 @@
+{
+  "name": "epg-builder",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "node matcher.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "dayjs": "^1.11.0",
+    "fast-xml-parser": "^4.4.0"
+  }
+}
