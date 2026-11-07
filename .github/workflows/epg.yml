@@ -1,11 +1,13 @@
-name: Build EPG JSON
+name: Build EPG
 
 on:
+  schedule:
+    - cron: '*/30 * * * *'
   push:
     paths:
       - 'api/schedule.json'
       - 'assets/tv/channels.json'
-      - '.github/workflows/epg.yml'
+      - 'matcher.js'
   workflow_dispatch:
 
 permissions:
@@ -21,62 +23,16 @@ jobs:
         with:
           node-version: 20
 
-      - name: Build api/epg.json
-        run: |
-          mkdir -p api
-          node -e '
-            const fs = require("fs");
-            const schedule  = JSON.parse(fs.readFileSync("api/schedule.json","utf8"));
-            const channels  = JSON.parse(fs.readFileSync("assets/tv/channels.json","utf8"));
+      - name: Install deps
+        run: npm install
 
-            const events = Array.isArray(schedule) ? schedule : (schedule.events || []);
-            const map    = channels.channels || {};
-            const rules  = channels.rules    || [];
-
-            function pick(league, sport) {
-              const L = (league||"").toLowerCase();
-              const S = (sport ||"").toLowerCase();
-              const hits = new Map();
-              for (const r of rules) {
-                if (r.sport  && r.sport.toLowerCase()  !== S) continue;
-                if (r.league && !L.includes(r.league.toLowerCase())) continue;
-                (r.channels||[]).forEach(id => {
-                  const k = String(id);
-                  const c = map[k] || {};
-                  hits.set(k, { id: k, name: c.name || k, logo: c.logo || null });
-                });
-              }
-              return [...hits.values()];
-            }
-
-            const matches = events.map(e => ({
-              sport: e.sport,
-              league: e.league,
-              league_logo: e.league_logo,
-              title: e.name || ((e.home_team||"") + " vs " + (e.away_team||"")).trim(),
-              home_team: e.home_team,
-              away_team: e.away_team,
-              home_logo: e.home_logo,
-              away_logo: e.away_logo,
-              venue: e.venue,
-              start: e.start_time_utc,
-              channels: pick(e.league, e.sport)
-            }));
-
-            const out = {
-              generated: new Date().toISOString(),
-              count: matches.length,
-              matches
-            };
-
-            fs.writeFileSync("api/epg.json", JSON.stringify(out, null, 2));
-            console.log("Wrote api/epg.json — " + matches.length + " matches");
-          '
+      - name: Build epg.json
+        run: node matcher.js
 
       - name: Commit
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add api/epg.json
-          git diff --staged --quiet || git commit -m "chore: rebuild epg.json"
+          git diff --staged --quiet || git commit -m "chore: rebuild epg"
           git push
