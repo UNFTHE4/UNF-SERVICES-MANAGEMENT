@@ -2,7 +2,10 @@ name: Build EPG JSON
 
 on:
   push:
-    paths: ['epg.yml']
+    paths:
+      - 'schedule.json'
+      - 'assets/tv/channels.json'
+      - '.github/workflows/epg.yml'
   workflow_dispatch:
 
 permissions:
@@ -14,74 +17,61 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build api/epg.json from epg.yml
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build api/epg.json
         run: |
           mkdir -p api
           node -e '
             const fs = require("fs");
-            const raw = fs.readFileSync("epg.yml", "utf8");
+            const schedule  = JSON.parse(fs.readFileSync("schedule.json","utf8"));
+            const channels  = JSON.parse(fs.readFileSync("assets/tv/channels.json","utf8"));
 
-            // Tiny YAML subset parser (matches/channels only, no deps)
-            const lines = raw.split(/\r?\n/);
-            const out = { matches: [], channels: {} };
-            let section = null, cur = null, key = null;
+            const events = Array.isArray(schedule) ? schedule : (schedule.events || []);
+            const map    = channels.channels || {};
+            const rules  = channels.rules    || [];
 
-            function val(v) {
-              v = v.trim().replace(/^["\x27]|["\x27]$/g, "");
-              if (v.startsWith("[") && v.endsWith("]")) {
-                return v.slice(1, -1).split(",").map(s => s.trim().replace(/^["\x27]|["\x27]$/g,"")).filter(Boolean);
+            function pick(league, sport) {
+              const L = (league||"").toLowerCase();
+              const S = (sport ||"").toLowerCase();
+              const hits = new Map();
+
+              for (const r of rules) {
+                if (r.sport  && r.sport.toLowerCase()  !== S) continue;
+                if (r.league && !L.includes(r.league.toLowerCase())) continue;
+                (r.channels||[]).forEach(id => {
+                  const k = String(id);
+                  const c = map[k] || {};
+                  hits.set(k, { id: k, name: c.name || k, logo: c.logo || null });
+                });
               }
-              return v;
+              return [...hits.values()];
             }
 
-            for (const line of lines) {
-              if (!line.trim() || line.trim().startsWith("#")) continue;
-              const ind = line.length - line.trimStart().length;
-              const t = line.trim();
+            const matches = events.map(e => ({
+              sport: e.sport,
+              league: e.league,
+              league_logo: e.league_logo,
+              title: e.name || ((e.home_team||"") + " vs " + (e.away_team||"")).trim(),
+              home_team: e.home_team,
+              away_team: e.away_team,
+              home_logo: e.home_logo,
+              away_logo: e.away_logo,
+              venue: e.venue,
+              start: e.start_time_utc,
+              channels: pick(e.league, e.sport)
+            }));
 
-              if (ind === 0) {
-                if (t === "matches:") { section = "matches"; cur = null; }
-                else if (t === "channels:") { section = "channels"; cur = null; }
-                else section = null;
-                continue;
-              }
-
-              if (section === "matches") {
-                if (t.startsWith("- ")) {
-                  cur = {}; out.matches.push(cur);
-                  const kv = t.slice(2).split(/:\s*/);
-                  if (kv[1] !== undefined) cur[kv[0]] = val(kv[1]);
-                } else if (cur) {
-                  const m = t.match(/^([\w-]+):\s*(.*)$/);
-                  if (m) cur[m[1]] = val(m[2]);
-                }
-              } else if (section === "channels") {
-                const chm = t.match(/^["\x27]?([\w-]+)["\x27]?:\s*$/);
-                if (ind === 2 && chm) {
-                  key = chm[1]; out.channels[key] = {}; cur = out.channels[key];
-                } else if (cur) {
-                  const m = t.match(/^([\w-]+):\s*(.*)$/);
-                  if (m) cur[m[1]] = val(m[2]);
-                }
-              }
-            }
-
-            // Expand channel IDs into objects inside each match
-            out.matches.forEach(m => {
-              const ids = Array.isArray(m.channels) ? m.channels
-                        : m.channels ? [m.channels] : [];
-              m.channels = ids.map(id => {
-                const c = out.channels[id] || {};
-                return { id, name: c.name || id, logo: c.logo || null };
-              });
-              if (!m.title && (m.home || m.away)) m.title = m.home + " vs " + m.away;
-            });
-
-            out.generated = new Date().toISOString();
-            out.count = out.matches.length;
+            const out = {
+              generated: new Date().toISOString(),
+              count: matches.length,
+              matches
+            };
 
             fs.writeFileSync("api/epg.json", JSON.stringify(out, null, 2));
-            console.log("OK — wrote api/epg.json with " + out.count + " matches");
+            console.log("Wrote api/epg.json — " + matches.length + " matches");
           '
 
       - name: Commit
