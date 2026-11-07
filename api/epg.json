@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-07T14:12:15.846Z",
+  "generated": "2026-11-07T14:14:50.159Z",
   "count": 622,
-  "confirmed": 10,
+  "confirmed": 15,
   "matches": [
     {
       "sport": "soccer",
@@ -200,14 +200,14 @@
       "start": "2026-11-07T12:30Z",
       "channels": [
         {
-          "id": "252",
-          "name": "Sky Sports Premier League",
-          "source": "guess"
+          "id": "110",
+          "name": "STAR SPORTS SEL 1",
+          "source": "epg"
         },
         {
-          "id": "102",
-          "name": "SKY SPORTS MAIN EVENT",
-          "source": "guess"
+          "id": "114",
+          "name": "STAR SPORTS HD 3",
+          "source": "epg"
         }
       ]
     },
@@ -624,14 +624,14 @@
       "start": "2026-11-07T15:00Z",
       "channels": [
         {
-          "id": "252",
-          "name": "Sky Sports Premier League",
-          "source": "guess"
+          "id": "110",
+          "name": "STAR SPORTS SEL 1",
+          "source": "epg"
         },
         {
-          "id": "102",
-          "name": "SKY SPORTS MAIN EVENT",
-          "source": "guess"
+          "id": "114",
+          "name": "STAR SPORTS HD 3",
+          "source": "epg"
         }
       ]
     },
@@ -648,14 +648,9 @@
       "start": "2026-11-07T15:00Z",
       "channels": [
         {
-          "id": "252",
-          "name": "Sky Sports Premier League",
-          "source": "guess"
-        },
-        {
-          "id": "102",
-          "name": "SKY SPORTS MAIN EVENT",
-          "source": "guess"
+          "id": "111",
+          "name": "STAR SPORTS SEL 2",
+          "source": "epg"
         }
       ]
     },
@@ -2260,14 +2255,9 @@
       "start": "2026-11-07T20:00Z",
       "channels": [
         {
-          "id": "209",
-          "name": "TNT1UK SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "210",
-          "name": "TNT2UK SPORTS FHD",
-          "source": "guess"
+          "id": "107",
+          "name": "SONY TEN 3",
+          "source": "epg"
         }
       ]
     },
@@ -2340,14 +2330,9 @@
       "start": "2026-11-07T20:05Z",
       "channels": [
         {
-          "id": "209",
-          "name": "TNT1UK SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "210",
-          "name": "TNT2UK SPORTS FHD",
-          "source": "guess"
+          "id": "109",
+          "name": "SONY TEN 5",
+          "source": "epg"
         }
       ]
     },
@@ -5840,6 +5825,16 @@
           "id": "102",
           "name": "SKY SPORTS MAIN EVENT",
           "source": "epg"
+        },
+        {
+          "id": "110",
+          "name": "STAR SPORTS SEL 1",
+          "source": "epg"
+        },
+        {
+          "id": "114",
+          "name": "STAR SPORTS HD 3",
+          "source": "epg"
         }
       ]
     },
@@ -5882,6 +5877,11 @@
         {
           "id": "252",
           "name": "Sky Sports Premier League",
+          "source": "epg"
+        },
+        {
+          "id": "111",
+          "name": "STAR SPORTS SEL 2",
           "source": "epg"
         }
       ]
