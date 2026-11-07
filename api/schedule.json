@@ -1,46 +1,7 @@
 {
-  "generated_at": "2026-11-07T00:00:19.278Z",
-  "total_upcoming": 625,
+  "generated_at": "2026-11-07T05:49:22.136Z",
+  "total_upcoming": 622,
   "events": [
-    {
-      "sport": "tennis",
-      "league": "ATP",
-      "league_logo": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-tennis.png",
-      "start_time_utc": "2026-11-07T05:00Z",
-      "name": "Bybit Stockholm Open",
-      "short_name": "Bybit Stockholm Open",
-      "venue": null,
-      "home_team": null,
-      "home_logo": null,
-      "away_team": null,
-      "away_logo": null
-    },
-    {
-      "sport": "soccer",
-      "league": "Japanese J.League",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2199.png",
-      "start_time_utc": "2026-11-07T05:00Z",
-      "name": "Kyoto Sanga at Nagoya Grampus",
-      "short_name": "KYO @ NAG",
-      "venue": "Toyota Stadium (Japan)",
-      "home_team": "Nagoya Grampus",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7108.png",
-      "away_team": "Kyoto Sanga",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21361.png"
-    },
-    {
-      "sport": "soccer",
-      "league": "Japanese J.League",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2199.png",
-      "start_time_utc": "2026-11-07T05:00Z",
-      "name": "Fagiano Okayama at Yokohama F. Marinos",
-      "short_name": "OKA @ YOK",
-      "venue": "Nissan Stadium",
-      "home_team": "Yokohama F. Marinos",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7116.png",
-      "away_team": "Fagiano Okayama",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22522.png"
-    },
     {
       "sport": "soccer",
       "league": "Japanese J.League",
@@ -5622,7 +5583,7 @@
       "sport": "basketball",
       "league": "NCAA Women's Basketball",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
-      "start_time_utc": "2026-11-09T16:00Z",
+      "start_time_utc": "2026-11-09T17:00Z",
       "name": "Northwestern State Lady Demons at Oklahoma State Cowgirls",
       "short_name": "NWST @ OKST",
       "venue": "Gallagher-Iba Arena",
