@@ -1,1524 +1,8 @@
 {
-  "generated": "2026-11-07T18:29:00.027Z",
-  "count": 565,
-  "confirmed": 13,
+  "generated": "2026-11-07T22:14:32.251Z",
+  "count": 510,
+  "confirmed": 8,
   "matches": [
-    {
-      "sport": "soccer",
-      "league": "English Premier League",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
-      "title": "Hull City at Arsenal",
-      "home_team": "Arsenal",
-      "away_team": "Hull City",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-      "venue": "Emirates Stadium",
-      "start": "2026-11-07T15:00Z",
-      "channels": [
-        {
-          "id": "110",
-          "name": "STAR SPORTS SEL 1",
-          "source": "epg"
-        },
-        {
-          "id": "114",
-          "name": "STAR SPORTS HD 3",
-          "source": "epg"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "English Premier League",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
-      "title": "Newcastle United at Fulham",
-      "home_team": "Fulham",
-      "away_team": "Newcastle United",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
-      "venue": "Craven Cottage",
-      "start": "2026-11-07T15:00Z",
-      "channels": [
-        {
-          "id": "111",
-          "name": "STAR SPORTS SEL 2",
-          "source": "epg"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Belgian Pro League",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/6.png",
-      "title": "Royal Charleroi SC at KVC Westerlo",
-      "home_team": "KVC Westerlo",
-      "away_team": "Royal Charleroi SC",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/606.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3616.png",
-      "venue": "Het Kuipje",
-      "start": "2026-11-07T15:00Z",
-      "channels": [
-        {
-          "id": "238",
-          "name": "SPORT TV FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Greek Super League",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/98.png",
-      "title": "Kifisia at Volos NFC",
-      "home_team": "Volos NFC",
-      "away_team": "Kifisia",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20043.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21969.png",
-      "venue": "Panthessaliko Stadium",
-      "start": "2026-11-07T15:00Z",
-      "channels": []
-    },
-    {
-      "sport": "soccer",
-      "league": "Scottish Premiership",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/45.png",
-      "title": "Motherwell at Dundee United",
-      "home_team": "Dundee United",
-      "away_team": "Motherwell",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/264.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/266.png",
-      "venue": "Tannadice Park",
-      "start": "2026-11-07T15:00Z",
-      "channels": [
-        {
-          "id": "104",
-          "name": "SKY SPORTS FOOTBALL",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Scottish Premiership",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/45.png",
-      "title": "Dundee at St Johnstone",
-      "home_team": "St Johnstone",
-      "away_team": "Dundee",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/267.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/261.png",
-      "venue": "McDiarmid Park",
-      "start": "2026-11-07T15:00Z",
-      "channels": [
-        {
-          "id": "104",
-          "name": "SKY SPORTS FOOTBALL",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Spanish LALIGA",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
-      "title": "Deportivo at Espanyol",
-      "home_team": "Espanyol",
-      "away_team": "Deportivo",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
-      "venue": "RCDE Stadium",
-      "start": "2026-11-07T15:15Z",
-      "channels": [
-        {
-          "id": "209",
-          "name": "TNT1UK SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "210",
-          "name": "TNT2UK SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Spanish LALIGA 2",
-      "league_logo": "http://a.espncdn.com/i/leaguelogos/soccer/500/107.png",
-      "title": "Real Oviedo at Cádiz",
-      "home_team": "Cádiz",
-      "away_team": "Real Oviedo",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3842.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/92.png",
-      "venue": "Nuevo Mirandilla",
-      "start": "2026-11-07T15:15Z",
-      "channels": [
-        {
-          "id": "209",
-          "name": "TNT1UK SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "210",
-          "name": "TNT2UK SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Dutch Eredivisie",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
-      "title": "Telstar at Fortuna Sittard",
-      "home_team": "Fortuna Sittard",
-      "away_team": "Telstar",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/143.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3735.png",
-      "venue": "Fortuna Sittard Stadion",
-      "start": "2026-11-07T15:30Z",
-      "channels": [
-        {
-          "id": "208",
-          "name": "DSPORTS+ FHD (Astro)",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Portuguese Primeira Liga",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png",
-      "title": "Académico de Viseu at C.D. Nacional",
-      "home_team": "C.D. Nacional",
-      "away_team": "Académico de Viseu",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3472.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21607.png",
-      "venue": "Estádio da Madeira",
-      "start": "2026-11-07T15:30Z",
-      "channels": [
-        {
-          "id": "238",
-          "name": "SPORT TV FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Turkish Super Lig",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/18.png",
-      "title": "Amed SFK at Galatasaray",
-      "home_team": "Galatasaray",
-      "away_team": "Amed SFK",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132335.png",
-      "venue": "RAMS Park",
-      "start": "2026-11-07T16:00Z",
-      "channels": [
-        {
-          "id": "201",
-          "name": "BEIN1 SPORTSFHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Turkish Super Lig",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/18.png",
-      "title": "Istanbul Basaksehir at Goztepe",
-      "home_team": "Goztepe",
-      "away_team": "Istanbul Basaksehir",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "venue": "Göztepe Gürsel Aksel Stadi",
-      "start": "2026-11-07T16:00Z",
-      "channels": [
-        {
-          "id": "201",
-          "name": "BEIN1 SPORTSFHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Austrian Bundesliga",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/5.png",
-      "title": "Grazer AK at Austria Lustenau",
-      "home_team": "Austria Lustenau",
-      "away_team": "Grazer AK",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21540.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21846.png",
-      "venue": "SUN MINIMEAL Arena",
-      "start": "2026-11-07T16:00Z",
-      "channels": []
-    },
-    {
-      "sport": "soccer",
-      "league": "Russian Premier League",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/106.png",
-      "title": "CSKA Moscow at Krasnodar",
-      "home_team": "Krasnodar",
-      "away_team": "CSKA Moscow",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11336.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1963.png",
-      "venue": "Krasnodar Stadium",
-      "start": "2026-11-07T16:30Z",
-      "channels": []
-    },
-    {
-      "sport": "soccer",
-      "league": "Swedish Allsvenskan",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/16.png",
-      "title": "GAIS at Degerfors IF",
-      "home_team": "Degerfors IF",
-      "away_team": "GAIS",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20856.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8222.png",
-      "venue": "Stora Valla",
-      "start": "2026-11-07T16:30Z",
-      "channels": []
-    },
-    {
-      "sport": "soccer",
-      "league": "Swedish Allsvenskan",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/16.png",
-      "title": "Västerås SK at Örgryte IS",
-      "home_team": "Örgryte IS",
-      "away_team": "Västerås SK",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131552.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22163.png",
-      "venue": "Gamla Ullevi",
-      "start": "2026-11-07T16:30Z",
-      "channels": []
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "BYU Cougars at Utah Utes",
-      "home_team": "Utah Utes",
-      "away_team": "BYU Cougars",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
-      "venue": "Rice-Eccles Stadium",
-      "start": "2026-11-07T17:00Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "Texas Longhorns at Missouri Tigers",
-      "home_team": "Missouri Tigers",
-      "away_team": "Texas Longhorns",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
-      "venue": "Memorial Stadium",
-      "start": "2026-11-07T17:00Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "UCLA Bruins at Minnesota Golden Gophers",
-      "home_team": "Minnesota Golden Gophers",
-      "away_team": "UCLA Bruins",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
-      "venue": "Huntington Bank Stadium",
-      "start": "2026-11-07T17:00Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "Iowa State Cyclones at Baylor Bears",
-      "home_team": "Baylor Bears",
-      "away_team": "Iowa State Cyclones",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png",
-      "venue": "McLane Stadium",
-      "start": "2026-11-07T17:00Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "Clemson Tigers at Syracuse Orange",
-      "home_team": "Syracuse Orange",
-      "away_team": "Clemson Tigers",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
-      "venue": "JMA Wireless Dome",
-      "start": "2026-11-07T17:00Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "Florida State Seminoles at Boston College Eagles",
-      "home_team": "Boston College Eagles",
-      "away_team": "Florida State Seminoles",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
-      "venue": "Alumni Stadium (Chestnut Hill, MA)",
-      "start": "2026-11-07T17:00Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "North Carolina Tar Heels at UConn Huskies",
-      "home_team": "UConn Huskies",
-      "away_team": "North Carolina Tar Heels",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
-      "venue": "Pratt & Whitney Stadium",
-      "start": "2026-11-07T17:00Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "Tulsa Golden Hurricane at Tulane Green Wave",
-      "home_team": "Tulane Green Wave",
-      "away_team": "Tulsa Golden Hurricane",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png",
-      "venue": "Yulman Stadium",
-      "start": "2026-11-07T17:00Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "basketball",
-      "league": "NCAA Men's Basketball",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_MensBasketball.png",
-      "title": "Morehead State Eagles at Louisville Cardinals",
-      "home_team": "Louisville Cardinals",
-      "away_team": "Morehead State Eagles",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2413.png",
-      "venue": "KFC Yum! Center",
-      "start": "2026-11-07T17:00Z",
-      "channels": [
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Italian Serie A",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
-      "title": "Bologna at Parma",
-      "home_team": "Parma",
-      "away_team": "Bologna",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
-      "venue": "Ennio Tardini",
-      "start": "2026-11-07T17:00Z",
-      "channels": [
-        {
-          "id": "209",
-          "name": "TNT1UK SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "210",
-          "name": "TNT2UK SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Danish Superliga",
-      "league_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=100&h=100",
-      "title": "Viborg FF at Odense Boldklub",
-      "home_team": "Odense Boldklub",
-      "away_team": "Viborg FF",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11550.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3153.png",
-      "venue": "Nature Energy Park",
-      "start": "2026-11-07T17:00Z",
-      "channels": []
-    },
-    {
-      "sport": "soccer",
-      "league": "Norwegian Eliteserien",
-      "league_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=100&h=100",
-      "title": "IK Start at Rosenborg",
-      "home_team": "Rosenborg",
-      "away_team": "IK Start",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/438.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6750.png",
-      "venue": "Lerkendal Stadion",
-      "start": "2026-11-07T17:00Z",
-      "channels": []
-    },
-    {
-      "sport": "soccer",
-      "league": "NWSL",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2323.png",
-      "title": "Angel City FC at Kansas City Current",
-      "home_team": "Kansas City Current",
-      "away_team": "Angel City FC",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20907.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21422.png",
-      "venue": "CPKC Stadium",
-      "start": "2026-11-07T17:00Z",
-      "channels": [
-        {
-          "id": "211",
-          "name": "TNT 3",
-          "source": "epg"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Belgian Pro League",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/6.png",
-      "title": "KV Mechelen at Oud-Heverlee Leuven",
-      "home_team": "OH Leuven",
-      "away_team": "KV Mechelen",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5579.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7879.png",
-      "venue": "King Power at Den Dreef Stadion",
-      "start": "2026-11-07T17:15Z",
-      "channels": [
-        {
-          "id": "238",
-          "name": "SPORT TV FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "Duke Blue Devils at NC State Wolfpack",
-      "home_team": "NC State Wolfpack",
-      "away_team": "Duke Blue Devils",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-      "venue": "Carter-Finley Stadium",
-      "start": "2026-11-07T17:30Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "Maryland Terrapins at Purdue Boilermakers",
-      "home_team": "Purdue Boilermakers",
-      "away_team": "Maryland Terrapins",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
-      "venue": "Ross-Ade Stadium",
-      "start": "2026-11-07T17:30Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "hockey",
-      "league": "National Hockey League",
-      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nhl.png",
-      "title": "Florida Panthers at Washington Capitals",
-      "home_team": "Washington Capitals",
-      "away_team": "Florida Panthers",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wsh.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/fla.png",
-      "venue": "Capital One Arena",
-      "start": "2026-11-07T17:30Z",
-      "channels": [
-        {
-          "id": "213",
-          "name": "TSN1 SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "214",
-          "name": "TSN2 SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "215",
-          "name": "TSN3 SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "English Premier League",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
-      "title": "Manchester City at Nottingham Forest",
-      "home_team": "Nottingham Forest",
-      "away_team": "Manchester City",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-      "venue": "The City Ground",
-      "start": "2026-11-07T17:30Z",
-      "channels": [
-        {
-          "id": "252",
-          "name": "Sky Sports Premier League",
-          "source": "guess"
-        },
-        {
-          "id": "102",
-          "name": "SKY SPORTS MAIN EVENT",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Spanish LALIGA",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
-      "title": "Athletic Club at Osasuna",
-      "home_team": "Osasuna",
-      "away_team": "Athletic Club",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
-      "venue": "El Sadar",
-      "start": "2026-11-07T17:30Z",
-      "channels": [
-        {
-          "id": "209",
-          "name": "TNT1UK SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "210",
-          "name": "TNT2UK SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "German Bundesliga",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
-      "title": "Werder Bremen at VfB Stuttgart",
-      "home_team": "VfB Stuttgart",
-      "away_team": "Werder Bremen",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
-      "venue": "MHPArena",
-      "start": "2026-11-07T17:30Z",
-      "channels": [
-        {
-          "id": "208",
-          "name": "DSPORTS+ FHD (Astro)",
-          "source": "guess"
-        },
-        {
-          "id": "241",
-          "name": "SportDigital Fussball",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Greek Super League",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/98.png",
-      "title": "Panetolikos at Aris",
-      "home_team": "Aris",
-      "away_team": "Panetolikos",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11553.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11431.png",
-      "venue": "Kleánthis Vikelídis Stadium",
-      "start": "2026-11-07T17:30Z",
-      "channels": []
-    },
-    {
-      "sport": "soccer",
-      "league": "Spanish LALIGA 2",
-      "league_logo": "http://a.espncdn.com/i/leaguelogos/soccer/500/107.png",
-      "title": "Ceuta at Córdoba",
-      "home_team": "Córdoba",
-      "away_team": "Ceuta",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8447.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5404.png",
-      "venue": "Estadio Municipal Nuevo El Arcángel",
-      "start": "2026-11-07T17:30Z",
-      "channels": [
-        {
-          "id": "209",
-          "name": "TNT1UK SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "210",
-          "name": "TNT2UK SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Spanish LALIGA 2",
-      "league_logo": "http://a.espncdn.com/i/leaguelogos/soccer/500/107.png",
-      "title": "Albacete at Leganés",
-      "home_team": "Leganés",
-      "away_team": "Albacete",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17534.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2737.png",
-      "venue": "Estadio Municipal de Butarque",
-      "start": "2026-11-07T17:30Z",
-      "channels": [
-        {
-          "id": "209",
-          "name": "TNT1UK SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "210",
-          "name": "TNT2UK SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "Arkansas Razorbacks at Auburn Tigers",
-      "home_team": "Auburn Tigers",
-      "away_team": "Arkansas Razorbacks",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
-      "venue": "Jordan-Hare Stadium",
-      "start": "2026-11-07T17:45Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Dutch Eredivisie",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
-      "title": "Sparta Rotterdam at ADO Den Haag",
-      "home_team": "ADO Den Haag",
-      "away_team": "Sparta Rotterdam",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2726.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/151.png",
-      "venue": "ADO Den Haag Stadium",
-      "start": "2026-11-07T17:45Z",
-      "channels": [
-        {
-          "id": "208",
-          "name": "DSPORTS+ FHD (Astro)",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Scottish Premiership",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/45.png",
-      "title": "Hibernian at Aberdeen",
-      "home_team": "Aberdeen",
-      "away_team": "Hibernian",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/263.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/258.png",
-      "venue": "Pittodrie Stadium",
-      "start": "2026-11-07T17:45Z",
-      "channels": [
-        {
-          "id": "104",
-          "name": "SKY SPORTS FOOTBALL",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "Oklahoma State Cowboys at Kansas State Wildcats",
-      "home_team": "Kansas State Wildcats",
-      "away_team": "Oklahoma State Cowboys",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
-      "venue": "Bill Snyder Family Stadium",
-      "start": "2026-11-07T18:00Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "Old Dominion Monarchs at Coastal Carolina Chanticleers",
-      "home_team": "Coastal Carolina Chanticleers",
-      "away_team": "Old Dominion Monarchs",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
-      "venue": "Brooks Stadium (SC)",
-      "start": "2026-11-07T18:00Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "hockey",
-      "league": "National Hockey League",
-      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nhl.png",
-      "title": "St. Louis Blues at Nashville Predators",
-      "home_team": "Nashville Predators",
-      "away_team": "St. Louis Blues",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nsh.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/stl.png",
-      "venue": "Bridgestone Arena",
-      "start": "2026-11-07T18:00Z",
-      "channels": [
-        {
-          "id": "213",
-          "name": "TSN1 SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "214",
-          "name": "TSN2 SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "215",
-          "name": "TSN3 SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "French Ligue 1",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
-      "title": "Paris FC at AJ Auxerre",
-      "home_team": "AJ Auxerre",
-      "away_team": "Paris FC",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
-      "venue": "Stade de l'Abbé-Deschamps",
-      "start": "2026-11-07T18:00Z",
-      "channels": [
-        {
-          "id": "209",
-          "name": "TNT1UK SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "210",
-          "name": "TNT2UK SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Portuguese Primeira Liga",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png",
-      "title": "Casa Pia at Alverca",
-      "home_team": "Alverca",
-      "away_team": "Casa Pia",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21613.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21581.png",
-      "venue": "Complexo Desportivo FC Alverca",
-      "start": "2026-11-07T18:00Z",
-      "channels": [
-        {
-          "id": "238",
-          "name": "SPORT TV FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Argentine Liga Profesional de Fútbol",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1.png",
-      "title": "Independiente Rivadavia at Gimnasia (Mendoza)",
-      "home_team": "Gimnasia (Mendoza)",
-      "away_team": "Independiente Rivadavia",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11972.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
-      "venue": "Estadio Víctor Antonio Legrotaglie",
-      "start": "2026-11-07T18:00Z",
-      "channels": [
-        {
-          "id": "229",
-          "name": "FOX DEPORTES FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Argentine Liga Profesional de Fútbol",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1.png",
-      "title": "Estudiantes de La Plata at Talleres (Córdoba)",
-      "home_team": "Talleres (Córdoba)",
-      "away_team": "Estudiantes de La Plata",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
-      "venue": "Mario Alberto Kempes",
-      "start": "2026-11-07T18:00Z",
-      "channels": [
-        {
-          "id": "229",
-          "name": "FOX DEPORTES FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Chilean Primera División",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/86.png",
-      "title": "Palestino at La Serena",
-      "home_team": "La Serena",
-      "away_team": "Palestino",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4137.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4422.png",
-      "venue": "Estadio La Portada",
-      "start": "2026-11-07T18:00Z",
-      "channels": []
-    },
-    {
-      "sport": "soccer",
-      "league": "Peruvian Liga 1",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1813.png",
-      "title": "Sporting Cristal at ADT",
-      "home_team": "ADT",
-      "away_team": "Sporting Cristal",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21314.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2673.png",
-      "venue": "Estadio Unión Tarma",
-      "start": "2026-11-07T18:00Z",
-      "channels": []
-    },
-    {
-      "sport": "soccer",
-      "league": "Austrian Bundesliga",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/5.png",
-      "title": "LASK Linz at SV Josko Ried",
-      "home_team": "SV Josko Ried",
-      "away_team": "LASK Linz",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3759.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
-      "venue": "Innviertel Arena",
-      "start": "2026-11-07T18:30Z",
-      "channels": []
-    },
-    {
-      "sport": "soccer",
-      "league": "French Ligue 2",
-      "league_logo": "http://a.espncdn.com/i/leaguelogos/soccer/500/96.png",
-      "title": "Nantes at Pau",
-      "home_team": "Pau",
-      "away_team": "Nantes",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10678.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/165.png",
-      "venue": "Nouste Camp",
-      "start": "2026-11-07T19:00Z",
-      "channels": [
-        {
-          "id": "209",
-          "name": "TNT1UK SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "French Ligue 2",
-      "league_logo": "http://a.espncdn.com/i/leaguelogos/soccer/500/96.png",
-      "title": "Stade Laval at Saint-Étienne",
-      "home_team": "Saint-Étienne",
-      "away_team": "Stade Laval",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3266.png",
-      "venue": "Stade Geoffroy Guichard",
-      "start": "2026-11-07T19:00Z",
-      "channels": [
-        {
-          "id": "209",
-          "name": "TNT1UK SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "LigaPro Ecuador",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1944.png",
-      "title": "Emelec at Libertad (Ecuador)",
-      "home_team": "Libertad (Ecuador)",
-      "away_team": "Emelec",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21843.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2668.png",
-      "venue": "Estadio Federativo Reina del Cisne",
-      "start": "2026-11-07T19:00Z",
-      "channels": []
-    },
-    {
-      "sport": "soccer",
-      "league": "Bolivian Liga Profesional",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1949.png",
-      "title": "Real Oruro at GV San José",
-      "home_team": "GV San José",
-      "away_team": "Real Oruro",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22174.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22523.png",
-      "venue": "Estadio Jesús Bermúdez",
-      "start": "2026-11-07T19:00Z",
-      "channels": []
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "Georgia State Panthers at App State Mountaineers",
-      "home_team": "App State Mountaineers",
-      "away_team": "Georgia State Panthers",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
-      "venue": "Kidd Brewer Stadium",
-      "start": "2026-11-07T19:30Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "German 2. Bundesliga",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
-      "title": "VfL Wolfsburg at Hertha Berlin",
-      "home_team": "Hertha Berlin",
-      "away_team": "VfL Wolfsburg",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/129.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/138.png",
-      "venue": "Olympic Stadium Berlin",
-      "start": "2026-11-07T19:30Z",
-      "channels": [
-        {
-          "id": "208",
-          "name": "DSPORTS+ FHD (Astro)",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Italian Serie A",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
-      "title": "Sassuolo at AS Roma",
-      "home_team": "AS Roma",
-      "away_team": "Sassuolo",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
-      "venue": "Olimpico",
-      "start": "2026-11-07T19:45Z",
-      "channels": [
-        {
-          "id": "209",
-          "name": "TNT1UK SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "210",
-          "name": "TNT2UK SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Belgian Pro League",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/6.png",
-      "title": "Lommel SK at Antwerp",
-      "home_team": "Antwerp",
-      "away_team": "Lommel SK",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17544.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22269.png",
-      "venue": "Bosuilstadion",
-      "start": "2026-11-07T19:45Z",
-      "channels": [
-        {
-          "id": "238",
-          "name": "SPORT TV FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Belgian Pro League",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/6.png",
-      "title": "Cercle Brugge KSV at RAAL La Louvière",
-      "home_team": "RAAL La Louvière",
-      "away_team": "Cercle Brugge KSV",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131235.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3610.png",
-      "venue": "Easi Arena",
-      "start": "2026-11-07T19:45Z",
-      "channels": [
-        {
-          "id": "238",
-          "name": "SPORT TV FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "Texas A&M Aggies at South Carolina Gamecocks",
-      "home_team": "South Carolina Gamecocks",
-      "away_team": "Texas A&M Aggies",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
-      "venue": "Williams-Brice Stadium",
-      "start": "2026-11-07T20:00Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "UL Monroe Warhawks at Arkansas State Red Wolves",
-      "home_team": "Arkansas State Red Wolves",
-      "away_team": "UL Monroe Warhawks",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
-      "venue": "Centennial Bank Stadium",
-      "start": "2026-11-07T20:00Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "Delaware Blue Hens at Kennesaw State Owls",
-      "home_team": "Kennesaw State Owls",
-      "away_team": "Delaware Blue Hens",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/48.png",
-      "venue": "Walens Family Field at Fifth Third Stadium",
-      "start": "2026-11-07T20:00Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "basketball",
-      "league": "NCAA Women's Basketball",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
-      "title": "Minnesota Golden Gophers at Marquette Golden Eagles",
-      "home_team": "Marquette Golden Eagles",
-      "away_team": "Minnesota Golden Gophers",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/269.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
-      "venue": "Al McGuire Center",
-      "start": "2026-11-07T20:00Z",
-      "channels": [
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "basketball",
-      "league": "NCAA Women's Basketball",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
-      "title": "Southern Jaguars at Illinois Fighting Illini",
-      "home_team": "Illinois Fighting Illini",
-      "away_team": "Southern Jaguars",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2582.png",
-      "venue": "State Farm Center",
-      "start": "2026-11-07T20:00Z",
-      "channels": [
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Spanish LALIGA",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
-      "title": "Real Madrid at Valencia",
-      "home_team": "Valencia",
-      "away_team": "Real Madrid",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-      "venue": "Mestalla Stadium",
-      "start": "2026-11-07T20:00Z",
-      "channels": [
-        {
-          "id": "107",
-          "name": "SONY TEN 3",
-          "source": "epg"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Dutch Eredivisie",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
-      "title": "Go Ahead Eagles at Excelsior",
-      "home_team": "Excelsior",
-      "away_team": "Go Ahead Eagles",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2566.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3706.png",
-      "venue": "Stadion Woudestein",
-      "start": "2026-11-07T20:00Z",
-      "channels": [
-        {
-          "id": "208",
-          "name": "DSPORTS+ FHD (Astro)",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Scottish Premiership",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/45.png",
-      "title": "Rangers at St Mirren",
-      "home_team": "St Mirren",
-      "away_team": "Rangers",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/250.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/257.png",
-      "venue": "The SMISA Stadium",
-      "start": "2026-11-07T20:00Z",
-      "channels": [
-        {
-          "id": "104",
-          "name": "SKY SPORTS FOOTBALL",
-          "source": "epg"
-        },
-        {
-          "id": "102",
-          "name": "SKY SPORTS MAIN EVENT",
-          "source": "epg"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Paraguayan Primera División",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1892.png",
-      "title": "Club Olimpia at Guaraní",
-      "home_team": "Guaraní",
-      "away_team": "Club Olimpia",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7385.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2675.png",
-      "venue": "Estadio Villa Alegre",
-      "start": "2026-11-07T20:00Z",
-      "channels": []
-    },
     {
       "sport": "soccer",
       "league": "French Ligue 1",
@@ -2042,6 +526,198 @@
         {
           "id": "243",
           "name": "CBS SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "soccer",
+      "league": "MLS",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
+      "title": "Vancouver Whitecaps at CF Montréal",
+      "home_team": "CF Montréal",
+      "away_team": "Vancouver Whitecaps",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9720.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png",
+      "venue": "Stade Saputo",
+      "start": "2026-11-07T21:00Z",
+      "channels": [
+        {
+          "id": "227",
+          "name": "PREMIER1 SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "228",
+          "name": "PREMIERE2 SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "soccer",
+      "league": "MLS",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
+      "title": "Columbus Crew at Chicago Fire FC",
+      "home_team": "Chicago Fire FC",
+      "away_team": "Columbus Crew",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
+      "venue": "SeatGeek Stadium",
+      "start": "2026-11-07T21:00Z",
+      "channels": [
+        {
+          "id": "227",
+          "name": "PREMIER1 SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "228",
+          "name": "PREMIERE2 SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "soccer",
+      "league": "MLS",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
+      "title": "New York City FC at D.C. United",
+      "home_team": "D.C. United",
+      "away_team": "New York City FC",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/193.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png",
+      "venue": "Audi Field",
+      "start": "2026-11-07T21:00Z",
+      "channels": [
+        {
+          "id": "227",
+          "name": "PREMIER1 SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "228",
+          "name": "PREMIERE2 SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "soccer",
+      "league": "MLS",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
+      "title": "Nashville SC at FC Cincinnati",
+      "home_team": "FC Cincinnati",
+      "away_team": "Nashville SC",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
+      "venue": "TQL Stadium",
+      "start": "2026-11-07T21:00Z",
+      "channels": [
+        {
+          "id": "227",
+          "name": "PREMIER1 SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "228",
+          "name": "PREMIERE2 SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "soccer",
+      "league": "MLS",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
+      "title": "Charlotte FC at Inter Miami CF",
+      "home_team": "Inter Miami CF",
+      "away_team": "Charlotte FC",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png",
+      "venue": "Nu Stadium",
+      "start": "2026-11-07T21:00Z",
+      "channels": [
+        {
+          "id": "227",
+          "name": "PREMIER1 SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "228",
+          "name": "PREMIERE2 SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "soccer",
+      "league": "MLS",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
+      "title": "New England Revolution at Orlando City SC",
+      "home_team": "Orlando City SC",
+      "away_team": "New England Revolution",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/189.png",
+      "venue": "Inter&Co Stadium",
+      "start": "2026-11-07T21:00Z",
+      "channels": [
+        {
+          "id": "227",
+          "name": "PREMIER1 SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "228",
+          "name": "PREMIERE2 SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "soccer",
+      "league": "MLS",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
+      "title": "Toronto FC at Philadelphia Union",
+      "home_team": "Philadelphia Union",
+      "away_team": "Toronto FC",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10739.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7318.png",
+      "venue": "Subaru Park",
+      "start": "2026-11-07T21:00Z",
+      "channels": [
+        {
+          "id": "227",
+          "name": "PREMIER1 SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "228",
+          "name": "PREMIERE2 SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "soccer",
+      "league": "MLS",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
+      "title": "Atlanta United FC at Red Bull New York",
+      "home_team": "Red Bull New York",
+      "away_team": "Atlanta United FC",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/190.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18418.png",
+      "venue": "Sports Illustrated Stadium",
+      "start": "2026-11-07T21:00Z",
+      "channels": [
+        {
+          "id": "227",
+          "name": "PREMIER1 SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "228",
+          "name": "PREMIERE2 SPORTS FHD",
           "source": "guess"
         }
       ]
@@ -3001,6 +1677,174 @@
         {
           "id": "213",
           "name": "TSN1 SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "soccer",
+      "league": "MLS",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
+      "title": "Portland Timbers at Austin FC",
+      "home_team": "Austin FC",
+      "away_team": "Portland Timbers",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20906.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9723.png",
+      "venue": "Q2 Stadium",
+      "start": "2026-11-08T00:00Z",
+      "channels": [
+        {
+          "id": "227",
+          "name": "PREMIER1 SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "228",
+          "name": "PREMIERE2 SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "soccer",
+      "league": "MLS",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
+      "title": "Colorado Rapids at FC Dallas",
+      "home_team": "FC Dallas",
+      "away_team": "Colorado Rapids",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/185.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/184.png",
+      "venue": "Toyota Stadium",
+      "start": "2026-11-08T00:00Z",
+      "channels": [
+        {
+          "id": "227",
+          "name": "PREMIER1 SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "228",
+          "name": "PREMIERE2 SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "soccer",
+      "league": "MLS",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
+      "title": "St. Louis CITY SC at Houston Dynamo FC",
+      "home_team": "Houston Dynamo FC",
+      "away_team": "St. Louis CITY SC",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
+      "venue": "Shell Energy Stadium",
+      "start": "2026-11-08T00:00Z",
+      "channels": [
+        {
+          "id": "227",
+          "name": "PREMIER1 SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "228",
+          "name": "PREMIERE2 SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "soccer",
+      "league": "MLS",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
+      "title": "San Jose Earthquakes at Minnesota United FC",
+      "home_team": "Minnesota United FC",
+      "away_team": "San Jose Earthquakes",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17362.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
+      "venue": "Allianz Field",
+      "start": "2026-11-08T00:00Z",
+      "channels": [
+        {
+          "id": "227",
+          "name": "PREMIER1 SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "228",
+          "name": "PREMIERE2 SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "soccer",
+      "league": "MLS",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
+      "title": "LA Galaxy at Real Salt Lake",
+      "home_team": "Real Salt Lake",
+      "away_team": "LA Galaxy",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/187.png",
+      "venue": "America First Field",
+      "start": "2026-11-08T00:00Z",
+      "channels": [
+        {
+          "id": "227",
+          "name": "PREMIER1 SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "228",
+          "name": "PREMIERE2 SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "soccer",
+      "league": "MLS",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
+      "title": "Sporting Kansas City at San Diego FC",
+      "home_team": "San Diego FC",
+      "away_team": "Sporting Kansas City",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22529.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/186.png",
+      "venue": "Snapdragon Stadium",
+      "start": "2026-11-08T00:00Z",
+      "channels": [
+        {
+          "id": "227",
+          "name": "PREMIER1 SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "228",
+          "name": "PREMIERE2 SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "soccer",
+      "league": "MLS",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
+      "title": "LAFC at Seattle Sounders FC",
+      "home_team": "Seattle Sounders FC",
+      "away_team": "LAFC",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
+      "venue": "Lumen Field",
+      "start": "2026-11-08T00:00Z",
+      "channels": [
+        {
+          "id": "227",
+          "name": "PREMIER1 SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "228",
+          "name": "PREMIERE2 SPORTS FHD",
           "source": "guess"
         }
       ]
