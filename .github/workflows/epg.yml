@@ -3,7 +3,7 @@ name: Build EPG JSON
 on:
   push:
     paths:
-      - 'schedule.json'
+      - 'api/schedule.json'
       - 'assets/tv/channels.json'
       - '.github/workflows/epg.yml'
   workflow_dispatch:
@@ -26,7 +26,7 @@ jobs:
           mkdir -p api
           node -e '
             const fs = require("fs");
-            const schedule  = JSON.parse(fs.readFileSync("schedule.json","utf8"));
+            const schedule  = JSON.parse(fs.readFileSync("api/schedule.json","utf8"));
             const channels  = JSON.parse(fs.readFileSync("assets/tv/channels.json","utf8"));
 
             const events = Array.isArray(schedule) ? schedule : (schedule.events || []);
@@ -37,7 +37,6 @@ jobs:
               const L = (league||"").toLowerCase();
               const S = (sport ||"").toLowerCase();
               const hits = new Map();
-
               for (const r of rules) {
                 if (r.sport  && r.sport.toLowerCase()  !== S) continue;
                 if (r.league && !L.includes(r.league.toLowerCase())) continue;
