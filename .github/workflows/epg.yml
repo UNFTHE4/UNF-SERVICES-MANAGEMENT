@@ -13,8 +13,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
       - name: Convert YAML → JSON
         run: |
+          npm install --no-save --no-package-lock yaml
           node -e '
             const yaml = require("yaml");
             const fs = require("fs");
