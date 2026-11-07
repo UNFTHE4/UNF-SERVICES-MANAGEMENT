@@ -14,10 +14,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Get yq
+        run: |
+          wget -q https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64 -O /usr/local/bin/yq
+          chmod +x /usr/local/bin/yq
+          yq --version
+
       - name: Convert YAML to JSON
         run: |
           mkdir -p api
-          yq -o=json epg.yml > api/epg.json
+          yq -o=json '.' epg.yml > api/epg.json
+          echo "---- preview ----"
+          head -40 api/epg.json
 
       - name: Commit
         run: |
