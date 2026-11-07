@@ -8,6 +8,7 @@ on:
       - 'api/schedule.json'
       - 'assets/tv/channels.json'
       - 'matcher.js'
+      - '.github/workflows/epg.yml'
   workflow_dispatch:
 
 permissions:
