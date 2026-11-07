@@ -5,11 +5,12 @@ on:
     paths: ['epg.yml']
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -17,9 +18,12 @@ jobs:
         with:
           node-version: 20
 
-      - name: Convert YAML → JSON
+      - name: Install yaml
+        run: npm install --no-save --no-package-lock yaml
+
+      - name: Convert YAML to JSON
         run: |
-          npm install --no-save --no-package-lock yaml
+          mkdir -p api
           node -e '
             const yaml = require("yaml");
             const fs = require("fs");
@@ -31,24 +35,23 @@ jobs:
                 league: m.league,
                 home: m.home,
                 away: m.away,
-                title: m.title || (m.home + " vs " + m.away),
+                title: m.title || ((m.home || "") + " vs " + (m.away || "")),
                 start: m.start,
                 end: m.end,
                 channels: (m.channels || []).map(id => {
                   const c = (data.channels || {})[id] || {};
-                  return { id, name: c.name || id, logo: c.logo || null };
+                  return { id: id, name: c.name || id, logo: c.logo || null };
                 })
               }))
             };
-            fs.mkdirSync("api", { recursive: true });
             fs.writeFileSync("api/epg.json", JSON.stringify(out, null, 2));
-            console.log("✓ wrote api/epg.json — " + out.matches.length + " matches");
+            console.log("OK - wrote api/epg.json - " + out.matches.length + " matches");
           '
 
       - name: Commit
         run: |
-          git config user.name  "github-actions"
-          git config user.email "actions@github.com"
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add api/epg.json
           git diff --staged --quiet || git commit -m "chore: rebuild epg.json"
           git push
