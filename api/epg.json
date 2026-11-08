@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-07T22:14:32.251Z",
+  "generated": "2026-11-08T01:42:39.589Z",
   "count": 510,
-  "confirmed": 8,
+  "confirmed": 7,
   "matches": [
     {
       "sport": "soccer",
@@ -16,9 +16,14 @@
       "start": "2026-11-07T20:05Z",
       "channels": [
         {
-          "id": "109",
-          "name": "SONY TEN 5",
-          "source": "epg"
+          "id": "209",
+          "name": "TNT1UK SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "210",
+          "name": "TNT2UK SPORTS FHD",
+          "source": "guess"
         }
       ]
     },
