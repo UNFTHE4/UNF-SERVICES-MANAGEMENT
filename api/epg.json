@@ -1,58 +1,8 @@
 {
-  "generated": "2026-11-09T13:38:32.284Z",
-  "count": 374,
+  "generated": "2026-11-09T23:16:55.575Z",
+  "count": 371,
   "confirmed": 0,
   "matches": [
-    {
-      "sport": "basketball",
-      "league": "NCAA Women's Basketball",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
-      "title": "Northwestern State Lady Demons at Oklahoma State Cowgirls",
-      "home_team": "Oklahoma State Cowgirls",
-      "away_team": "Northwestern State Lady Demons",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2466.png",
-      "venue": "Gallagher-Iba Arena",
-      "start": "2026-11-09T17:00Z",
-      "channels": [
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Norwegian Eliteserien",
-      "league_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=100&h=100",
-      "title": "Valerenga at Kristiansund BK",
-      "home_team": "Kristiansund BK",
-      "away_team": "Vålerenga",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6672.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2791.png",
-      "venue": "Nordmore Stadion",
-      "start": "2026-11-09T18:00Z",
-      "channels": []
-    },
-    {
-      "sport": "soccer",
-      "league": "LigaPro Ecuador",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1944.png",
-      "title": "Delfín at Mushuc Runa",
-      "home_team": "Mushuc Runa",
-      "away_team": "Delfín",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17176.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1011.png",
-      "venue": "Estadio COAC Mushuc Runa",
-      "start": "2026-11-09T18:00Z",
-      "channels": []
-    },
     {
       "sport": "soccer",
       "league": "Spanish LALIGA 2",
@@ -1219,35 +1169,6 @@
     },
     {
       "sport": "basketball",
-      "league": "NCAA Men's Basketball",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_MensBasketball.png",
-      "title": "Southern Jaguars at Iowa State Cyclones",
-      "home_team": "Iowa State Cyclones",
-      "away_team": "Southern Jaguars",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2582.png",
-      "venue": "Hilton Coliseum",
-      "start": "2026-11-11T01:00Z",
-      "channels": [
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "basketball",
       "league": "NCAA Women's Basketball",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
       "title": "McNeese Cowgirls at LSU Tigers",
@@ -1280,6 +1201,30 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2582.png",
       "venue": "The Barn by Blue Cross and Blue Shield of Minnesota",
+      "start": "2026-11-11T01:00Z",
+      "channels": [
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "243",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "basketball",
+      "league": "NCAA Women's Basketball",
+      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
+      "title": "North Carolina A&T Aggies at Nebraska Cornhuskers",
+      "home_team": "Nebraska Cornhuskers",
+      "away_team": "North Carolina A&T Aggies",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2448.png",
+      "venue": "Pinnacle Bank Arena",
       "start": "2026-11-11T01:00Z",
       "channels": [
         {
@@ -1398,12 +1343,12 @@
       "sport": "basketball",
       "league": "NCAA Men's Basketball",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_MensBasketball.png",
-      "title": "Northern Arizona Lumberjacks at Arizona Wildcats",
-      "home_team": "Arizona Wildcats",
-      "away_team": "Northern Arizona Lumberjacks",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2464.png",
-      "venue": "McKale Center at ALKEME Arena",
+      "title": "Bucknell Bison at Virginia Cavaliers",
+      "home_team": "Virginia Cavaliers",
+      "away_team": "Bucknell Bison",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2083.png",
+      "venue": "John Paul Jones Arena",
       "start": "2026-11-11T02:00Z",
       "channels": [
         {
@@ -1427,12 +1372,12 @@
       "sport": "basketball",
       "league": "NCAA Men's Basketball",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_MensBasketball.png",
-      "title": "Bucknell Bison at Virginia Cavaliers",
-      "home_team": "Virginia Cavaliers",
-      "away_team": "Bucknell Bison",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2083.png",
-      "venue": "John Paul Jones Arena",
+      "title": "Northern Arizona Lumberjacks at Arizona Wildcats",
+      "home_team": "Arizona Wildcats",
+      "away_team": "Northern Arizona Lumberjacks",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2464.png",
+      "venue": "McKale Center at ALKEME Arena",
       "start": "2026-11-11T02:00Z",
       "channels": [
         {
@@ -1831,30 +1776,6 @@
       "sport": "basketball",
       "league": "NCAA Women's Basketball",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
-      "title": "North Carolina Central Eagles at North Carolina Tar Heels",
-      "home_team": "North Carolina Tar Heels",
-      "away_team": "North Carolina Central Eagles",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2428.png",
-      "venue": "Carmichael Arena",
-      "start": "2026-11-12T00:00Z",
-      "channels": [
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "basketball",
-      "league": "NCAA Women's Basketball",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
       "title": "UAlbany Great Danes at Ole Miss Rebels",
       "home_team": "Ole Miss Rebels",
       "away_team": "UAlbany Great Danes",
@@ -1879,12 +1800,12 @@
       "sport": "basketball",
       "league": "NCAA Women's Basketball",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
-      "title": "Liberty Flames at NC State Wolfpack",
-      "home_team": "NC State Wolfpack",
-      "away_team": "Liberty Flames",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
-      "venue": "Reynolds Coliseum",
+      "title": "North Carolina Central Eagles at North Carolina Tar Heels",
+      "home_team": "North Carolina Tar Heels",
+      "away_team": "North Carolina Central Eagles",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2428.png",
+      "venue": "Carmichael Arena",
       "start": "2026-11-12T00:00Z",
       "channels": [
         {
@@ -2779,12 +2700,12 @@
       "sport": "basketball",
       "league": "NCAA Women's Basketball",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
-      "title": "Duke Blue Devils at Norfolk State Spartans",
-      "home_team": "Norfolk State Spartans",
-      "away_team": "Duke Blue Devils",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2450.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-      "venue": "Joseph G. Echols Hall",
+      "title": "Michigan Wolverines at Columbia Lions",
+      "home_team": "Columbia Lions",
+      "away_team": "Michigan Wolverines",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/171.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+      "venue": "Levien Gymnasium",
       "start": "2026-11-13T00:00Z",
       "channels": [
         {
@@ -2803,12 +2724,12 @@
       "sport": "basketball",
       "league": "NCAA Women's Basketball",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
-      "title": "Michigan Wolverines at Columbia Lions",
-      "home_team": "Columbia Lions",
-      "away_team": "Michigan Wolverines",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/171.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
-      "venue": "Levien Gymnasium",
+      "title": "Duke Blue Devils at Norfolk State Spartans",
+      "home_team": "Norfolk State Spartans",
+      "away_team": "Duke Blue Devils",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2450.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+      "venue": "Joseph G. Echols Hall",
       "start": "2026-11-13T00:00Z",
       "channels": [
         {
@@ -3468,19 +3389,6 @@
           "source": "guess"
         }
       ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Peruvian Liga 1",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1813.png",
-      "title": "Los Chankas at UTC",
-      "home_team": "UTC",
-      "away_team": "Los Chankas",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10122.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22168.png",
-      "venue": "Estadio Héroes de San Ramón",
-      "start": "2026-11-13T18:00Z",
-      "channels": []
     },
     {
       "sport": "soccer",
@@ -5151,6 +5059,25 @@
       ]
     },
     {
+      "sport": "soccer",
+      "league": "NWSL",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2323.png",
+      "title": "Utah Royals at Washington Spirit",
+      "home_team": "Washington Spirit",
+      "away_team": "Utah Royals",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/15365.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19141.png",
+      "venue": "Audi Field",
+      "start": "2026-11-14T17:00Z",
+      "channels": [
+        {
+          "id": "227",
+          "name": "PREMIER1 SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
       "sport": "football",
       "league": "NCAA - Football",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
@@ -6256,6 +6183,30 @@
           "name": "Fox Sports 1 USA",
           "source": "guess"
         },
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "243",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "basketball",
+      "league": "NCAA Women's Basketball",
+      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
+      "title": "Nebraska Cornhuskers at Kansas Jayhawks",
+      "home_team": "Kansas Jayhawks",
+      "away_team": "Nebraska Cornhuskers",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+      "venue": "Sanford Pentagon",
+      "start": "2026-11-14T21:30Z",
+      "channels": [
         {
           "id": "204",
           "name": "CBS SPORTS FHD",
@@ -8477,30 +8428,6 @@
       ]
     },
     {
-      "sport": "basketball",
-      "league": "NCAA Women's Basketball",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
-      "title": "NC State Wolfpack at Seton Hall Pirates",
-      "home_team": "Seton Hall Pirates",
-      "away_team": "NC State Wolfpack",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2550.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
-      "venue": "Walsh Gymnasium",
-      "start": "2026-11-15T18:00Z",
-      "channels": [
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
       "sport": "soccer",
       "league": "Peruvian Liga 1",
       "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1813.png",
@@ -8724,6 +8651,25 @@
         {
           "id": "243",
           "name": "CBS SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "soccer",
+      "league": "NWSL",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2323.png",
+      "title": "Kansas City Current at Gotham FC",
+      "home_team": "Gotham FC",
+      "away_team": "Kansas City Current",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/15364.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20907.png",
+      "venue": null,
+      "start": "2026-11-15T20:00Z",
+      "channels": [
+        {
+          "id": "227",
+          "name": "PREMIER1 SPORTS FHD",
           "source": "guess"
         }
       ]
