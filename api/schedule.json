@@ -1,46 +1,7 @@
 {
-  "generated_at": "2026-11-09T05:31:19.924Z",
-  "total_upcoming": 374,
+  "generated_at": "2026-11-09T18:32:38.947Z",
+  "total_upcoming": 371,
   "events": [
-    {
-      "sport": "basketball",
-      "league": "NCAA Women's Basketball",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
-      "start_time_utc": "2026-11-09T17:00Z",
-      "name": "Northwestern State Lady Demons at Oklahoma State Cowgirls",
-      "short_name": "NWST @ OKST",
-      "venue": "Gallagher-Iba Arena",
-      "home_team": "Oklahoma State Cowgirls",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
-      "away_team": "Northwestern State Lady Demons",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2466.png"
-    },
-    {
-      "sport": "soccer",
-      "league": "Norwegian Eliteserien",
-      "league_logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=100&h=100",
-      "start_time_utc": "2026-11-09T18:00Z",
-      "name": "Valerenga at Kristiansund BK",
-      "short_name": "VAL @ KRI",
-      "venue": "Nordmore Stadion",
-      "home_team": "Kristiansund BK",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6672.png",
-      "away_team": "Vålerenga",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2791.png"
-    },
-    {
-      "sport": "soccer",
-      "league": "LigaPro Ecuador",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1944.png",
-      "start_time_utc": "2026-11-09T18:00Z",
-      "name": "Delfín at Mushuc Runa",
-      "short_name": "DEL @ MUS",
-      "venue": "Estadio COAC Mushuc Runa",
-      "home_team": "Mushuc Runa",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17176.png",
-      "away_team": "Delfín",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1011.png"
-    },
     {
       "sport": "soccer",
       "league": "Spanish LALIGA 2",
@@ -628,19 +589,6 @@
     },
     {
       "sport": "basketball",
-      "league": "NCAA Men's Basketball",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_MensBasketball.png",
-      "start_time_utc": "2026-11-11T01:00Z",
-      "name": "Southern Jaguars at Iowa State Cyclones",
-      "short_name": "SOU @ ISU",
-      "venue": "Hilton Coliseum",
-      "home_team": "Iowa State Cyclones",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png",
-      "away_team": "Southern Jaguars",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2582.png"
-    },
-    {
-      "sport": "basketball",
       "league": "NCAA Women's Basketball",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
       "start_time_utc": "2026-11-11T01:00Z",
@@ -664,6 +612,19 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
       "away_team": "Southern Jaguars",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2582.png"
+    },
+    {
+      "sport": "basketball",
+      "league": "NCAA Women's Basketball",
+      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
+      "start_time_utc": "2026-11-11T01:00Z",
+      "name": "North Carolina A&T Aggies at Nebraska Cornhuskers",
+      "short_name": "NCAT @ NEB",
+      "venue": "Pinnacle Bank Arena",
+      "home_team": "Nebraska Cornhuskers",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+      "away_team": "North Carolina A&T Aggies",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2448.png"
     },
     {
       "sport": "hockey",
@@ -722,19 +683,6 @@
       "league": "NCAA Men's Basketball",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_MensBasketball.png",
       "start_time_utc": "2026-11-11T02:00Z",
-      "name": "Northern Arizona Lumberjacks at Arizona Wildcats",
-      "short_name": "NAU @ ARIZ",
-      "venue": "McKale Center at ALKEME Arena",
-      "home_team": "Arizona Wildcats",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
-      "away_team": "Northern Arizona Lumberjacks",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2464.png"
-    },
-    {
-      "sport": "basketball",
-      "league": "NCAA Men's Basketball",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_MensBasketball.png",
-      "start_time_utc": "2026-11-11T02:00Z",
       "name": "Bucknell Bison at Virginia Cavaliers",
       "short_name": "BUCK @ UVA",
       "venue": "John Paul Jones Arena",
@@ -742,6 +690,19 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
       "away_team": "Bucknell Bison",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2083.png"
+    },
+    {
+      "sport": "basketball",
+      "league": "NCAA Men's Basketball",
+      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_MensBasketball.png",
+      "start_time_utc": "2026-11-11T02:00Z",
+      "name": "Northern Arizona Lumberjacks at Arizona Wildcats",
+      "short_name": "NAU @ ARIZ",
+      "venue": "McKale Center at ALKEME Arena",
+      "home_team": "Arizona Wildcats",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
+      "away_team": "Northern Arizona Lumberjacks",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2464.png"
     },
     {
       "sport": "basketball",
@@ -930,19 +891,6 @@
       "league": "NCAA Women's Basketball",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
       "start_time_utc": "2026-11-12T00:00Z",
-      "name": "North Carolina Central Eagles at North Carolina Tar Heels",
-      "short_name": "NCCU @ UNC",
-      "venue": "Carmichael Arena",
-      "home_team": "North Carolina Tar Heels",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
-      "away_team": "North Carolina Central Eagles",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2428.png"
-    },
-    {
-      "sport": "basketball",
-      "league": "NCAA Women's Basketball",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
-      "start_time_utc": "2026-11-12T00:00Z",
       "name": "UAlbany Great Danes at Ole Miss Rebels",
       "short_name": "UALB @ MISS",
       "venue": "The Sandy and John Black Pavilion at Ole Miss",
@@ -956,13 +904,13 @@
       "league": "NCAA Women's Basketball",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
       "start_time_utc": "2026-11-12T00:00Z",
-      "name": "Liberty Flames at NC State Wolfpack",
-      "short_name": "LIB @ NCSU",
-      "venue": "Reynolds Coliseum",
-      "home_team": "NC State Wolfpack",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
-      "away_team": "Liberty Flames",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png"
+      "name": "North Carolina Central Eagles at North Carolina Tar Heels",
+      "short_name": "NCCU @ UNC",
+      "venue": "Carmichael Arena",
+      "home_team": "North Carolina Tar Heels",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
+      "away_team": "North Carolina Central Eagles",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2428.png"
     },
     {
       "sport": "hockey",
@@ -1411,19 +1359,6 @@
       "league": "NCAA Women's Basketball",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
       "start_time_utc": "2026-11-13T00:00Z",
-      "name": "Duke Blue Devils at Norfolk State Spartans",
-      "short_name": "DUKE @ NORF",
-      "venue": "Joseph G. Echols Hall",
-      "home_team": "Norfolk State Spartans",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2450.png",
-      "away_team": "Duke Blue Devils",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png"
-    },
-    {
-      "sport": "basketball",
-      "league": "NCAA Women's Basketball",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
-      "start_time_utc": "2026-11-13T00:00Z",
       "name": "Michigan Wolverines at Columbia Lions",
       "short_name": "MICH @ COLU",
       "venue": "Levien Gymnasium",
@@ -1431,6 +1366,19 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/171.png",
       "away_team": "Michigan Wolverines",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png"
+    },
+    {
+      "sport": "basketball",
+      "league": "NCAA Women's Basketball",
+      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
+      "start_time_utc": "2026-11-13T00:00Z",
+      "name": "Duke Blue Devils at Norfolk State Spartans",
+      "short_name": "DUKE @ NORF",
+      "venue": "Joseph G. Echols Hall",
+      "home_team": "Norfolk State Spartans",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2450.png",
+      "away_team": "Duke Blue Devils",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png"
     },
     {
       "sport": "hockey",
@@ -1743,19 +1691,6 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
       "away_team": "Oral Roberts Golden Eagles",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/198.png"
-    },
-    {
-      "sport": "soccer",
-      "league": "Peruvian Liga 1",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1813.png",
-      "start_time_utc": "2026-11-13T18:00Z",
-      "name": "Los Chankas at UTC",
-      "short_name": "CHAN @ UTC",
-      "venue": "Estadio Héroes de San Ramón",
-      "home_team": "UTC",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10122.png",
-      "away_team": "Los Chankas",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22168.png"
     },
     {
       "sport": "soccer",
@@ -2655,6 +2590,19 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png"
     },
     {
+      "sport": "soccer",
+      "league": "NWSL",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2323.png",
+      "start_time_utc": "2026-11-14T17:00Z",
+      "name": "Utah Royals at Washington Spirit",
+      "short_name": "UTA @ WAS",
+      "venue": "Audi Field",
+      "home_team": "Washington Spirit",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/15365.png",
+      "away_team": "Utah Royals",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19141.png"
+    },
+    {
       "sport": "football",
       "league": "NCAA - Football",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
@@ -3186,6 +3134,19 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
       "away_team": "Washington Huskies",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png"
+    },
+    {
+      "sport": "basketball",
+      "league": "NCAA Women's Basketball",
+      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
+      "start_time_utc": "2026-11-14T21:30Z",
+      "name": "Nebraska Cornhuskers at Kansas Jayhawks",
+      "short_name": "NEB VS KU",
+      "venue": "Sanford Pentagon",
+      "home_team": "Kansas Jayhawks",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+      "away_team": "Nebraska Cornhuskers",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
     {
       "sport": "soccer",
@@ -4358,19 +4319,6 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/171.png"
     },
     {
-      "sport": "basketball",
-      "league": "NCAA Women's Basketball",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
-      "start_time_utc": "2026-11-15T18:00Z",
-      "name": "NC State Wolfpack at Seton Hall Pirates",
-      "short_name": "NCSU @ HALL",
-      "venue": "Walsh Gymnasium",
-      "home_team": "Seton Hall Pirates",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2550.png",
-      "away_team": "NC State Wolfpack",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png"
-    },
-    {
       "sport": "soccer",
       "league": "Peruvian Liga 1",
       "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1813.png",
@@ -4499,6 +4447,19 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
       "away_team": "Southeast Missouri State Redhawks",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2546.png"
+    },
+    {
+      "sport": "soccer",
+      "league": "NWSL",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2323.png",
+      "start_time_utc": "2026-11-15T20:00Z",
+      "name": "Kansas City Current at Gotham FC",
+      "short_name": "KC @ GFC",
+      "venue": null,
+      "home_team": "Gotham FC",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/15364.png",
+      "away_team": "Kansas City Current",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20907.png"
     },
     {
       "sport": "soccer",
