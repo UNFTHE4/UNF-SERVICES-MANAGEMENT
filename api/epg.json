@@ -1,638 +1,8 @@
 {
-  "generated": "2026-11-09T23:16:55.575Z",
-  "count": 371,
+  "generated": "2026-11-10T04:43:56.398Z",
+  "count": 368,
   "confirmed": 0,
   "matches": [
-    {
-      "sport": "soccer",
-      "league": "Spanish LALIGA 2",
-      "league_logo": "http://a.espncdn.com/i/leaguelogos/soccer/500/107.png",
-      "title": "Real Sociedad II at CD Sabadell",
-      "home_team": "CD Sabadell",
-      "away_team": "Real Sociedad II",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11487.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20983.png",
-      "venue": "Estadi Municipal de la Nova Creu Alta",
-      "start": "2026-11-09T19:30Z",
-      "channels": [
-        {
-          "id": "209",
-          "name": "TNT1UK SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "210",
-          "name": "TNT2UK SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Spanish LALIGA 2",
-      "league_logo": "http://a.espncdn.com/i/leaguelogos/soccer/500/107.png",
-      "title": "Eldense at Las Palmas",
-      "home_team": "Las Palmas",
-      "away_team": "Eldense",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/98.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7320.png",
-      "venue": "Estadio Gran Canaria",
-      "start": "2026-11-09T19:30Z",
-      "channels": [
-        {
-          "id": "209",
-          "name": "TNT1UK SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "210",
-          "name": "TNT2UK SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Paraguayan Primera División",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1892.png",
-      "title": "Rubio Ñú at Sportivo San Lorenzo",
-      "home_team": "Sportivo San Lorenzo",
-      "away_team": "Rubio Ñú",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17671.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10080.png",
-      "venue": "Estadio Gunther Vogel",
-      "start": "2026-11-09T20:00Z",
-      "channels": []
-    },
-    {
-      "sport": "soccer",
-      "league": "LigaPro Ecuador",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1944.png",
-      "title": "Manta F.C. at Técnico Universitario",
-      "home_team": "Técnico Universitario",
-      "away_team": "Manta F.C.",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9292.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10307.png",
-      "venue": "Estadio Bellavista",
-      "start": "2026-11-09T20:30Z",
-      "channels": []
-    },
-    {
-      "sport": "soccer",
-      "league": "Paraguayan Primera División",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1892.png",
-      "title": "2 de Mayo at Sportivo Luqueño",
-      "home_team": "Sportivo Luqueño",
-      "away_team": "2 de Mayo",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5583.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6097.png",
-      "venue": "Estadio Luis Alberto Salinas Tanasio",
-      "start": "2026-11-09T22:30Z",
-      "channels": []
-    },
-    {
-      "sport": "basketball",
-      "league": "National Basketball Association",
-      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
-      "title": "Los Angeles Lakers at Atlanta Hawks",
-      "home_team": "Atlanta Hawks",
-      "away_team": "Los Angeles Lakers",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
-      "venue": "State Farm Arena",
-      "start": "2026-11-10T00:00Z",
-      "channels": [
-        {
-          "id": "209",
-          "name": "TNT1UK SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "basketball",
-      "league": "National Basketball Association",
-      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
-      "title": "Cleveland Cavaliers at Charlotte Hornets",
-      "home_team": "Charlotte Hornets",
-      "away_team": "Cleveland Cavaliers",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
-      "venue": "Spectrum Center",
-      "start": "2026-11-10T00:00Z",
-      "channels": [
-        {
-          "id": "209",
-          "name": "TNT1UK SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "basketball",
-      "league": "National Basketball Association",
-      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
-      "title": "Washington Wizards at Detroit Pistons",
-      "home_team": "Detroit Pistons",
-      "away_team": "Washington Wizards",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
-      "venue": "Little Caesars Arena",
-      "start": "2026-11-10T00:00Z",
-      "channels": [
-        {
-          "id": "209",
-          "name": "TNT1UK SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "basketball",
-      "league": "NCAA Men's Basketball",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_MensBasketball.png",
-      "title": "Wagner Seahawks at UConn Huskies",
-      "home_team": "UConn Huskies",
-      "away_team": "Wagner Seahawks",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2681.png",
-      "venue": "M&T Bank Center at Gampel Pavilion",
-      "start": "2026-11-10T00:00Z",
-      "channels": [
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "basketball",
-      "league": "NCAA Men's Basketball",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_MensBasketball.png",
-      "title": "Grambling Tigers at Texas Longhorns",
-      "home_team": "Texas Longhorns",
-      "away_team": "Grambling Tigers",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2755.png",
-      "venue": "Moody Center",
-      "start": "2026-11-10T00:00Z",
-      "channels": [
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "basketball",
-      "league": "NCAA Men's Basketball",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_MensBasketball.png",
-      "title": "Radford Highlanders at Tennessee Volunteers",
-      "home_team": "Tennessee Volunteers",
-      "away_team": "Radford Highlanders",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2515.png",
-      "venue": "Food City Center",
-      "start": "2026-11-10T00:00Z",
-      "channels": [
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "basketball",
-      "league": "NCAA Men's Basketball",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_MensBasketball.png",
-      "title": "North Florida Ospreys at Miami Hurricanes",
-      "home_team": "Miami Hurricanes",
-      "away_team": "North Florida Ospreys",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2454.png",
-      "venue": "Watsco Center",
-      "start": "2026-11-10T00:00Z",
-      "channels": [
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Colombian Primera A",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
-      "title": "Cúcuta Deportivo at Atlético Junior",
-      "home_team": "Atlético Junior",
-      "away_team": "Cúcuta Deportivo",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4815.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6101.png",
-      "venue": "Romelio Martínez",
-      "start": "2026-11-10T00:00Z",
-      "channels": []
-    },
-    {
-      "sport": "basketball",
-      "league": "National Basketball Association",
-      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
-      "title": "Memphis Grizzlies at Toronto Raptors",
-      "home_team": "Toronto Raptors",
-      "away_team": "Memphis Grizzlies",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
-      "venue": "Scotiabank Arena",
-      "start": "2026-11-10T00:30Z",
-      "channels": [
-        {
-          "id": "209",
-          "name": "TNT1UK SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "basketball",
-      "league": "NCAA Men's Basketball",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_MensBasketball.png",
-      "title": "Oakland Golden Grizzlies at Alabama Crimson Tide",
-      "home_team": "Alabama Crimson Tide",
-      "away_team": "Oakland Golden Grizzlies",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2473.png",
-      "venue": "Coleman Coliseum",
-      "start": "2026-11-10T00:30Z",
-      "channels": [
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "basketball",
-      "league": "NCAA Women's Basketball",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
-      "title": "Morehead State Eagles at Vanderbilt Commodores",
-      "home_team": "Vanderbilt Commodores",
-      "away_team": "Morehead State Eagles",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2413.png",
-      "venue": "Memorial Gymnasium (TN)",
-      "start": "2026-11-10T00:30Z",
-      "channels": [
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Bolivian Liga Profesional",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1949.png",
-      "title": "Universitario de Vinto at Aurora",
-      "home_team": "Aurora",
-      "away_team": "Universitario de Vinto",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6046.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21379.png",
-      "venue": "Estadio Félix Capriles",
-      "start": "2026-11-10T00:30Z",
-      "channels": []
-    },
-    {
-      "sport": "basketball",
-      "league": "National Basketball Association",
-      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
-      "title": "Indiana Pacers at Dallas Mavericks",
-      "home_team": "Dallas Mavericks",
-      "away_team": "Indiana Pacers",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
-      "venue": "American Airlines Center",
-      "start": "2026-11-10T01:00Z",
-      "channels": [
-        {
-          "id": "209",
-          "name": "TNT1UK SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "hockey",
-      "league": "National Hockey League",
-      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nhl.png",
-      "title": "New York Rangers at Edmonton Oilers",
-      "home_team": "Edmonton Oilers",
-      "away_team": "New York Rangers",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/edm.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png",
-      "venue": "Rogers Place",
-      "start": "2026-11-10T01:00Z",
-      "channels": [
-        {
-          "id": "213",
-          "name": "TSN1 SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "214",
-          "name": "TSN2 SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "215",
-          "name": "TSN3 SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "National Football League",
-      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nfl.png",
-      "title": "Buffalo Bills at Minnesota Vikings",
-      "home_team": "Minnesota Vikings",
-      "away_team": "Buffalo Bills",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
-      "venue": "U.S. Bank Stadium",
-      "start": "2026-11-10T01:15Z",
-      "channels": [
-        {
-          "id": "242",
-          "name": "NFL SERVER FHD",
-          "source": "guess"
-        },
-        {
-          "id": "127",
-          "name": "NBC SPORTS",
-          "source": "guess"
-        },
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "basketball",
-      "league": "National Basketball Association",
-      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
-      "title": "Denver Nuggets at Houston Rockets",
-      "home_team": "Houston Rockets",
-      "away_team": "Denver Nuggets",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
-      "venue": "Toyota Center (Houston)",
-      "start": "2026-11-10T01:30Z",
-      "channels": [
-        {
-          "id": "209",
-          "name": "TNT1UK SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "basketball",
-      "league": "National Basketball Association",
-      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
-      "title": "San Antonio Spurs at Phoenix Suns",
-      "home_team": "Phoenix Suns",
-      "away_team": "San Antonio Spurs",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
-      "venue": "Mortgage Matchup Center",
-      "start": "2026-11-10T02:00Z",
-      "channels": [
-        {
-          "id": "209",
-          "name": "TNT1UK SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "hockey",
-      "league": "National Hockey League",
-      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nhl.png",
-      "title": "Philadelphia Flyers at Vancouver Canucks",
-      "home_team": "Vancouver Canucks",
-      "away_team": "Philadelphia Flyers",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/van.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/phi.png",
-      "venue": "Rogers Arena",
-      "start": "2026-11-10T02:30Z",
-      "channels": [
-        {
-          "id": "213",
-          "name": "TSN1 SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "214",
-          "name": "TSN2 SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "215",
-          "name": "TSN3 SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "basketball",
-      "league": "National Basketball Association",
-      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
-      "title": "New Orleans Pelicans at Golden State Warriors",
-      "home_team": "Golden State Warriors",
-      "away_team": "New Orleans Pelicans",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
-      "venue": "Chase Center",
-      "start": "2026-11-10T03:00Z",
-      "channels": [
-        {
-          "id": "209",
-          "name": "TNT1UK SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "hockey",
-      "league": "National Hockey League",
-      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nhl.png",
-      "title": "New York Islanders at San Jose Sharks",
-      "home_team": "San Jose Sharks",
-      "away_team": "New York Islanders",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyi.png",
-      "venue": "SAP Center at San Jose",
-      "start": "2026-11-10T03:00Z",
-      "channels": [
-        {
-          "id": "213",
-          "name": "TSN1 SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "214",
-          "name": "TSN2 SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "215",
-          "name": "TSN3 SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
     {
       "sport": "soccer",
       "league": "Salvadoran Primera Division",
@@ -2235,6 +1605,35 @@
       ]
     },
     {
+      "sport": "basketball",
+      "league": "NCAA Men's Basketball",
+      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_MensBasketball.png",
+      "title": "Lindenwood Lions at Nebraska Cornhuskers",
+      "home_team": "Nebraska Cornhuskers",
+      "away_team": "Lindenwood Lions",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2815.png",
+      "venue": "Pinnacle Bank Arena",
+      "start": "2026-11-12T02:00Z",
+      "channels": [
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "243",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "205",
+          "name": "Fox Sports 1 USA",
+          "source": "guess"
+        }
+      ]
+    },
+    {
       "sport": "hockey",
       "league": "National Hockey League",
       "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nhl.png",
@@ -3706,12 +3105,12 @@
       "sport": "basketball",
       "league": "NCAA Men's Basketball",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_MensBasketball.png",
-      "title": "Northern Arizona Lumberjacks at Kentucky Wildcats",
-      "home_team": "Kentucky Wildcats",
-      "away_team": "Northern Arizona Lumberjacks",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2464.png",
-      "venue": "Rupp Arena",
+      "title": "Prairie View A&M Panthers at Vanderbilt Commodores",
+      "home_team": "Vanderbilt Commodores",
+      "away_team": "Prairie View A&M Panthers",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2504.png",
+      "venue": "Memorial Gymnasium (TN)",
       "start": "2026-11-14T00:00Z",
       "channels": [
         {
@@ -3735,12 +3134,12 @@
       "sport": "basketball",
       "league": "NCAA Men's Basketball",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_MensBasketball.png",
-      "title": "Prairie View A&M Panthers at Vanderbilt Commodores",
-      "home_team": "Vanderbilt Commodores",
-      "away_team": "Prairie View A&M Panthers",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2504.png",
-      "venue": "Memorial Gymnasium (TN)",
+      "title": "Northern Arizona Lumberjacks at Kentucky Wildcats",
+      "home_team": "Kentucky Wildcats",
+      "away_team": "Northern Arizona Lumberjacks",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2464.png",
+      "venue": "Rupp Arena",
       "start": "2026-11-14T00:00Z",
       "channels": [
         {
@@ -8306,12 +7705,12 @@
       "sport": "basketball",
       "league": "NCAA Men's Basketball",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_MensBasketball.png",
-      "title": "Niagara Purple Eagles at Iowa State Cyclones",
-      "home_team": "Iowa State Cyclones",
-      "away_team": "Niagara Purple Eagles",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/315.png",
-      "venue": "Hilton Coliseum",
+      "title": "Boise State Broncos at Nebraska Cornhuskers",
+      "home_team": "Nebraska Cornhuskers",
+      "away_team": "Boise State Broncos",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+      "venue": "Sanford Pentagon",
       "start": "2026-11-15T18:00Z",
       "channels": [
         {
@@ -8664,7 +8063,7 @@
       "away_team": "Kansas City Current",
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/15364.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20907.png",
-      "venue": null,
+      "venue": "Icahn Stadium",
       "start": "2026-11-15T20:00Z",
       "channels": [
         {
@@ -9360,6 +8759,526 @@
         {
           "id": "215",
           "name": "TSN3 SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "tennis",
+      "league": "WTA",
+      "league_logo": "https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-tennis.png",
+      "title": "LP Open by IND",
+      "home_team": null,
+      "away_team": null,
+      "home_logo": null,
+      "away_logo": null,
+      "venue": null,
+      "start": "2026-11-16T05:00Z",
+      "channels": [
+        {
+          "id": "232",
+          "name": "TENNIS + HD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "soccer",
+      "league": "Peruvian Liga 1",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1813.png",
+      "title": "Los Chankas at UTC",
+      "home_team": "UTC",
+      "away_team": "Los Chankas",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10122.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22168.png",
+      "venue": "Estadio Héroes de San Ramón",
+      "start": "2026-11-16T18:00Z",
+      "channels": []
+    },
+    {
+      "sport": "soccer",
+      "league": "Spanish LALIGA 2",
+      "league_logo": "http://a.espncdn.com/i/leaguelogos/soccer/500/107.png",
+      "title": "RC Celta Fortuna at Albacete",
+      "home_team": "Albacete",
+      "away_team": "RC Celta Fortuna",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2737.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131858.png",
+      "venue": "Carlos Belmonte",
+      "start": "2026-11-16T19:30Z",
+      "channels": [
+        {
+          "id": "209",
+          "name": "TNT1UK SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "210",
+          "name": "TNT2UK SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "soccer",
+      "league": "Peruvian Liga 1",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1813.png",
+      "title": "ADT at Cusco FC",
+      "home_team": "Cusco FC",
+      "away_team": "ADT",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11995.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21314.png",
+      "venue": "Estadio Inca Garcilaso de la Vega",
+      "start": "2026-11-16T20:00Z",
+      "channels": []
+    },
+    {
+      "sport": "soccer",
+      "league": "Peruvian Liga 1",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1813.png",
+      "title": "Atlético Grau at Deportivo Moquegua",
+      "home_team": "Deportivo Moquegua",
+      "away_team": "Atlético Grau",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131654.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20293.png",
+      "venue": "Estadio 25 de Noviembre",
+      "start": "2026-11-16T20:00Z",
+      "channels": []
+    },
+    {
+      "sport": "soccer",
+      "league": "Liga AUF Uruguaya",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1592.png",
+      "title": "Juventud at Montevideo Wanderers",
+      "home_team": "Montevideo Wanderers",
+      "away_team": "Juventud",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5501.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8416.png",
+      "venue": "Parque Alfredo Víctor Viera",
+      "start": "2026-11-16T23:00Z",
+      "channels": []
+    },
+    {
+      "sport": "basketball",
+      "league": "National Basketball Association",
+      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
+      "title": "Orlando Magic at Boston Celtics",
+      "home_team": "Boston Celtics",
+      "away_team": "Orlando Magic",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
+      "venue": "TD Garden",
+      "start": "2026-11-17T00:00Z",
+      "channels": [
+        {
+          "id": "209",
+          "name": "TNT1UK SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "205",
+          "name": "Fox Sports 1 USA",
+          "source": "guess"
+        },
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "basketball",
+      "league": "National Basketball Association",
+      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
+      "title": "Chicago Bulls at Cleveland Cavaliers",
+      "home_team": "Cleveland Cavaliers",
+      "away_team": "Chicago Bulls",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
+      "venue": "Rocket Arena",
+      "start": "2026-11-17T00:00Z",
+      "channels": [
+        {
+          "id": "209",
+          "name": "TNT1UK SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "205",
+          "name": "Fox Sports 1 USA",
+          "source": "guess"
+        },
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "basketball",
+      "league": "National Basketball Association",
+      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
+      "title": "Memphis Grizzlies at Washington Wizards",
+      "home_team": "Washington Wizards",
+      "away_team": "Memphis Grizzlies",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
+      "venue": "Capital One Arena",
+      "start": "2026-11-17T00:00Z",
+      "channels": [
+        {
+          "id": "209",
+          "name": "TNT1UK SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "205",
+          "name": "Fox Sports 1 USA",
+          "source": "guess"
+        },
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "basketball",
+      "league": "NCAA Men's Basketball",
+      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_MensBasketball.png",
+      "title": "Grambling Tigers at Kentucky Wildcats",
+      "home_team": "Kentucky Wildcats",
+      "away_team": "Grambling Tigers",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2755.png",
+      "venue": "Rupp Arena",
+      "start": "2026-11-17T00:00Z",
+      "channels": [
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "243",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "205",
+          "name": "Fox Sports 1 USA",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "basketball",
+      "league": "National Basketball Association",
+      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
+      "title": "Philadelphia 76ers at Brooklyn Nets",
+      "home_team": "Brooklyn Nets",
+      "away_team": "Philadelphia 76ers",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+      "venue": "Barclays Center",
+      "start": "2026-11-17T00:30Z",
+      "channels": [
+        {
+          "id": "209",
+          "name": "TNT1UK SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "205",
+          "name": "Fox Sports 1 USA",
+          "source": "guess"
+        },
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "basketball",
+      "league": "National Basketball Association",
+      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
+      "title": "Houston Rockets at Miami Heat",
+      "home_team": "Miami Heat",
+      "away_team": "Houston Rockets",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+      "venue": "Kaseya Center",
+      "start": "2026-11-17T00:30Z",
+      "channels": [
+        {
+          "id": "209",
+          "name": "TNT1UK SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "205",
+          "name": "Fox Sports 1 USA",
+          "source": "guess"
+        },
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "hockey",
+      "league": "National Hockey League",
+      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nhl.png",
+      "title": "Montreal Canadiens at New York Rangers",
+      "home_team": "New York Rangers",
+      "away_team": "Montreal Canadiens",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png",
+      "venue": "Madison Square Garden",
+      "start": "2026-11-17T00:30Z",
+      "channels": [
+        {
+          "id": "213",
+          "name": "TSN1 SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "214",
+          "name": "TSN2 SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "215",
+          "name": "TSN3 SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "basketball",
+      "league": "National Basketball Association",
+      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
+      "title": "Portland Trail Blazers at Minnesota Timberwolves",
+      "home_team": "Minnesota Timberwolves",
+      "away_team": "Portland Trail Blazers",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
+      "venue": "Target Center",
+      "start": "2026-11-17T01:00Z",
+      "channels": [
+        {
+          "id": "209",
+          "name": "TNT1UK SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "205",
+          "name": "Fox Sports 1 USA",
+          "source": "guess"
+        },
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "basketball",
+      "league": "National Basketball Association",
+      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
+      "title": "Golden State Warriors at New Orleans Pelicans",
+      "home_team": "New Orleans Pelicans",
+      "away_team": "Golden State Warriors",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+      "venue": "Smoothie King Center",
+      "start": "2026-11-17T01:00Z",
+      "channels": [
+        {
+          "id": "209",
+          "name": "TNT1UK SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "205",
+          "name": "Fox Sports 1 USA",
+          "source": "guess"
+        },
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "basketball",
+      "league": "NCAA Women's Basketball",
+      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
+      "title": "Michigan Wolverines at Central Michigan Chippewas",
+      "home_team": "Central Michigan Chippewas",
+      "away_team": "Michigan Wolverines",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+      "venue": "McGuirk Arena",
+      "start": "2026-11-17T01:00Z",
+      "channels": [
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "243",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "basketball",
+      "league": "NCAA Women's Basketball",
+      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
+      "title": "Troy Trojans at LSU Tigers",
+      "home_team": "LSU Tigers",
+      "away_team": "Troy Trojans",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
+      "venue": "Pete Maravich Assembly Center",
+      "start": "2026-11-17T01:00Z",
+      "channels": [
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "243",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "football",
+      "league": "National Football League",
+      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nfl.png",
+      "title": "Los Angeles Chargers at Baltimore Ravens",
+      "home_team": "Baltimore Ravens",
+      "away_team": "Los Angeles Chargers",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+      "venue": "M&T Bank Stadium",
+      "start": "2026-11-17T01:15Z",
+      "channels": [
+        {
+          "id": "242",
+          "name": "NFL SERVER FHD",
+          "source": "guess"
+        },
+        {
+          "id": "127",
+          "name": "NBC SPORTS",
+          "source": "guess"
+        },
+        {
+          "id": "205",
+          "name": "Fox Sports 1 USA",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "basketball",
+      "league": "National Basketball Association",
+      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
+      "title": "Phoenix Suns at Denver Nuggets",
+      "home_team": "Denver Nuggets",
+      "away_team": "Phoenix Suns",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+      "venue": "Ball Arena",
+      "start": "2026-11-17T02:00Z",
+      "channels": [
+        {
+          "id": "209",
+          "name": "TNT1UK SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "205",
+          "name": "Fox Sports 1 USA",
+          "source": "guess"
+        },
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "hockey",
+      "league": "National Hockey League",
+      "league_logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nhl.png",
+      "title": "Vancouver Canucks at Utah Mammoth",
+      "home_team": "Utah Mammoth",
+      "away_team": "Vancouver Canucks",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/uta.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/van.png",
+      "venue": "Delta Center",
+      "start": "2026-11-17T02:30Z",
+      "channels": [
+        {
+          "id": "213",
+          "name": "TSN1 SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "214",
+          "name": "TSN2 SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "215",
+          "name": "TSN3 SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "basketball",
+      "league": "NCAA Men's Basketball",
+      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_MensBasketball.png",
+      "title": "Long Beach State Beach at UCLA Bruins",
+      "home_team": "UCLA Bruins",
+      "away_team": "Long Beach State Beach",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/299.png",
+      "venue": "Pauley Pavilion",
+      "start": "2026-11-17T03:00Z",
+      "channels": [
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "243",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "205",
+          "name": "Fox Sports 1 USA",
           "source": "guess"
         }
       ]
