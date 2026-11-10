@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-10T04:43:56.398Z",
+  "generated": "2026-11-10T13:16:28.577Z",
   "count": 368,
   "confirmed": 0,
   "matches": [
@@ -12,7 +12,7 @@
       "away_team": "Luis Ángel Firpo",
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22330.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7232.png",
-      "venue": null,
+      "venue": "Estadio Municipal Chapeltique",
       "start": "2026-11-10T21:30Z",
       "channels": []
     },
@@ -647,7 +647,7 @@
       "away_team": "C.D. Platense",
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7224.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21092.png",
-      "venue": null,
+      "venue": "Estadio Jorge \"Calero\" Suarez",
       "start": "2026-11-11T01:00Z",
       "channels": []
     },
@@ -945,7 +945,7 @@
       "away_team": "Alianza FC",
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21987.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7225.png",
-      "venue": null,
+      "venue": "Estadio Correcaminos",
       "start": "2026-11-11T21:30Z",
       "channels": []
     },
@@ -1542,7 +1542,7 @@
       "away_team": "Internacional Santa Tecla",
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7229.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131295.png",
-      "venue": null,
+      "venue": "Estadio Óscar Alberto Quiteño",
       "start": "2026-11-12T01:00Z",
       "channels": []
     },
@@ -1922,7 +1922,7 @@
       "away_team": "CD Municipal Limeño",
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7226.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7231.png",
-      "venue": null,
+      "venue": "Estadio Juan Francisco Barraza",
       "start": "2026-11-12T21:30Z",
       "channels": []
     },
@@ -1935,7 +1935,7 @@
       "away_team": "Inca Aruba",
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7369.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132480.png",
-      "venue": null,
+      "venue": "Estadio Marcelino Imbers",
       "start": "2026-11-12T21:30Z",
       "channels": []
     },
