@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-11-10T17:08:44.252Z",
-  "total_upcoming": 368,
+  "generated_at": "2026-11-10T21:43:03.431Z",
+  "total_upcoming": 377,
   "events": [
-    {
-      "sport": "soccer",
-      "league": "Salvadoran Primera Division",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2244.png",
-      "start_time_utc": "2026-11-10T21:30Z",
-      "name": "Luis Ángel Firpo at Cacahuatique",
-      "short_name": "LAF @ CAC",
-      "venue": "Estadio Municipal Chapeltique",
-      "home_team": "Cacahuatique",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22330.png",
-      "away_team": "Luis Ángel Firpo",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7232.png"
-    },
     {
       "sport": "basketball",
       "league": "NCAA Women's Basketball",
@@ -953,6 +940,19 @@
     },
     {
       "sport": "soccer",
+      "league": "Colombian Primera A",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
+      "start_time_utc": "2026-11-12T22:00Z",
+      "name": "Atlético Junior at Deportivo Pasto",
+      "short_name": "JUN @ PAS",
+      "venue": "Departamental Libertad",
+      "home_team": "Deportivo Pasto",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5485.png",
+      "away_team": "Atlético Junior",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4815.png"
+    },
+    {
+      "sport": "soccer",
       "league": "Guatemalan Liga Nacional",
       "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2248.png",
       "start_time_utc": "2026-11-12T22:00Z",
@@ -1145,6 +1145,19 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
       "away_team": "Michigan State Spartans",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png"
+    },
+    {
+      "sport": "soccer",
+      "league": "Colombian Primera A",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
+      "start_time_utc": "2026-11-13T00:00Z",
+      "name": "Boyacá Chicó FC at Llaneros FC",
+      "short_name": "CHI @ LLA",
+      "venue": "Estadio Bello Horizonte - Rey Pele",
+      "home_team": "Llaneros FC",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7915.png",
+      "away_team": "Boyacá Chicó FC",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5480.png"
     },
     {
       "sport": "basketball",
@@ -1992,6 +2005,19 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png"
     },
     {
+      "sport": "soccer",
+      "league": "Colombian Primera A",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
+      "start_time_utc": "2026-11-14T01:30Z",
+      "name": "Independiente Santa Fe at Internacional de Bogotá",
+      "short_name": "SFE @ BOG",
+      "venue": "Metropolitano de Techo",
+      "home_team": "Internacional de Bogotá",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7445.png",
+      "away_team": "Independiente Santa Fe",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5488.png"
+    },
+    {
       "sport": "football",
       "league": "NCAA - Football",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
@@ -2757,6 +2783,97 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png",
       "away_team": "Winnipeg Jets",
       "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wpg.png"
+    },
+    {
+      "sport": "soccer",
+      "league": "Colombian Primera A",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
+      "start_time_utc": "2026-11-14T20:30Z",
+      "name": "Independiente Medellín at Águilas Doradas",
+      "short_name": "DIM @ AGD",
+      "venue": "Estadio Cincuentenario",
+      "home_team": "Águilas Doradas",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9762.png",
+      "away_team": "Independiente Medellín",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png"
+    },
+    {
+      "sport": "soccer",
+      "league": "Colombian Primera A",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
+      "start_time_utc": "2026-11-14T20:30Z",
+      "name": "Fortaleza CEIF at Atlético Bucaramanga",
+      "short_name": "FOR @ BUC",
+      "venue": "Estadio Alfonso López",
+      "home_team": "Atlético Bucaramanga",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6137.png",
+      "away_team": "Fortaleza CEIF",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4928.png"
+    },
+    {
+      "sport": "soccer",
+      "league": "Colombian Primera A",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
+      "start_time_utc": "2026-11-14T20:30Z",
+      "name": "Once Caldas at Atlético Nacional",
+      "short_name": "CAL @ NAL",
+      "venue": "Atanasio Girardot",
+      "home_team": "Atlético Nacional",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5264.png",
+      "away_team": "Once Caldas",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2919.png"
+    },
+    {
+      "sport": "soccer",
+      "league": "Colombian Primera A",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
+      "start_time_utc": "2026-11-14T20:30Z",
+      "name": "Jaguares de Córdoba at Cúcuta Deportivo",
+      "short_name": "COR @ CUC",
+      "venue": "General Santander",
+      "home_team": "Cúcuta Deportivo",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6101.png",
+      "away_team": "Jaguares de Córdoba",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10309.png"
+    },
+    {
+      "sport": "soccer",
+      "league": "Colombian Primera A",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
+      "start_time_utc": "2026-11-14T20:30Z",
+      "name": "Deportes Tolima at Deportivo Cali",
+      "short_name": "TOL @ DCI",
+      "venue": "Deportivo Cali",
+      "home_team": "Deportivo Cali",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2672.png",
+      "away_team": "Deportes Tolima",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5489.png"
+    },
+    {
+      "sport": "soccer",
+      "league": "Colombian Primera A",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
+      "start_time_utc": "2026-11-14T20:30Z",
+      "name": "América de Cali at Deportivo Pereira",
+      "short_name": "AME @ PER",
+      "venue": "Estadio Santiago de Las Atalayas",
+      "home_team": "Deportivo Pereira",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5486.png",
+      "away_team": "América de Cali",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8109.png"
+    },
+    {
+      "sport": "soccer",
+      "league": "Colombian Primera A",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
+      "start_time_utc": "2026-11-14T20:30Z",
+      "name": "Alianza FC at Millonarios",
+      "short_name": "AFC @ MIL",
+      "venue": "Estadio Nemesio Camacho El Campín",
+      "home_team": "Millonarios",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5484.png",
+      "away_team": "Alianza FC",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9761.png"
     },
     {
       "sport": "football",
