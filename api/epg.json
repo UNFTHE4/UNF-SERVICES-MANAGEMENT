@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11T15:52:34.750Z",
+  "generated": "2026-11-11T22:29:15.408Z",
   "count": 380,
   "confirmed": 0,
   "matches": [
@@ -1929,7 +1929,7 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19002.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9903.png",
       "venue": "Estadio Luis Franzini",
-      "start": "2026-11-13T20:00Z",
+      "start": "2026-11-13T19:30Z",
       "channels": []
     },
     {
@@ -2100,7 +2100,7 @@
       "away_team": "Merrimack Warriors",
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2771.png",
-      "venue": "Stephen C. O'Connell Center",
+      "venue": "Thomas Hill Arena",
       "start": "2026-11-14T00:00Z",
       "channels": [
         {
@@ -3329,7 +3329,7 @@
       "away_team": "Sporting Gijón",
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20983.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3788.png",
-      "venue": "Instalaciones de Zubieta",
+      "venue": "Estadio Zubieta XXI",
       "start": "2026-11-14T15:15Z",
       "channels": [
         {
@@ -8039,7 +8039,7 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11995.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21314.png",
       "venue": "Estadio Inca Garcilaso de la Vega",
-      "start": "2026-11-16T20:00Z",
+      "start": "2026-11-16T20:15Z",
       "channels": []
     },
     {
@@ -8052,7 +8052,7 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131654.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20293.png",
       "venue": "Estadio 25 de Noviembre",
-      "start": "2026-11-16T20:00Z",
+      "start": "2026-11-16T20:15Z",
       "channels": []
     },
     {
@@ -8576,6 +8576,35 @@
       ]
     },
     {
+      "sport": "football",
+      "league": "NCAA - Football",
+      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
+      "title": "Eastern Michigan Eagles at Western Michigan Broncos",
+      "home_team": "Western Michigan Broncos",
+      "away_team": "Eastern Michigan Eagles",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
+      "venue": "Waldo Stadium",
+      "start": "2026-11-17T23:00Z",
+      "channels": [
+        {
+          "id": "205",
+          "name": "Fox Sports 1 USA",
+          "source": "guess"
+        },
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "243",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
       "sport": "basketball",
       "league": "NCAA Women's Basketball",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
@@ -8609,35 +8638,6 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png",
       "venue": "Peden Stadium",
-      "start": "2026-11-18T00:00Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "Eastern Michigan Eagles at Western Michigan Broncos",
-      "home_team": "Western Michigan Broncos",
-      "away_team": "Eastern Michigan Eagles",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
-      "venue": "Waldo Stadium",
       "start": "2026-11-18T00:00Z",
       "channels": [
         {
