@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T05:28:35.016Z",
+  "generated_at": "2026-11-11T15:58:07.273Z",
   "total_upcoming": 380,
   "events": [
     {
@@ -981,7 +981,7 @@
       "sport": "soccer",
       "league": "Liga AUF Uruguaya",
       "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1592.png",
-      "start_time_utc": "2026-11-13T20:00Z",
+      "start_time_utc": "2026-11-13T19:30Z",
       "name": "Racing (Montevideo) at Montevideo City Torque",
       "short_name": "RAC @ MCT",
       "venue": "Estadio Luis Franzini",
@@ -1075,7 +1075,7 @@
       "start_time_utc": "2026-11-14T00:00Z",
       "name": "Merrimack Warriors at Florida Gators",
       "short_name": "MRMK @ FLA",
-      "venue": "Stephen C. O'Connell Center",
+      "venue": "Thomas Hill Arena",
       "home_team": "Florida Gators",
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
       "away_team": "Merrimack Warriors",
@@ -1764,7 +1764,7 @@
       "start_time_utc": "2026-11-14T15:15Z",
       "name": "Sporting Gijón at Real Sociedad II",
       "short_name": "RSG @ RSO2",
-      "venue": "Instalaciones de Zubieta",
+      "venue": "Estadio Zubieta XXI",
       "home_team": "Real Sociedad II",
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20983.png",
       "away_team": "Sporting Gijón",
@@ -4244,7 +4244,7 @@
       "sport": "soccer",
       "league": "Peruvian Liga 1",
       "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1813.png",
-      "start_time_utc": "2026-11-16T20:00Z",
+      "start_time_utc": "2026-11-16T20:15Z",
       "name": "ADT at Cusco FC",
       "short_name": "ADT @ CFC",
       "venue": "Estadio Inca Garcilaso de la Vega",
@@ -4257,7 +4257,7 @@
       "sport": "soccer",
       "league": "Peruvian Liga 1",
       "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1813.png",
-      "start_time_utc": "2026-11-16T20:00Z",
+      "start_time_utc": "2026-11-16T20:15Z",
       "name": "Atlético Grau at Deportivo Moquegua",
       "short_name": "AGR @ MOQ",
       "venue": "Estadio 25 de Noviembre",
@@ -4514,6 +4514,19 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png"
     },
     {
+      "sport": "football",
+      "league": "NCAA - Football",
+      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
+      "start_time_utc": "2026-11-17T23:00Z",
+      "name": "Eastern Michigan Eagles at Western Michigan Broncos",
+      "short_name": "EMU @ WMU",
+      "venue": "Waldo Stadium",
+      "home_team": "Western Michigan Broncos",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
+      "away_team": "Eastern Michigan Eagles",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png"
+    },
+    {
       "sport": "basketball",
       "league": "NCAA Women's Basketball",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
@@ -4538,19 +4551,6 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
       "away_team": "Ball State Cardinals",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png"
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "start_time_utc": "2026-11-18T00:00Z",
-      "name": "Eastern Michigan Eagles at Western Michigan Broncos",
-      "short_name": "EMU @ WMU",
-      "venue": "Waldo Stadium",
-      "home_team": "Western Michigan Broncos",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
-      "away_team": "Eastern Michigan Eagles",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png"
     },
     {
       "sport": "football",
