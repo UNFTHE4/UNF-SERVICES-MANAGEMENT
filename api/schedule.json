@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-11-11T15:58:07.273Z",
-  "total_upcoming": 380,
+  "generated_at": "2026-11-11T22:37:40.290Z",
+  "total_upcoming": 379,
   "events": [
-    {
-      "sport": "soccer",
-      "league": "Salvadoran Primera Division",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2244.png",
-      "start_time_utc": "2026-11-11T21:30Z",
-      "name": "Alianza FC at Fuerte San Francisco",
-      "short_name": "ALI @ FSF",
-      "venue": "Estadio Correcaminos",
-      "home_team": "Fuerte San Francisco",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21987.png",
-      "away_team": "Alianza FC",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7225.png"
-    },
     {
       "sport": "basketball",
       "league": "NCAA Women's Basketball",
