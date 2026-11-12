@@ -1,21 +1,8 @@
 {
-  "generated": "2026-11-11T22:29:15.408Z",
-  "count": 380,
+  "generated": "2026-11-12T03:18:36.505Z",
+  "count": 379,
   "confirmed": 0,
   "matches": [
-    {
-      "sport": "soccer",
-      "league": "Salvadoran Primera Division",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2244.png",
-      "title": "Alianza FC at Fuerte San Francisco",
-      "home_team": "Fuerte San Francisco",
-      "away_team": "Alianza FC",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21987.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7225.png",
-      "venue": "Estadio Correcaminos",
-      "start": "2026-11-11T21:30Z",
-      "channels": []
-    },
     {
       "sport": "basketball",
       "league": "NCAA Women's Basketball",
