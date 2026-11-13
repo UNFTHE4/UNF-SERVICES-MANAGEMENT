@@ -1,69 +1,8 @@
 {
-  "generated": "2026-11-13T15:55:57.737Z",
-  "count": 387,
+  "generated": "2026-11-13T21:49:31.964Z",
+  "count": 384,
   "confirmed": 1,
   "matches": [
-    {
-      "sport": "basketball",
-      "league": "NCAA Women's Basketball",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_WomensBasketball.png",
-      "title": "Oral Roberts Golden Eagles at Oklahoma Sooners",
-      "home_team": "Oklahoma Sooners",
-      "away_team": "Oral Roberts Golden Eagles",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/198.png",
-      "venue": "Lloyd Noble Center",
-      "start": "2026-11-13T16:30Z",
-      "channels": [
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Spanish LALIGA 2",
-      "league_logo": "http://a.espncdn.com/i/leaguelogos/soccer/500/107.png",
-      "title": "Burgos at Leganés",
-      "home_team": "Leganés",
-      "away_team": "Burgos",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17534.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/12597.png",
-      "venue": "Estadio Municipal de Butarque",
-      "start": "2026-11-13T19:30Z",
-      "channels": [
-        {
-          "id": "209",
-          "name": "TNT1UK SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "210",
-          "name": "TNT2UK SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Liga AUF Uruguaya",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1592.png",
-      "title": "Racing (Montevideo) at Montevideo City Torque",
-      "home_team": "Montevideo City Torque",
-      "away_team": "Racing (Montevideo)",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19002.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9903.png",
-      "venue": "Estadio Luis Franzini",
-      "start": "2026-11-13T19:30Z",
-      "channels": []
-    },
     {
       "sport": "basketball",
       "league": "NCAA Men's Basketball",
@@ -213,7 +152,7 @@
       "away_team": "Merrimack Warriors",
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2771.png",
-      "venue": "Thomas Hill Arena",
+      "venue": "Tower Hill Arena",
       "start": "2026-11-14T00:00Z",
       "channels": [
         {
@@ -2845,6 +2784,19 @@
           "source": "guess"
         }
       ]
+    },
+    {
+      "sport": "soccer",
+      "league": "Guatemalan Liga Nacional",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2248.png",
+      "title": "CD Guastatoya at Xelajú MC",
+      "home_team": "Xelajú MC",
+      "away_team": "CD Guastatoya",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7259.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17516.png",
+      "venue": "Estadio Mario Camposeco",
+      "start": "2026-11-14T21:00Z",
+      "channels": []
     },
     {
       "sport": "hockey",
@@ -5486,19 +5438,6 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131835.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7252.png",
       "venue": "Estadio Municipal de San Pedro Sacatepéquez",
-      "start": "2026-11-15T21:00Z",
-      "channels": []
-    },
-    {
-      "sport": "soccer",
-      "league": "Guatemalan Liga Nacional",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2248.png",
-      "title": "CD Guastatoya at Xelajú MC",
-      "home_team": "Xelajú MC",
-      "away_team": "CD Guastatoya",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7259.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17516.png",
-      "venue": "Estadio Mario Camposeco",
       "start": "2026-11-15T21:00Z",
       "channels": []
     },
