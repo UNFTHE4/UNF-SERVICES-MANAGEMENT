@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13T07:37:27.752Z",
+  "generated": "2026-11-13T15:55:57.737Z",
   "count": 387,
   "confirmed": 1,
   "matches": [
@@ -113,25 +113,6 @@
         {
           "id": "243",
           "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "hockey",
-      "league": "NCAA Men's Ice Hockey",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/ESPN-icon-hockey.png",
-      "title": "Lake Superior State Lakers at Michigan Tech Huskies",
-      "home_team": "Michigan Tech Huskies",
-      "away_team": "Lake Superior State Lakers",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2392.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/285.png",
-      "venue": "MacInnes Student Ice Arena",
-      "start": "2026-11-13T23:07Z",
-      "channels": [
-        {
-          "id": "213",
-          "name": "TSN1 SPORTS FHD",
           "source": "guess"
         }
       ]
@@ -716,6 +697,25 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/128.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/189.png",
       "venue": "Berry Events Center",
+      "start": "2026-11-14T00:07Z",
+      "channels": [
+        {
+          "id": "213",
+          "name": "TSN1 SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "hockey",
+      "league": "NCAA Men's Ice Hockey",
+      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/ESPN-icon-hockey.png",
+      "title": "Lake Superior State Lakers at Michigan Tech Huskies",
+      "home_team": "Michigan Tech Huskies",
+      "away_team": "Lake Superior State Lakers",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2392.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/285.png",
+      "venue": "MacInnes Student Ice Arena",
       "start": "2026-11-14T00:07Z",
       "channels": [
         {
