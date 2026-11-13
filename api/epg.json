@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-12T19:33:59.699Z",
+  "generated": "2026-11-13T00:54:31.397Z",
   "count": 387,
-  "confirmed": 0,
+  "confirmed": 1,
   "matches": [
     {
       "sport": "hockey",
@@ -3941,9 +3941,9 @@
       "start": "2026-11-14T22:00Z",
       "channels": [
         {
-          "id": "221",
-          "name": "UFC TV FHD",
-          "source": "guess"
+          "id": "106",
+          "name": "SONY TEN 2",
+          "source": "epg"
         }
       ]
     },
