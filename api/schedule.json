@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T00:57:43.254Z",
+  "generated_at": "2026-11-13T11:59:35.848Z",
   "total_upcoming": 387,
   "events": [
     {
@@ -66,19 +66,6 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
       "away_team": "Northwestern Wildcats",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/77.png"
-    },
-    {
-      "sport": "hockey",
-      "league": "NCAA Men's Ice Hockey",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/ESPN-icon-hockey.png",
-      "start_time_utc": "2026-11-13T23:07Z",
-      "name": "Lake Superior State Lakers at Michigan Tech Huskies",
-      "short_name": "LSS @ MTU",
-      "venue": "MacInnes Student Ice Arena",
-      "home_team": "Michigan Tech Huskies",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2392.png",
-      "away_team": "Lake Superior State Lakers",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/285.png"
     },
     {
       "sport": "football",
@@ -417,6 +404,19 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/128.png",
       "away_team": "Bowling Green Falcons",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/189.png"
+    },
+    {
+      "sport": "hockey",
+      "league": "NCAA Men's Ice Hockey",
+      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/ESPN-icon-hockey.png",
+      "start_time_utc": "2026-11-14T00:07Z",
+      "name": "Lake Superior State Lakers at Michigan Tech Huskies",
+      "short_name": "LSS @ MTU",
+      "venue": "MacInnes Student Ice Arena",
+      "home_team": "Michigan Tech Huskies",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2392.png",
+      "away_team": "Lake Superior State Lakers",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/285.png"
     },
     {
       "sport": "hockey",
