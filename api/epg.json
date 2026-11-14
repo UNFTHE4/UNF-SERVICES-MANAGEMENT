@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-14T08:52:20.277Z",
+  "generated": "2026-11-14T15:34:37.760Z",
   "count": 413,
   "confirmed": 3,
   "matches": [
@@ -161,35 +161,6 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
       "venue": "Jack Trice Stadium",
-      "start": "2026-11-14T17:00Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "Auburn Tigers at Mississippi State Bulldogs",
-      "home_team": "Mississippi State Bulldogs",
-      "away_team": "Auburn Tigers",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
-      "venue": "Davis Wade Stadium",
       "start": "2026-11-14T17:00Z",
       "channels": [
         {
@@ -676,35 +647,6 @@
       "sport": "football",
       "league": "NCAA - Football",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "Tulane Green Wave at Rice Owls",
-      "home_team": "Rice Owls",
-      "away_team": "Tulane Green Wave",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/242.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
-      "venue": "First Community Stadium",
-      "start": "2026-11-14T19:00Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
       "title": "Kennesaw State Owls at Sam Houston Bearkats",
       "home_team": "Sam Houston Bearkats",
       "away_team": "Kennesaw State Owls",
@@ -988,35 +930,6 @@
       "sport": "football",
       "league": "NCAA - Football",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "Baylor Bears at BYU Cougars",
-      "home_team": "BYU Cougars",
-      "away_team": "Baylor Bears",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
-      "venue": "LaVell Edwards Stadium",
-      "start": "2026-11-14T20:30Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
       "title": "Michigan Wolverines at Oregon Ducks",
       "home_team": "Oregon Ducks",
       "away_team": "Michigan Wolverines",
@@ -1046,12 +959,12 @@
       "sport": "football",
       "league": "NCAA - Football",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "Arizona State Sun Devils at UCF Knights",
-      "home_team": "UCF Knights",
-      "away_team": "Arizona State Sun Devils",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
-      "venue": "Acrisure Bounce House",
+      "title": "Kansas Jayhawks at West Virginia Mountaineers",
+      "home_team": "West Virginia Mountaineers",
+      "away_team": "Kansas Jayhawks",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+      "venue": "Milan Puskar Stadium",
       "start": "2026-11-14T20:30Z",
       "channels": [
         {
@@ -1081,35 +994,6 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
       "venue": "Scott Stadium",
-      "start": "2026-11-14T20:30Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "Florida Atlantic Owls at Tulsa Golden Hurricane",
-      "home_team": "Tulsa Golden Hurricane",
-      "away_team": "Florida Atlantic Owls",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2226.png",
-      "venue": "H. A. Chapman Stadium",
       "start": "2026-11-14T20:30Z",
       "channels": [
         {
@@ -1483,12 +1367,12 @@
       "sport": "football",
       "league": "NCAA - Football",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "Ole Miss Rebels at Oklahoma Sooners",
-      "home_team": "Oklahoma Sooners",
-      "away_team": "Ole Miss Rebels",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
-      "venue": "Memorial Stadium (Norman, OK)",
+      "title": "Auburn Tigers at Mississippi State Bulldogs",
+      "home_team": "Mississippi State Bulldogs",
+      "away_team": "Auburn Tigers",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
+      "venue": "Davis Wade Stadium",
       "start": "2026-11-14T21:15Z",
       "channels": [
         {
@@ -1512,13 +1396,13 @@
       "sport": "football",
       "league": "NCAA - Football",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "Washington Huskies at Michigan State Spartans",
-      "home_team": "Michigan State Spartans",
-      "away_team": "Washington Huskies",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
-      "venue": "Spartan Stadium",
-      "start": "2026-11-14T21:15Z",
+      "title": "Tulane Green Wave at Rice Owls",
+      "home_team": "Rice Owls",
+      "away_team": "Tulane Green Wave",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/242.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
+      "venue": "First Community Stadium",
+      "start": "2026-11-14T21:30Z",
       "channels": [
         {
           "id": "205",
@@ -1664,12 +1548,41 @@
       "sport": "football",
       "league": "NCAA - Football",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "Kansas Jayhawks at West Virginia Mountaineers",
-      "home_team": "West Virginia Mountaineers",
-      "away_team": "Kansas Jayhawks",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
-      "venue": "Milan Puskar Stadium",
+      "title": "Arizona State Sun Devils at UCF Knights",
+      "home_team": "UCF Knights",
+      "away_team": "Arizona State Sun Devils",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
+      "venue": "Acrisure Bounce House",
+      "start": "2026-11-14T22:30Z",
+      "channels": [
+        {
+          "id": "205",
+          "name": "Fox Sports 1 USA",
+          "source": "guess"
+        },
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "243",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "football",
+      "league": "NCAA - Football",
+      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
+      "title": "Washington Huskies at Michigan State Spartans",
+      "home_team": "Michigan State Spartans",
+      "away_team": "Washington Huskies",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
+      "venue": "Spartan Stadium",
       "start": "2026-11-14T22:30Z",
       "channels": [
         {
@@ -1952,6 +1865,35 @@
       "venue": "Arena Condá",
       "start": "2026-11-14T23:30Z",
       "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "NCAA - Football",
+      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
+      "title": "Baylor Bears at BYU Cougars",
+      "home_team": "BYU Cougars",
+      "away_team": "Baylor Bears",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
+      "venue": "LaVell Edwards Stadium",
+      "start": "2026-11-15T00:00Z",
+      "channels": [
+        {
+          "id": "205",
+          "name": "Fox Sports 1 USA",
+          "source": "guess"
+        },
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "243",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        }
+      ]
     },
     {
       "sport": "football",
@@ -2594,13 +2536,13 @@
       "sport": "football",
       "league": "NCAA - Football",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "title": "Utah Utes at Arizona Wildcats",
-      "home_team": "Arizona Wildcats",
-      "away_team": "Utah Utes",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
-      "venue": "Casino Del Sol Stadium",
-      "start": "2026-11-15T00:30Z",
+      "title": "Florida Atlantic Owls at Tulsa Golden Hurricane",
+      "home_team": "Tulsa Golden Hurricane",
+      "away_team": "Florida Atlantic Owls",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2226.png",
+      "venue": "H. A. Chapman Stadium",
+      "start": "2026-11-15T00:15Z",
       "channels": [
         {
           "id": "205",
@@ -3193,6 +3135,35 @@
       "sport": "football",
       "league": "NCAA - Football",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
+      "title": "Utah Utes at Arizona Wildcats",
+      "home_team": "Arizona Wildcats",
+      "away_team": "Utah Utes",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
+      "venue": "Casino Del Sol Stadium",
+      "start": "2026-11-15T03:30Z",
+      "channels": [
+        {
+          "id": "205",
+          "name": "Fox Sports 1 USA",
+          "source": "guess"
+        },
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "243",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "football",
+      "league": "NCAA - Football",
+      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
       "title": "Colorado State Rams at Washington State Cougars",
       "home_team": "Washington State Cougars",
       "away_team": "Colorado State Rams",
@@ -3614,6 +3585,35 @@
         {
           "id": "205",
           "name": "Fox Sports 1 USA",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "football",
+      "league": "NCAA - Football",
+      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
+      "title": "Ole Miss Rebels at Oklahoma Sooners",
+      "home_team": "Oklahoma Sooners",
+      "away_team": "Ole Miss Rebels",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
+      "venue": "Memorial Stadium (Norman, OK)",
+      "start": "2026-11-15T18:00Z",
+      "channels": [
+        {
+          "id": "205",
+          "name": "Fox Sports 1 USA",
+          "source": "guess"
+        },
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "243",
+          "name": "CBS SPORTS FHD",
           "source": "guess"
         }
       ]
@@ -4382,6 +4382,19 @@
     },
     {
       "sport": "soccer",
+      "league": "Salvadoran Primera Division",
+      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2244.png",
+      "title": "Águila at Inca Aruba",
+      "home_team": "Inca Aruba",
+      "away_team": "Águila",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132480.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7226.png",
+      "venue": "Estadio Anna Mercedes Campos",
+      "start": "2026-11-15T23:00Z",
+      "channels": []
+    },
+    {
+      "sport": "soccer",
       "league": "Guatemalan Liga Nacional",
       "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2248.png",
       "title": "Antigua GFC at Suchitepequez",
@@ -4479,19 +4492,6 @@
           "source": "guess"
         }
       ]
-    },
-    {
-      "sport": "soccer",
-      "league": "Salvadoran Primera Division",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2244.png",
-      "title": "Águila at Inca Aruba",
-      "home_team": "Inca Aruba",
-      "away_team": "Águila",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132480.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7226.png",
-      "venue": "Estadio Anna Mercedes Campos",
-      "start": "2026-11-16T00:00Z",
-      "channels": []
     },
     {
       "sport": "hockey",
