@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-11-15T05:40:34.833Z",
-  "total_upcoming": 529,
+  "generated_at": "2026-11-15T13:41:10.276Z",
+  "total_upcoming": 524,
   "events": [
-    {
-      "sport": "soccer",
-      "league": "Spanish LALIGA 2",
-      "league_logo": "http://a.espncdn.com/i/leaguelogos/soccer/500/107.png",
-      "start_time_utc": "2026-11-15T13:00Z",
-      "name": "Ceuta at Tenerife",
-      "short_name": "CEU @ TEN",
-      "venue": "Estadio Heliodoro Rodríguez López",
-      "home_team": "Tenerife",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/245.png",
-      "away_team": "Ceuta",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5404.png"
-    },
     {
       "sport": "football",
       "league": "National Football League",
@@ -3634,19 +3621,6 @@
       "league": "NCAA - Football",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
       "start_time_utc": "2026-11-21T05:00Z",
-      "name": "UCLA Bruins at Michigan Wolverines",
-      "short_name": "UCLA @ MICH",
-      "venue": "Michigan Stadium",
-      "home_team": "Michigan Wolverines",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
-      "away_team": "UCLA Bruins",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png"
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "start_time_utc": "2026-11-21T05:00Z",
       "name": "Virginia Tech Hokies at Miami Hurricanes",
       "short_name": "VT @ MIA",
       "venue": "Hard Rock Stadium",
@@ -3654,19 +3628,6 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
       "away_team": "Virginia Tech Hokies",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png"
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "start_time_utc": "2026-11-21T05:00Z",
-      "name": "Indiana Hoosiers at Washington Huskies",
-      "short_name": "IU @ WASH",
-      "venue": "Husky Stadium",
-      "home_team": "Washington Huskies",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
-      "away_team": "Indiana Hoosiers",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png"
     },
     {
       "sport": "football",
@@ -3719,19 +3680,6 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
       "away_team": "Houston Cougars",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png"
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
-      "start_time_utc": "2026-11-21T05:00Z",
-      "name": "Ohio State Buckeyes at Nebraska Cornhuskers",
-      "short_name": "OSU @ NEB",
-      "venue": "Memorial Stadium (Lincoln, NE)",
-      "home_team": "Nebraska Cornhuskers",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-      "away_team": "Ohio State Buckeyes",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png"
     },
     {
       "sport": "football",
@@ -3865,19 +3813,6 @@
     },
     {
       "sport": "soccer",
-      "league": "Australian A-League Men",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1308.png",
-      "start_time_utc": "2026-11-21T06:00Z",
-      "name": "Perth Glory FC at Central Coast Mariners FC",
-      "short_name": "PER @ CCM",
-      "venue": "Central Coast Stadium",
-      "home_team": "Central Coast Mariners FC",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5325.png",
-      "away_team": "Perth Glory FC",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5322.png"
-    },
-    {
-      "sport": "soccer",
       "league": "Japanese J.League",
       "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2199.png",
       "start_time_utc": "2026-11-21T07:00Z",
@@ -3888,19 +3823,6 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7102.png",
       "away_team": "Fagiano Okayama",
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22522.png"
-    },
-    {
-      "sport": "soccer",
-      "league": "Australian A-League Men",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1308.png",
-      "start_time_utc": "2026-11-21T08:40Z",
-      "name": "Sydney FC at Brisbane Roar FC",
-      "short_name": "SYD @ BRI",
-      "venue": "Dolphin Stadium",
-      "home_team": "Brisbane Roar FC",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5326.png",
-      "away_team": "Sydney FC",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5327.png"
     },
     {
       "sport": "soccer",
@@ -4765,6 +4687,19 @@
       "league": "NCAA - Football",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
       "start_time_utc": "2026-11-21T17:00Z",
+      "name": "Ohio State Buckeyes at Nebraska Cornhuskers",
+      "short_name": "OSU @ NEB",
+      "venue": "Memorial Stadium (Lincoln, NE)",
+      "home_team": "Nebraska Cornhuskers",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+      "away_team": "Ohio State Buckeyes",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png"
+    },
+    {
+      "sport": "football",
+      "league": "NCAA - Football",
+      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
+      "start_time_utc": "2026-11-21T17:00Z",
       "name": "Vanderbilt Commodores at Florida Gators",
       "short_name": "VAN @ FLA",
       "venue": "Ben Hill Griffin Stadium",
@@ -5545,6 +5480,19 @@
       "league": "NCAA - Football",
       "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
       "start_time_utc": "2026-11-21T20:30Z",
+      "name": "UCLA Bruins at Michigan Wolverines",
+      "short_name": "UCLA @ MICH",
+      "venue": "Michigan Stadium",
+      "home_team": "Michigan Wolverines",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+      "away_team": "UCLA Bruins",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png"
+    },
+    {
+      "sport": "football",
+      "league": "NCAA - Football",
+      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
+      "start_time_utc": "2026-11-21T20:30Z",
       "name": "Arkansas Razorbacks at Texas Longhorns",
       "short_name": "ARK @ TEX",
       "venue": "DKR-Texas Memorial Stadium",
@@ -5565,6 +5513,19 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
       "away_team": "LSU Tigers",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png"
+    },
+    {
+      "sport": "football",
+      "league": "NCAA - Football",
+      "league_logo": "https://a.espncdn.com/redesign/assets/img/icons/NCAASports_Football.png",
+      "start_time_utc": "2026-11-21T20:30Z",
+      "name": "Indiana Hoosiers at Washington Huskies",
+      "short_name": "IU @ WASH",
+      "venue": "Husky Stadium",
+      "home_team": "Washington Huskies",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
+      "away_team": "Indiana Hoosiers",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png"
     },
     {
       "sport": "football",
@@ -5942,19 +5903,6 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
       "away_team": "Notre Dame Fighting Irish",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png"
-    },
-    {
-      "sport": "soccer",
-      "league": "CONMEBOL Sudamericana",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1208.png",
-      "start_time_utc": "2026-11-21T22:30Z",
-      "name": "Boca Juniors at Atlético-MG",
-      "short_name": "CABJ @ CAM",
-      "venue": "Metropolitano Roberto Meléndez",
-      "home_team": "Atlético-MG",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
-      "away_team": "Boca Juniors",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png"
     },
     {
       "sport": "soccer",
@@ -6722,19 +6670,6 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7234.png",
       "away_team": "Saprissa",
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/858.png"
-    },
-    {
-      "sport": "soccer",
-      "league": "Australian A-League Men",
-      "league_logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1308.png",
-      "start_time_utc": "2026-11-22T02:00Z",
-      "name": "Macarthur FC at Wellington Phoenix",
-      "short_name": "MAC @ WEL",
-      "venue": "Sky Stadium",
-      "home_team": "Wellington Phoenix",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8352.png",
-      "away_team": "Macarthur FC",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19340.png"
     },
     {
       "sport": "football",
