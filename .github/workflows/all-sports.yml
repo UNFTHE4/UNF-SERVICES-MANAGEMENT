@@ -19,101 +19,63 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: { node-version: '20' }
+        with:
+          node-version: '20'
 
       - name: Fetch Upcoming Games
         run: |
-          node - <<'JS'
+          cat << 'NODEJS' > fetch.js
           const fs = require('fs');
           const BASE = 'https://site.api.espn.com/apis/site/v2/sports';
 
-          // THE GREEDY LIST - Everything ESPN tracks
           const LEAGUES = [
-            // --- US SPORTS ---
-            ['football', 'nfl'],
-            ['football', 'college-football'],
-            ['basketball', 'nba'],
-            ['basketball', 'wnba'],
-            ['basketball', 'mens-college-basketball'],
-            ['basketball', 'womens-college-basketball'],
-            ['baseball', 'mlb'],
-            ['baseball', 'college-baseball'],
-            ['hockey', 'nhl'],
-            ['hockey', 'mens-college-hockey'],
-            ['mma', 'ufc'],
-            ['golf', 'pga'],
-            ['golf', 'lpga'],
-            ['tennis', 'atp'],
-            ['tennis', 'wta'],
-            ['racing', 'f1'],
-            ['racing', 'nascar-premier'],
-            ['racing', 'irl'],
-            ['boxing', 'all'],
-            ['lacrosse', 'pll'],
-            ['rugby', 'super-rugby'],
-            ['cricket', '8039'],
-            ['volleyball', 'usa.1'],
-            ['water-polo', 'usa.1'],
-
-            // --- SOCCER: EUROPE TOP FLIGHTS ---
-            ['soccer', 'eng.1'], ['soccer', 'esp.1'], ['soccer', 'ita.1'], ['soccer', 'ger.1'], ['soccer', 'fra.1'],
-            ['soccer', 'ned.1'], ['soccer', 'por.1'], ['soccer', 'bel.1'], ['soccer', 'tur.1'], ['soccer', 'gre.1'],
-            ['soccer', 'sco.1'], ['soccer', 'rus.1'], ['soccer', 'ukr.1'], ['soccer', 'aut.1'], ['soccer', 'sui.1'],
-            ['soccer', 'den.1'], ['soccer', 'swe.1'], ['soccer', 'nor.1'], ['soccer', 'fin.1'], ['soccer', 'pol.1'],
-            ['soccer', 'cze.1'], ['soccer', 'cro.1'], ['soccer', 'srb.1'], ['soccer', 'rom.1'], ['soccer', 'hun.1'],
-            ['soccer', 'bul.1'], ['soccer', 'isr.1'], ['soccer', 'cyp.1'], ['soccer', 'irl.1'], ['soccer', 'wal.1'],
-
-            // --- SOCCER: EUROPE 2ND TIERS ---
-            ['soccer', 'eng.2'], ['soccer', 'esp.2'], ['soccer', 'ita.2'], ['soccer', 'ger.2'], ['soccer', 'fra.2'],
-
-            // --- SOCCER: AMERICAS ---
-            ['soccer', 'usa.1'], ['soccer', 'usa.nwsl'], ['soccer', 'mex.1'], ['soccer', 'bra.1'], ['soccer', 'arg.1'],
-            ['soccer', 'chi.1'], ['soccer', 'col.1'], ['soccer', 'per.1'], ['soccer', 'uru.1'], ['soccer', 'ecu.1'],
-            ['soccer', 'par.1'], ['soccer', 'ven.1'], ['soccer', 'bol.1'], ['soccer', 'crc.1'], ['soccer', 'hon.1'],
-            ['soccer', 'gua.1'], ['soccer', 'slv.1'], ['soccer', 'pan.1'],
-
-            // --- SOCCER: ASIA / OCEANIA / AFRICA ---
-            ['soccer', 'jpn.1'], ['soccer', 'kor.1'], ['soccer', 'chn.1'], ['soccer', 'aus.1'], ['soccer', 'ind.1'],
-            ['soccer', 'ksa.1'], ['soccer', 'uae.1'], ['soccer', 'qat.1'], ['soccer', 'irn.1'], ['soccer', 'tha.1'],
-            ['soccer', 'rsa.1'], ['soccer', 'egy.1'], ['soccer', 'mar.1'], ['soccer', 'nga.1'], ['soccer', 'tun.1'],
-            ['soccer', 'alg.1'],
-
-            // --- SOCCER: CONTINENTAL COMPETITIONS ---
-            ['soccer', 'uefa.champions'], ['soccer', 'uefa.europa'], ['soccer', 'uefa.europa.conf'], ['soccer', 'uefa.super_cup'],
-            ['soccer', 'conmebol.libertadores'], ['soccer', 'conmebol.sudamericana'],
-            ['soccer', 'concacaf.champions'], ['soccer', 'concacaf.leagues.cup'],
-            ['soccer', 'afc.champions'], ['soccer', 'caf.champions']
+            ['football','nfl'],['football','college-football'],
+            ['basketball','nba'],['basketball','wnba'],
+            ['basketball','mens-college-basketball'],['basketball','womens-college-basketball'],
+            ['baseball','mlb'],['baseball','college-baseball'],
+            ['hockey','nhl'],['hockey','mens-college-hockey'],
+            ['mma','ufc'],['golf','pga'],['golf','lpga'],
+            ['tennis','atp'],['tennis','wta'],
+            ['racing','f1'],['racing','nascar-premier'],['racing','irl'],
+            ['boxing','all'],['lacrosse','pll'],['rugby','super-rugby'],
+            ['cricket','8039'],['volleyball','usa.1'],['water-polo','usa.1'],
+            ['soccer','eng.1'],['soccer','esp.1'],['soccer','ita.1'],['soccer','ger.1'],['soccer','fra.1'],
+            ['soccer','ned.1'],['soccer','por.1'],['soccer','bel.1'],['soccer','tur.1'],['soccer','gre.1'],
+            ['soccer','sco.1'],['soccer','rus.1'],['soccer','ukr.1'],['soccer','aut.1'],['soccer','sui.1'],
+            ['soccer','den.1'],['soccer','swe.1'],['soccer','nor.1'],['soccer','fin.1'],['soccer','pol.1'],
+            ['soccer','cze.1'],['soccer','cro.1'],['soccer','srb.1'],['soccer','rom.1'],['soccer','hun.1'],
+            ['soccer','bul.1'],['soccer','isr.1'],['soccer','cyp.1'],['soccer','irl.1'],['soccer','wal.1'],
+            ['soccer','eng.2'],['soccer','esp.2'],['soccer','ita.2'],['soccer','ger.2'],['soccer','fra.2'],
+            ['soccer','usa.1'],['soccer','usa.nwsl'],['soccer','mex.1'],['soccer','bra.1'],['soccer','arg.1'],
+            ['soccer','chi.1'],['soccer','col.1'],['soccer','per.1'],['soccer','uru.1'],['soccer','ecu.1'],
+            ['soccer','par.1'],['soccer','ven.1'],['soccer','bol.1'],['soccer','crc.1'],['soccer','hon.1'],
+            ['soccer','gua.1'],['soccer','slv.1'],['soccer','pan.1'],
+            ['soccer','jpn.1'],['soccer','kor.1'],['soccer','chn.1'],['soccer','aus.1'],['soccer','ind.1'],
+            ['soccer','ksa.1'],['soccer','uae.1'],['soccer','qat.1'],['soccer','irn.1'],['soccer','tha.1'],
+            ['soccer','rsa.1'],['soccer','egy.1'],['soccer','mar.1'],['soccer','nga.1'],['soccer','tun.1'],['soccer','alg.1'],
+            ['soccer','uefa.champions'],['soccer','uefa.europa'],['soccer','uefa.europa.conf'],['soccer','uefa.super_cup'],
+            ['soccer','conmebol.libertadores'],['soccer','conmebol.sudamericana'],
+            ['soccer','concacaf.champions'],['soccer','concacaf.leagues.cup'],
+            ['soccer','afc.champions'],['soccer','caf.champions']
           ];
 
           async function getUpcoming(sport, league) {
-            let allEvents = [];
-            const today = new Date();
-
-            // Loop through the next 7 days
+            let out = [];
             for (let i = 0; i < 7; i++) {
-              const d = new Date(today);
-              d.setDate(d.getDate() + i);
-              const dateStr = d.toISOString().split('T')[0].replace(/-/g, '');
-              
-              const url = `${BASE}/${sport}/${league}/scoreboard?dates=${dateStr}`;
-              
+              const d = new Date(); d.setDate(d.getDate() + i);
+              const ds = d.toISOString().split('T')[0].replace(/-/g,'');
               try {
-                const res = await fetch(url);
-                if (!res.ok) continue; 
-                const data = await res.json();
-                const events = data.events || [];
+                const r = await fetch(`${BASE}/${sport}/${league}/scoreboard?dates=${ds}`);
+                if (!r.ok) continue;
+                const data = await r.json();
                 const now = new Date();
-
-                for (const ev of events) {
-                  // Skip finished ("post") or live ("in") games
+                for (const ev of (data.events || [])) {
                   if (ev.status.type.state === 'post' || ev.status.type.state === 'in') continue;
                   if (new Date(ev.date) <= now) continue;
-
                   const comp = ev.competitions?.[0] || {};
                   const home = comp.competitors?.find(c => c.homeAway === 'home');
                   const away = comp.competitors?.find(c => c.homeAway === 'away');
-
-                  allEvents.push({
+                  out.push({
                     sport,
                     league: data.leagues?.[0]?.name || league,
                     league_logo: data.leagues?.[0]?.logos?.[0]?.href || null,
@@ -124,53 +86,85 @@ jobs:
                     home_team: home?.team?.displayName || null,
                     home_logo: home?.team?.logo || null,
                     away_team: away?.team?.displayName || null,
-                    away_logo: away?.team?.logo || null,
+                    away_logo: away?.team?.logo || null
                   });
                 }
-              } catch (e) {
-                // Ignore errors for single days/leagues
-              }
+              } catch {}
             }
-            return allEvents;
+            return out;
           }
 
           (async () => {
-            let allUpcoming = [];
-            
-            // Process in chunks so we don't get rate-limited by ESPN
+            let all = [];
             for (let i = 0; i < LEAGUES.length; i += 5) {
               const chunk = LEAGUES.slice(i, i + 5);
-              const results = await Promise.all(chunk.map(([sport, league]) => getUpcoming(sport, league)));
-              
-              results.forEach((events, index) => {
-                const [sport, league] = chunk[index];
-                if (events.length > 0) {
-                  console.log(`✅ ${sport}/${league}: ${events.length} upcoming`);
-                  allUpcoming.push(...events);
-                }
+              const res = await Promise.all(chunk.map(([s,l]) => getUpcoming(s,l)));
+              res.forEach((ev,idx) => {
+                const [s,l] = chunk[idx];
+                if (ev.length) { console.log(`OK ${s}/${l}: ${ev.length}`); all.push(...ev); }
               });
             }
-
-            // Remove duplicates
-            const uniqueEvents = Array.from(new Map(allUpcoming.map(item => [item.name + item.start_time_utc, item])).values());
-
-            // Sort chronologically
-            uniqueEvents.sort((a, b) => new Date(a.start_time_utc) - new Date(b.start_time_utc));
-
+            const uniq = Array.from(new Map(all.map(x => [x.name + x.start_time_utc, x])).values());
+            uniq.sort((a,b) => new Date(a.start_time_utc) - new Date(b.start_time_utc));
             fs.mkdirSync('api', { recursive: true });
             fs.writeFileSync('api/schedule.json', JSON.stringify({
               generated_at: new Date().toISOString(),
-              total_upcoming: uniqueEvents.length,
-              events: uniqueEvents
+              total_upcoming: uniq.length,
+              events: uniq
             }, null, 2));
-
-            console.log(`🎉 Saved ${uniqueEvents.length} upcoming events.`);
+            console.log(`Saved ${uniq.length} events`);
           })();
-          JS
+          NODEJS
+          node fetch.js
+
+      - name: Build poster
+        run: |
+          cat << 'NODEJS' > poster.js
+          const fs = require('fs');
+          const data = JSON.parse(fs.readFileSync('api/schedule.json','utf8'));
+          const map = {};
+          for (const e of (data.events || [])) {
+            const logo = e.league_logo || e.poster;
+            if (e.league && logo && !map[e.league]) map[e.league] = logo.replace(/^http:\/\//,'https://');
+          }
+          const SOLO_SPORTS = new Set(['racing','mma','boxing','golf','tennis','cricket','rugby','lacrosse']);
+          const solo = new Set();
+          for (const e of (data.events || [])) if (SOLO_SPORTS.has(e.sport) && e.league) solo.add(e.league);
+          const DATA = JSON.stringify({ leagues: map, solo: Array.from(solo) });
+
+          const html = '<!DOCTYPE html>'
+          + '<html><body style="margin:0;background:#000">'
+          + '<select id="lg" style="position:fixed;top:10px;left:10px;z-index:9;max-width:320px"></select>'
+          + '<button id="regen" style="position:fixed;top:10px;left:340px;z-index:9">New colors</button>'
+          + '<div style="width:1080px;height:1350px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;">'
+          + '<div id="left" style="position:absolute;top:0;left:0;width:50%;height:100%"></div>'
+          + '<div id="right" style="position:absolute;top:0;right:0;width:50%;height:100%"></div>'
+          + '<div id="single" style="position:absolute;inset:0;display:none"></div>'
+          + '<div style="position:absolute;width:820px;height:820px;border:1px solid rgba(255,255,255,.07);border-radius:50%"></div>'
+          + '<div style="position:absolute;width:600px;height:600px;border:1px solid rgba(255,255,255,.10);border-radius:50%"></div>'
+          + '<div style="position:absolute;width:380px;height:380px;border:1px solid rgba(255,255,255,.14);border-radius:50%"></div>'
+          + '<div style="position:absolute;width:280px;height:280px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.25) 0%,rgba(255,255,255,0) 70%);filter:blur(8px)"></div>'
+          + '<img id="logo" style="max-height:160px;max-width:160px;width:auto;height:auto;position:relative;z-index:2;filter:drop-shadow(0 6px 30px rgba(0,0,0,.7));">'
+          + '</div>'
+          + '<script>'
+          + 'const DATA = ' + DATA + ';'
+          + 'const L = DATA.leagues; const SOLO = new Set(DATA.solo);'
+          + 'function randColor(){const h=Math.floor(Math.random()*360),s=60+Math.random()*30,l=25+Math.random()*20;return "hsl("+h+","+s+"%,"+l+"%)";}'
+          + 'function paint(n){const split=!SOLO.has(n);const L1=document.getElementById("left"),R1=document.getElementById("right"),S=document.getElementById("single");if(split){L1.style.display="block";R1.style.display="block";S.style.display="none";const a=randColor();let b=randColor();while(b===a)b=randColor();L1.style.background=a;R1.style.background=b;}else{L1.style.display="none";R1.style.display="none";S.style.display="block";S.style.background=randColor();}}'
+          + 'const sel=document.getElementById("lg");for(const k of Object.keys(L).sort()){const o=document.createElement("option");o.value=k;o.textContent=k;sel.appendChild(o);}'
+          + 'function apply(){const n=sel.value;if(L[n])document.getElementById("logo").src=L[n];paint(n);}'
+          + 'sel.onchange=apply;document.getElementById("regen").onclick=function(){paint(sel.value);};'
+          + 'if(Object.keys(L).length)apply();'
+          + '<\/script></body></html>';
+
+          fs.writeFileSync('api/poster.html', html);
+          console.log('poster.html written with ' + Object.keys(map).length + ' leagues');
+          NODEJS
+          node poster.js
 
       - name: Commit
         run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
-          git add api/schedule.json
-          git diff --staged --quiet || (git commit -m "auto: update greedy schedule" && git push)
+          git add api/schedule.json api/poster.html
+          git diff --staged --quiet || (git commit -m "auto: schedule + poster" && git push)
