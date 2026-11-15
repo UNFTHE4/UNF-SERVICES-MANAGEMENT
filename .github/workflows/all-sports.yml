@@ -167,4 +167,10 @@ jobs:
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add api/schedule.json api/poster.html
-          git diff --staged --quiet || (git commit -m "auto: schedule + poster" && git push)
+          git diff --staged --quiet || (
+            git commit -m "auto: schedule + poster" &&
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              echo "retry $i"; sleep 5
+            done
+          )
