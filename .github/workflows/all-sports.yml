@@ -19,63 +19,87 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
+        with: { node-version: '20' }
 
       - name: Fetch Upcoming Games
         run: |
-          cat << 'NODEJS' > fetch.js
+          node - <<'JS'
           const fs = require('fs');
           const BASE = 'https://site.api.espn.com/apis/site/v2/sports';
 
           const LEAGUES = [
-            ['football','nfl'],['football','college-football'],
-            ['basketball','nba'],['basketball','wnba'],
-            ['basketball','mens-college-basketball'],['basketball','womens-college-basketball'],
-            ['baseball','mlb'],['baseball','college-baseball'],
-            ['hockey','nhl'],['hockey','mens-college-hockey'],
-            ['mma','ufc'],['golf','pga'],['golf','lpga'],
-            ['tennis','atp'],['tennis','wta'],
-            ['racing','f1'],['racing','nascar-premier'],['racing','irl'],
-            ['boxing','all'],['lacrosse','pll'],['rugby','super-rugby'],
-            ['cricket','8039'],['volleyball','usa.1'],['water-polo','usa.1'],
-            ['soccer','eng.1'],['soccer','esp.1'],['soccer','ita.1'],['soccer','ger.1'],['soccer','fra.1'],
-            ['soccer','ned.1'],['soccer','por.1'],['soccer','bel.1'],['soccer','tur.1'],['soccer','gre.1'],
-            ['soccer','sco.1'],['soccer','rus.1'],['soccer','ukr.1'],['soccer','aut.1'],['soccer','sui.1'],
-            ['soccer','den.1'],['soccer','swe.1'],['soccer','nor.1'],['soccer','fin.1'],['soccer','pol.1'],
-            ['soccer','cze.1'],['soccer','cro.1'],['soccer','srb.1'],['soccer','rom.1'],['soccer','hun.1'],
-            ['soccer','bul.1'],['soccer','isr.1'],['soccer','cyp.1'],['soccer','irl.1'],['soccer','wal.1'],
-            ['soccer','eng.2'],['soccer','esp.2'],['soccer','ita.2'],['soccer','ger.2'],['soccer','fra.2'],
-            ['soccer','usa.1'],['soccer','usa.nwsl'],['soccer','mex.1'],['soccer','bra.1'],['soccer','arg.1'],
-            ['soccer','chi.1'],['soccer','col.1'],['soccer','per.1'],['soccer','uru.1'],['soccer','ecu.1'],
-            ['soccer','par.1'],['soccer','ven.1'],['soccer','bol.1'],['soccer','crc.1'],['soccer','hon.1'],
-            ['soccer','gua.1'],['soccer','slv.1'],['soccer','pan.1'],
-            ['soccer','jpn.1'],['soccer','kor.1'],['soccer','chn.1'],['soccer','aus.1'],['soccer','ind.1'],
-            ['soccer','ksa.1'],['soccer','uae.1'],['soccer','qat.1'],['soccer','irn.1'],['soccer','tha.1'],
-            ['soccer','rsa.1'],['soccer','egy.1'],['soccer','mar.1'],['soccer','nga.1'],['soccer','tun.1'],['soccer','alg.1'],
-            ['soccer','uefa.champions'],['soccer','uefa.europa'],['soccer','uefa.europa.conf'],['soccer','uefa.super_cup'],
-            ['soccer','conmebol.libertadores'],['soccer','conmebol.sudamericana'],
-            ['soccer','concacaf.champions'],['soccer','concacaf.leagues.cup'],
-            ['soccer','afc.champions'],['soccer','caf.champions']
+            ['football', 'nfl'],
+            ['football', 'college-football'],
+            ['basketball', 'nba'],
+            ['basketball', 'wnba'],
+            ['basketball', 'mens-college-basketball'],
+            ['basketball', 'womens-college-basketball'],
+            ['baseball', 'mlb'],
+            ['baseball', 'college-baseball'],
+            ['hockey', 'nhl'],
+            ['hockey', 'mens-college-hockey'],
+            ['mma', 'ufc'],
+            ['golf', 'pga'],
+            ['golf', 'lpga'],
+            ['tennis', 'atp'],
+            ['tennis', 'wta'],
+            ['racing', 'f1'],
+            ['racing', 'nascar-premier'],
+            ['racing', 'irl'],
+            ['boxing', 'all'],
+            ['lacrosse', 'pll'],
+            ['rugby', 'super-rugby'],
+            ['cricket', '8039'],
+            ['volleyball', 'usa.1'],
+            ['water-polo', 'usa.1'],
+            ['soccer', 'eng.1'], ['soccer', 'esp.1'], ['soccer', 'ita.1'], ['soccer', 'ger.1'], ['soccer', 'fra.1'],
+            ['soccer', 'ned.1'], ['soccer', 'por.1'], ['soccer', 'bel.1'], ['soccer', 'tur.1'], ['soccer', 'gre.1'],
+            ['soccer', 'sco.1'], ['soccer', 'rus.1'], ['soccer', 'ukr.1'], ['soccer', 'aut.1'], ['soccer', 'sui.1'],
+            ['soccer', 'den.1'], ['soccer', 'swe.1'], ['soccer', 'nor.1'], ['soccer', 'fin.1'], ['soccer', 'pol.1'],
+            ['soccer', 'cze.1'], ['soccer', 'cro.1'], ['soccer', 'srb.1'], ['soccer', 'rom.1'], ['soccer', 'hun.1'],
+            ['soccer', 'bul.1'], ['soccer', 'isr.1'], ['soccer', 'cyp.1'], ['soccer', 'irl.1'], ['soccer', 'wal.1'],
+            ['soccer', 'eng.2'], ['soccer', 'esp.2'], ['soccer', 'ita.2'], ['soccer', 'ger.2'], ['soccer', 'fra.2'],
+            ['soccer', 'usa.1'], ['soccer', 'usa.nwsl'], ['soccer', 'mex.1'], ['soccer', 'bra.1'], ['soccer', 'arg.1'],
+            ['soccer', 'chi.1'], ['soccer', 'col.1'], ['soccer', 'per.1'], ['soccer', 'uru.1'], ['soccer', 'ecu.1'],
+            ['soccer', 'par.1'], ['soccer', 'ven.1'], ['soccer', 'bol.1'], ['soccer', 'crc.1'], ['soccer', 'hon.1'],
+            ['soccer', 'gua.1'], ['soccer', 'slv.1'], ['soccer', 'pan.1'],
+            ['soccer', 'jpn.1'], ['soccer', 'kor.1'], ['soccer', 'chn.1'], ['soccer', 'aus.1'], ['soccer', 'ind.1'],
+            ['soccer', 'ksa.1'], ['soccer', 'uae.1'], ['soccer', 'qat.1'], ['soccer', 'irn.1'], ['soccer', 'tha.1'],
+            ['soccer', 'rsa.1'], ['soccer', 'egy.1'], ['soccer', 'mar.1'], ['soccer', 'nga.1'], ['soccer', 'tun.1'],
+            ['soccer', 'alg.1'],
+            ['soccer', 'uefa.champions'], ['soccer', 'uefa.europa'], ['soccer', 'uefa.europa.conf'], ['soccer', 'uefa.super_cup'],
+            ['soccer', 'conmebol.libertadores'], ['soccer', 'conmebol.sudamericana'],
+            ['soccer', 'concacaf.champions'], ['soccer', 'concacaf.leagues.cup'],
+            ['soccer', 'afc.champions'], ['soccer', 'caf.champions']
           ];
 
           async function getUpcoming(sport, league) {
-            let out = [];
+            let allEvents = [];
+            const today = new Date();
+
             for (let i = 0; i < 7; i++) {
-              const d = new Date(); d.setDate(d.getDate() + i);
-              const ds = d.toISOString().split('T')[0].replace(/-/g,'');
+              const d = new Date(today);
+              d.setDate(d.getDate() + i);
+              const dateStr = d.toISOString().split('T')[0].replace(/-/g, '');
+
+              const url = `${BASE}/${sport}/${league}/scoreboard?dates=${dateStr}`;
+
               try {
-                const r = await fetch(`${BASE}/${sport}/${league}/scoreboard?dates=${ds}`);
-                if (!r.ok) continue;
-                const data = await r.json();
+                const res = await fetch(url);
+                if (!res.ok) continue;
+                const data = await res.json();
+                const events = data.events || [];
                 const now = new Date();
-                for (const ev of (data.events || [])) {
+
+                for (const ev of events) {
                   if (ev.status.type.state === 'post' || ev.status.type.state === 'in') continue;
                   if (new Date(ev.date) <= now) continue;
+
                   const comp = ev.competitions?.[0] || {};
                   const home = comp.competitors?.find(c => c.homeAway === 'home');
                   const away = comp.competitors?.find(c => c.homeAway === 'away');
-                  out.push({
+
+                  allEvents.push({
                     sport,
                     league: data.leagues?.[0]?.name || league,
                     league_logo: data.leagues?.[0]?.logos?.[0]?.href || null,
@@ -86,52 +110,53 @@ jobs:
                     home_team: home?.team?.displayName || null,
                     home_logo: home?.team?.logo || null,
                     away_team: away?.team?.displayName || null,
-                    away_logo: away?.team?.logo || null
+                    away_logo: away?.team?.logo || null,
                   });
                 }
-              } catch {}
+              } catch (e) {
+              }
             }
-            return out;
+            return allEvents;
           }
 
           (async () => {
-            let all = [];
+            let allUpcoming = [];
+
             for (let i = 0; i < LEAGUES.length; i += 5) {
               const chunk = LEAGUES.slice(i, i + 5);
-              const res = await Promise.all(chunk.map(([s,l]) => getUpcoming(s,l)));
-              res.forEach((ev,idx) => {
-                const [s,l] = chunk[idx];
-                if (ev.length) { console.log(`OK ${s}/${l}: ${ev.length}`); all.push(...ev); }
+              const results = await Promise.all(chunk.map(([sport, league]) => getUpcoming(sport, league)));
+
+              results.forEach((events, index) => {
+                const [sport, league] = chunk[index];
+                if (events.length > 0) {
+                  console.log(`✅ ${sport}/${league}: ${events.length} upcoming`);
+                  allUpcoming.push(...events);
+                }
               });
             }
-            const uniq = Array.from(new Map(all.map(x => [x.name + x.start_time_utc, x])).values());
-            uniq.sort((a,b) => new Date(a.start_time_utc) - new Date(b.start_time_utc));
+
+            const uniqueEvents = Array.from(new Map(allUpcoming.map(item => [item.name + item.start_time_utc, item])).values());
+
+            uniqueEvents.sort((a, b) => new Date(a.start_time_utc) - new Date(b.start_time_utc));
+
             fs.mkdirSync('api', { recursive: true });
             fs.writeFileSync('api/schedule.json', JSON.stringify({
               generated_at: new Date().toISOString(),
-              total_upcoming: uniq.length,
-              events: uniq
+              total_upcoming: uniqueEvents.length,
+              events: uniqueEvents
             }, null, 2));
-            console.log(`Saved ${uniq.length} events`);
+
+            console.log(`🎉 Saved ${uniqueEvents.length} upcoming events.`);
           })();
-          NODEJS
-          node fetch.js
+          JS
 
       - name: Generate league cover images
         run: |
-          cat << 'NODEJS' > covers.js
+          node - <<'JS'
           const fs = require('fs');
           const data = JSON.parse(fs.readFileSync('api/schedule.json','utf8'));
           const SOLO_SPORTS = new Set(['racing','mma','boxing','golf','tennis','cricket','rugby','lacrosse']);
-
-          const meta = {};
-          for (const e of (data.events || [])) {
-            if (!e.league || !e.league_logo) continue;
-            if (!meta[e.league]) meta[e.league] = {
-              logo: e.league_logo.replace(/^http:\/\//,'https://'),
-              solo: SOLO_SPORTS.has(e.sport)
-            };
-          }
+          const REPO = 'https://raw.githubusercontent.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/refs/heads/main';
 
           const randColor = () => {
             const h = Math.floor(Math.random()*360);
@@ -142,25 +167,24 @@ jobs:
           const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 
           fs.mkdirSync('api/covers', { recursive: true });
-          const map = {};
-          const REPO = 'https://raw.githubusercontent.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/refs/heads/main';
 
+          const meta = {};
+          for (const e of (data.events || [])) {
+            if (!e.league || !e.league_logo) continue;
+            if (!meta[e.league]) meta[e.league] = {
+              logo: e.league_logo.replace(/^http:\/\//,'https://'),
+              solo: SOLO_SPORTS.has(e.sport)
+            };
+          }
+
+          const map = {};
           for (const [name, m] of Object.entries(meta)) {
             const a = randColor();
             let b = randColor(); while (b === a) b = randColor();
             const bg = m.solo
               ? `<rect width="1080" height="1350" fill="${a}"/>`
               : `<rect width="540" height="1350" fill="${a}"/><rect x="540" width="540" height="1350" fill="${b}"/>`;
-
-            const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
-${bg}
-<circle cx="540" cy="675" r="410" fill="none" stroke="rgba(255,255,255,.07)" stroke-width="2"/>
-<circle cx="540" cy="675" r="300" fill="none" stroke="rgba(255,255,255,.10)" stroke-width="2"/>
-<circle cx="540" cy="675" r="190" fill="none" stroke="rgba(255,255,255,.14)" stroke-width="2"/>
-<circle cx="540" cy="675" r="140" fill="rgba(255,255,255,.18)"/>
-<image href="${m.logo}" x="460" y="595" width="160" height="160" preserveAspectRatio="xMidYMid meet"/>
-</svg>`;
-
+            const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">${bg}<circle cx="540" cy="675" r="410" fill="none" stroke="rgba(255,255,255,.07)" stroke-width="2"/><circle cx="540" cy="675" r="300" fill="none" stroke="rgba(255,255,255,.10)" stroke-width="2"/><circle cx="540" cy="675" r="190" fill="none" stroke="rgba(255,255,255,.14)" stroke-width="2"/><circle cx="540" cy="675" r="140" fill="rgba(255,255,255,.18)"/><image href="${m.logo}" x="460" y="595" width="160" height="160" preserveAspectRatio="xMidYMid meet"/></svg>`;
             const file = `api/covers/${slug(name)}.svg`;
             fs.writeFileSync(file, svg);
             map[name] = `${REPO}/${file}`;
@@ -170,9 +194,8 @@ ${bg}
             if (e.league && map[e.league]) e.league_logo = map[e.league];
           }
           fs.writeFileSync('api/schedule.json', JSON.stringify(data, null, 2));
-          console.log('covers written for ' + Object.keys(map).length + ' leagues');
-          NODEJS
-          node covers.js
+          console.log(`✅ Wrote ${Object.keys(map).length} league covers.`);
+          JS
 
       - name: Commit
         run: |
@@ -180,7 +203,7 @@ ${bg}
           git config user.email "action@github.com"
           git add api/schedule.json api/covers
           git diff --staged --quiet || (
-            git commit -m "auto: schedule + league covers" &&
+            git commit -m "auto: update greedy schedule + covers" &&
             for i in 1 2 3; do
               git pull --rebase origin main && git push && break
               echo "retry $i"; sleep 5
