@@ -23,7 +23,7 @@ jobs:
 
       - name: Fetch Upcoming Games
         run: |
-          node - <<'JS'
+          node --input-type=commonjs - <<'JS'
           const fs = require('fs');
           const BASE = 'https://site.api.espn.com/apis/site/v2/sports';
 
@@ -152,7 +152,7 @@ jobs:
 
       - name: Generate league cover images
         run: |
-          node - <<'JS'
+          node --input-type=commonjs - <<'JS'
           const fs = require('fs');
           const data = JSON.parse(fs.readFileSync('api/schedule.json','utf8'));
           const SOLO_SPORTS = new Set(['racing','mma','boxing','golf','tennis','cricket','rugby','lacrosse']);
