@@ -117,58 +117,70 @@ jobs:
           NODEJS
           node fetch.js
 
-      - name: Build poster
+      - name: Generate league cover images
         run: |
-          cat << 'NODEJS' > poster.js
+          cat << 'NODEJS' > covers.js
           const fs = require('fs');
           const data = JSON.parse(fs.readFileSync('api/schedule.json','utf8'));
-          const map = {};
-          for (const e of (data.events || [])) {
-            const logo = e.league_logo || e.poster;
-            if (e.league && logo && !map[e.league]) map[e.league] = logo.replace(/^http:\/\//,'https://');
-          }
           const SOLO_SPORTS = new Set(['racing','mma','boxing','golf','tennis','cricket','rugby','lacrosse']);
-          const solo = new Set();
-          for (const e of (data.events || [])) if (SOLO_SPORTS.has(e.sport) && e.league) solo.add(e.league);
-          const DATA = JSON.stringify({ leagues: map, solo: Array.from(solo) });
 
-          const html = '<!DOCTYPE html>'
-          + '<html><body style="margin:0;background:#000">'
-          + '<select id="lg" style="position:fixed;top:10px;left:10px;z-index:9;max-width:320px"></select>'
-          + '<button id="regen" style="position:fixed;top:10px;left:340px;z-index:9">New colors</button>'
-          + '<div style="width:1080px;height:1350px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;">'
-          + '<div id="left" style="position:absolute;top:0;left:0;width:50%;height:100%"></div>'
-          + '<div id="right" style="position:absolute;top:0;right:0;width:50%;height:100%"></div>'
-          + '<div id="single" style="position:absolute;inset:0;display:none"></div>'
-          + '<div style="position:absolute;width:820px;height:820px;border:1px solid rgba(255,255,255,.07);border-radius:50%"></div>'
-          + '<div style="position:absolute;width:600px;height:600px;border:1px solid rgba(255,255,255,.10);border-radius:50%"></div>'
-          + '<div style="position:absolute;width:380px;height:380px;border:1px solid rgba(255,255,255,.14);border-radius:50%"></div>'
-          + '<div style="position:absolute;width:280px;height:280px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.25) 0%,rgba(255,255,255,0) 70%);filter:blur(8px)"></div>'
-          + '<img id="logo" style="max-height:160px;max-width:160px;width:auto;height:auto;position:relative;z-index:2;filter:drop-shadow(0 6px 30px rgba(0,0,0,.7));">'
-          + '</div>'
-          + '<script>'
-          + 'const DATA = ' + DATA + ';'
-          + 'const L = DATA.leagues; const SOLO = new Set(DATA.solo);'
-          + 'function randColor(){const h=Math.floor(Math.random()*360),s=60+Math.random()*30,l=25+Math.random()*20;return "hsl("+h+","+s+"%,"+l+"%)";}'
-          + 'function paint(n){const split=!SOLO.has(n);const L1=document.getElementById("left"),R1=document.getElementById("right"),S=document.getElementById("single");if(split){L1.style.display="block";R1.style.display="block";S.style.display="none";const a=randColor();let b=randColor();while(b===a)b=randColor();L1.style.background=a;R1.style.background=b;}else{L1.style.display="none";R1.style.display="none";S.style.display="block";S.style.background=randColor();}}'
-          + 'const sel=document.getElementById("lg");for(const k of Object.keys(L).sort()){const o=document.createElement("option");o.value=k;o.textContent=k;sel.appendChild(o);}'
-          + 'function apply(){const n=sel.value;if(L[n])document.getElementById("logo").src=L[n];paint(n);}'
-          + 'sel.onchange=apply;document.getElementById("regen").onclick=function(){paint(sel.value);};'
-          + 'if(Object.keys(L).length)apply();'
-          + '<\/script></body></html>';
+          const meta = {};
+          for (const e of (data.events || [])) {
+            if (!e.league || !e.league_logo) continue;
+            if (!meta[e.league]) meta[e.league] = {
+              logo: e.league_logo.replace(/^http:\/\//,'https://'),
+              solo: SOLO_SPORTS.has(e.sport)
+            };
+          }
 
-          fs.writeFileSync('api/poster.html', html);
-          console.log('poster.html written with ' + Object.keys(map).length + ' leagues');
+          const randColor = () => {
+            const h = Math.floor(Math.random()*360);
+            const s = 60 + Math.random()*30;
+            const l = 25 + Math.random()*20;
+            return `hsl(${h},${s}%,${l}%)`;
+          };
+          const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+
+          fs.mkdirSync('api/covers', { recursive: true });
+          const map = {};
+          const REPO = 'https://raw.githubusercontent.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/refs/heads/main';
+
+          for (const [name, m] of Object.entries(meta)) {
+            const a = randColor();
+            let b = randColor(); while (b === a) b = randColor();
+            const bg = m.solo
+              ? `<rect width="1080" height="1350" fill="${a}"/>`
+              : `<rect width="540" height="1350" fill="${a}"/><rect x="540" width="540" height="1350" fill="${b}"/>`;
+
+            const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+${bg}
+<circle cx="540" cy="675" r="410" fill="none" stroke="rgba(255,255,255,.07)" stroke-width="2"/>
+<circle cx="540" cy="675" r="300" fill="none" stroke="rgba(255,255,255,.10)" stroke-width="2"/>
+<circle cx="540" cy="675" r="190" fill="none" stroke="rgba(255,255,255,.14)" stroke-width="2"/>
+<circle cx="540" cy="675" r="140" fill="rgba(255,255,255,.18)"/>
+<image href="${m.logo}" x="460" y="595" width="160" height="160" preserveAspectRatio="xMidYMid meet"/>
+</svg>`;
+
+            const file = `api/covers/${slug(name)}.svg`;
+            fs.writeFileSync(file, svg);
+            map[name] = `${REPO}/${file}`;
+          }
+
+          for (const e of (data.events || [])) {
+            if (e.league && map[e.league]) e.league_logo = map[e.league];
+          }
+          fs.writeFileSync('api/schedule.json', JSON.stringify(data, null, 2));
+          console.log('covers written for ' + Object.keys(map).length + ' leagues');
           NODEJS
-          node poster.js
+          node covers.js
 
       - name: Commit
         run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
-          git add api/schedule.json api/poster.html
+          git add api/schedule.json api/covers
           git diff --staged --quiet || (
-            git commit -m "auto: schedule + poster" &&
+            git commit -m "auto: schedule + league covers" &&
             for i in 1 2 3; do
               git pull --rebase origin main && git push && break
               echo "retry $i"; sleep 5
