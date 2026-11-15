@@ -157,12 +157,18 @@ jobs:
           const data = JSON.parse(fs.readFileSync('api/schedule.json','utf8'));
           const SOLO_SPORTS = new Set(['racing','mma','boxing','golf','tennis','cricket','rugby','lacrosse']);
           const REPO = 'https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main';
+          const MONIRUL_URL = 'https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/refs/heads/main/Sports_data.json';
 
           const randColor = () => {
-            const h = Math.floor(Math.random()*360);
-            const s = 60 + Math.random()*30;
-            const l = 25 + Math.random()*20;
-            return `hsl(${h},${s}%,${l}%)`;
+            const h = Math.random()*360, s = (60 + Math.random()*30)/100, l = (25 + Math.random()*20)/100;
+            const c = (1 - Math.abs(2*l - 1)) * s;
+            const x = c * (1 - Math.abs((h/60) % 2 - 1));
+            const m = l - c/2;
+            let r=0,g=0,b=0;
+            if (h<60){r=c;g=x;} else if (h<120){r=x;g=c;} else if (h<180){g=c;b=x;}
+            else if (h<240){g=x;b=c;} else if (h<300){r=x;b=c;} else {r=c;b=x;}
+            const to = v => Math.round((v+m)*255);
+            return `rgb(${to(r)},${to(g)},${to(b)})`;
           };
           const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 
@@ -180,6 +186,7 @@ jobs:
             fs.mkdirSync('api/covers', { recursive: true });
 
             const meta = {};
+            // 1. ESPN leagues first (authoritative)
             for (const e of (data.events || [])) {
               if (!e.league || !e.league_logo) continue;
               if (!meta[e.league]) meta[e.league] = {
@@ -187,6 +194,25 @@ jobs:
                 solo: SOLO_SPORTS.has(e.sport)
               };
             }
+
+            // 2. SofaScore (Monirul) — fills leagues ESPN doesn't have
+            try {
+              const r = await fetch(MONIRUL_URL);
+              if (r.ok) {
+                const md = await r.json();
+                for (const m of (md.matches || [])) {
+                  const info = m.eventInfo || {};
+                  const league = info.eventName || m.Category || null;
+                  if (!league || meta[league]) continue;
+                  const logo = info.event_logo;
+                  if (!logo) continue;
+                  meta[league] = {
+                    logo: logo.replace(/^http:\/\//,'https://'),
+                    solo: false
+                  };
+                }
+              }
+            } catch (e) { console.warn('Monirul fetch failed: ' + e.message); }
 
             const map = {};
             for (const [name, m] of Object.entries(meta)) {
