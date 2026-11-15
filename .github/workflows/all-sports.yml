@@ -156,7 +156,7 @@ jobs:
           const fs = require('fs');
           const data = JSON.parse(fs.readFileSync('api/schedule.json','utf8'));
           const SOLO_SPORTS = new Set(['racing','mma','boxing','golf','tennis','cricket','rugby','lacrosse']);
-          const REPO = 'https://raw.githubusercontent.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/refs/heads/main';
+          const REPO = 'https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main';
 
           const randColor = () => {
             const h = Math.floor(Math.random()*360);
@@ -165,6 +165,16 @@ jobs:
             return `hsl(${h},${s}%,${l}%)`;
           };
           const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+
+          async function toDataUri(url) {
+            try {
+              const r = await fetch(url);
+              if (!r.ok) return null;
+              const buf = Buffer.from(await r.arrayBuffer());
+              const ct = r.headers.get('content-type') || 'image/png';
+              return `data:${ct};base64,${buf.toString('base64')}`;
+            } catch { return null; }
+          }
 
           fs.mkdirSync('api/covers', { recursive: true });
 
@@ -179,12 +189,16 @@ jobs:
 
           const map = {};
           for (const [name, m] of Object.entries(meta)) {
+            const embedded = await toDataUri(m.logo);
             const a = randColor();
             let b = randColor(); while (b === a) b = randColor();
             const bg = m.solo
               ? `<rect width="1080" height="1350" fill="${a}"/>`
               : `<rect width="540" height="1350" fill="${a}"/><rect x="540" width="540" height="1350" fill="${b}"/>`;
-            const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">${bg}<circle cx="540" cy="675" r="410" fill="none" stroke="rgba(255,255,255,.07)" stroke-width="2"/><circle cx="540" cy="675" r="300" fill="none" stroke="rgba(255,255,255,.10)" stroke-width="2"/><circle cx="540" cy="675" r="190" fill="none" stroke="rgba(255,255,255,.14)" stroke-width="2"/><circle cx="540" cy="675" r="140" fill="rgba(255,255,255,.18)"/><image href="${m.logo}" x="460" y="595" width="160" height="160" preserveAspectRatio="xMidYMid meet"/></svg>`;
+            const logoTag = embedded
+              ? `<image href="${embedded}" x="460" y="595" width="160" height="160" preserveAspectRatio="xMidYMid meet"/>`
+              : '';
+            const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">${bg}<circle cx="540" cy="675" r="410" fill="none" stroke="rgba(255,255,255,.07)" stroke-width="2"/><circle cx="540" cy="675" r="300" fill="none" stroke="rgba(255,255,255,.10)" stroke-width="2"/><circle cx="540" cy="675" r="190" fill="none" stroke="rgba(255,255,255,.14)" stroke-width="2"/><circle cx="540" cy="675" r="140" fill="rgba(255,255,255,.18)"/>${logoTag}</svg>`;
             const file = `api/covers/${slug(name)}.svg`;
             fs.writeFileSync(file, svg);
             map[name] = `${REPO}/${file}`;
