@@ -1,84 +1,333 @@
 {
-  "generated": "2026-11-15T14:36:11.685Z",
-  "count": 528,
-  "confirmed": 1,
+  "generated": "2026-11-15T20:09:05.203Z",
+  "count": 592,
+  "confirmed": 10,
   "matches": [
     {
       "sport": "football",
-      "league": "National Football League",
-      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/national-football-league.svg",
-      "title": "New England Patriots at Detroit Lions",
+      "league": "SPORTS LIVE",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/sports-live.svg",
+      "title": "SPORTS LIVE Vs SPORTS LIVE",
+      "home_team": "SPORTS LIVE",
+      "away_team": "SPORTS LIVE",
+      "home_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXjkLQo2g5ENJMJlMOF-F_LJH5AhLJ22D3GbNx95sNFA&s=10",
+      "away_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXjkLQo2g5ENJMJlMOF-F_LJH5AhLJ22D3GbNx95sNFA&s=10",
+      "venue": "",
+      "start": "2026-11-10T03:40:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "TENNIS | EVENTO ",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/tennis-evento.svg",
+      "title": "TENNIS | EVENTO Vs TENNIS | EVENTO",
+      "home_team": "TENNIS | EVENTO",
+      "away_team": "TENNIS | EVENTO",
+      "home_logo": "https://i.ibb.co/jPv7P49q/Sktenn.png",
+      "away_logo": "https://i.ibb.co/jPv7P49q/Sktenn.png",
+      "venue": "",
+      "start": "2026-11-10T03:40:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "GOLF EVENTO",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/golf-evento.svg",
+      "title": "GOLF EVENTO Vs GOLF EVENTO",
+      "home_team": "GOLF EVENTO",
+      "away_team": "GOLF EVENTO",
+      "home_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfsn5BK10q6F7RDnUoMF18c1HXCsm0WNNhAH_T3iee9Q&s",
+      "away_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfsn5BK10q6F7RDnUoMF18c1HXCsm0WNNhAH_T3iee9Q&s",
+      "venue": "",
+      "start": "2026-11-11T01:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "cricket",
+      "league": "Women's Big Bash League",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/women-s-big-bash-league.svg",
+      "title": "WBBL Vs WBBL",
+      "home_team": "WBBL",
+      "away_team": "WBBL",
+      "home_logo": "http://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
+      "away_logo": "http://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
+      "venue": "",
+      "start": "2026-11-15T00:00:00.000Z",
+      "channels": [
+        {
+          "id": "103",
+          "name": "SKY CRICKET FHD",
+          "source": "epg"
+        }
+      ]
+    },
+    {
+      "sport": "cricket",
+      "league": "ICC World Test Championship",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/icc-world-test-championship.svg",
+      "title": "South Africa Vs Bangladesh",
+      "home_team": "South Africa",
+      "away_team": "Bangladesh",
+      "home_logo": "https://img.sofascore.com/api/v1/team/187747/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/187744/image",
+      "venue": "",
+      "start": "2026-11-15T08:00:00.000Z",
+      "channels": [
+        {
+          "id": "103",
+          "name": "SKY CRICKET FHD",
+          "source": "guess"
+        },
+        {
+          "id": "112",
+          "name": "STAR SPORTS HD",
+          "source": "guess"
+        },
+        {
+          "id": "113",
+          "name": "STAR SPORTS HD 2",
+          "source": "guess"
+        },
+        {
+          "id": "114",
+          "name": "STAR SPORTS HD 3",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "cricket",
+      "league": "ABU DHABI T10 LEAGUE",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/abu-dhabi-t10-league.svg",
+      "title": "ABU DHABI T10 LEAGUE Vs ABU DHABI T10 LEAGUE",
+      "home_team": "ABU DHABI T10 LEAGUE",
+      "away_team": "ABU DHABI T10 LEAGUE",
+      "home_logo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
+      "away_logo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
+      "venue": "",
+      "start": "2026-11-15T11:30:00.000Z",
+      "channels": [
+        {
+          "id": "112",
+          "name": "STAR SPORTS HD",
+          "source": "epg"
+        },
+        {
+          "id": "113",
+          "name": "STAR SPORTS HD 2",
+          "source": "epg"
+        },
+        {
+          "id": "114",
+          "name": "STAR SPORTS HD 3",
+          "source": "epg"
+        }
+      ]
+    },
+    {
+      "sport": "football",
+      "league": "NFL REDZONE",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nfl-redzone.svg",
+      "title": "NFL REDZONE Vs NFL REDZONE",
+      "home_team": "NFL REDZONE",
+      "away_team": "NFL REDZONE",
+      "home_logo": "http://img.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "away_logo": "http://img.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "venue": "",
+      "start": "2026-11-15T12:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "DARTS PDC",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/darts-pdc.svg",
+      "title": "DARTS PDC Vs DARTS PDC",
+      "home_team": "DARTS PDC",
+      "away_team": "DARTS PDC",
+      "home_logo": "https://img.sofascore.com/api/v1/unique-tournament/751/image",
+      "away_logo": "https://img.sofascore.com/api/v1/unique-tournament/751/image",
+      "venue": "",
+      "start": "2026-11-15T13:30:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "hockey",
+      "league": "World Championship Women",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/world-championship-women.svg",
+      "title": "USA Vs Finland",
+      "home_team": "USA",
+      "away_team": "Finland",
+      "home_logo": "https://img.sofascore.com/api/v1/team/5726/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/5728/image",
+      "venue": "",
+      "start": "2026-11-15T14:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "NFL",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nfl.svg",
+      "title": "Detroit Lions Vs New England Patriots",
       "home_team": "Detroit Lions",
       "away_team": "New England Patriots",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
-      "venue": "FC Bayern Munich Stadium",
-      "start": "2026-11-15T14:30Z",
+      "home_logo": "https://img.sofascore.com/api/v1/team/4419/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/4424/image",
+      "venue": "",
+      "start": "2026-11-15T14:30:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "CAF Women's Champions League",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/caf-women-s-champions-league.svg",
+      "title": "Mamelodi Sundowns Vs AS FAR Rabat",
+      "home_team": "Mamelodi Sundowns",
+      "away_team": "AS FAR Rabat",
+      "home_logo": "https://img.sofascore.com/api/v1/team/331932/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/378992/image",
+      "venue": "",
+      "start": "2026-11-15T15:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "Liga F Moeve",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/liga-f-moeve.svg",
+      "title": "Sevilla FC Vs Club Atlético de Madrid",
+      "home_team": "Sevilla FC",
+      "away_team": "Club Atlético de Madrid",
+      "home_logo": "https://img.sofascore.com/api/v1/team/77903/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/77879/image",
+      "venue": "",
+      "start": "2026-11-15T15:00:00.000Z",
       "channels": [
         {
-          "id": "242",
-          "name": "NFL SERVER FHD",
-          "source": "guess"
-        },
-        {
-          "id": "127",
-          "name": "NBC SPORTS",
-          "source": "guess"
-        },
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
+          "id": "211",
+          "name": "TNT 3",
+          "source": "epg"
         }
       ]
     },
     {
-      "sport": "soccer",
-      "league": "Spanish LALIGA 2",
-      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/spanish-laliga-2.svg",
-      "title": "Las Palmas at Granada",
+      "sport": "football",
+      "league": "Nations Championship",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nations-championship.svg",
+      "title": "Scotland Vs Australia",
+      "home_team": "Scotland",
+      "away_team": "Australia",
+      "home_logo": "https://img.sofascore.com/api/v1/team/4230/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/4223/image",
+      "venue": "",
+      "start": "2026-11-15T15:10:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "LaLiga 2",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/laliga-2.svg",
+      "title": "Granada Vs UD Las Palmas",
       "home_team": "Granada",
-      "away_team": "Las Palmas",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3747.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/98.png",
-      "venue": "Nuevo Estadio de Los Cármenes",
-      "start": "2026-11-15T15:15Z",
+      "away_team": "UD Las Palmas",
+      "home_logo": "https://img.sofascore.com/api/v1/team/33779/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/6577/image",
+      "venue": "",
+      "start": "2026-11-15T15:15:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "Women's Super League",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/women-s-super-league.svg",
+      "title": "Arsenal Vs London City Lionesses",
+      "home_team": "Arsenal",
+      "away_team": "London City Lionesses",
+      "home_logo": "https://img.sofascore.com/api/v1/team/26243/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/326573/image",
+      "venue": "",
+      "start": "2026-11-15T16:30:00.000Z",
       "channels": [
         {
-          "id": "209",
-          "name": "TNT1UK SPORTS FHD",
-          "source": "guess"
+          "id": "102",
+          "name": "SKY SPORTS MAIN EVENT",
+          "source": "epg"
         },
         {
-          "id": "210",
-          "name": "TNT2UK SPORTS FHD",
-          "source": "guess"
+          "id": "252",
+          "name": "Sky Sports Premier League",
+          "source": "epg"
         }
       ]
     },
     {
-      "sport": "basketball",
-      "league": "NCAA Women's Basketball",
-      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-women-s-basketball.svg",
-      "title": "Eastern Michigan Eagles at Kentucky Wildcats",
-      "home_team": "Kentucky Wildcats",
-      "away_team": "Eastern Michigan Eagles",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
-      "venue": "Memorial Coliseum (KY)",
-      "start": "2026-11-15T17:00Z",
+      "sport": "football",
+      "league": "International Friendly Games",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/international-friendly-games.svg",
+      "title": "Suriname Vs Eswatini",
+      "home_team": "Suriname",
+      "away_team": "Eswatini",
+      "home_logo": "https://img.sofascore.com/api/v1/team/21822/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/4733/image",
+      "venue": "",
+      "start": "2026-11-15T17:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "UEFA Nations League",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/uefa-nations-league.svg",
+      "title": "Belarus Vs Albania",
+      "home_team": "Belarus",
+      "away_team": "Albania",
+      "home_logo": "https://img.sofascore.com/api/v1/team/4743/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/4690/image",
+      "venue": "",
+      "start": "2026-11-15T17:00:00.000Z",
       "channels": [
         {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
+          "id": "106",
+          "name": "SONY TEN 2",
+          "source": "epg"
         }
       ]
+    },
+    {
+      "sport": "football",
+      "league": "UEFA Nations League",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/uefa-nations-league.svg",
+      "title": "Finland Vs San Marino",
+      "home_team": "Finland",
+      "away_team": "San Marino",
+      "home_logo": "https://img.sofascore.com/api/v1/team/4712/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/4833/image",
+      "venue": "",
+      "start": "2026-11-15T17:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "Liga F Moeve",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/liga-f-moeve.svg",
+      "title": "Real Club Deportivo de A Coruña Vs Fútbol Club Barcelona",
+      "home_team": "Real Club Deportivo de A Coruña",
+      "away_team": "Fútbol Club Barcelona",
+      "home_logo": "https://img.sofascore.com/api/v1/team/262253/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/77889/image",
+      "venue": "",
+      "start": "2026-11-15T17:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "Liga F Moeve",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/liga-f-moeve.svg",
+      "title": "Valencia Vs Granada Club de Fútbol",
+      "home_team": "Valencia",
+      "away_team": "Granada Club de Fútbol",
+      "home_logo": "https://img.sofascore.com/api/v1/team/77909/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/114819/image",
+      "venue": "",
+      "start": "2026-11-15T17:15:00.000Z",
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -127,6 +376,32 @@
           "source": "guess"
         }
       ]
+    },
+    {
+      "sport": "football",
+      "league": "LaLiga 2",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/laliga-2.svg",
+      "title": "Eibar Vs Cádiz",
+      "home_team": "Eibar",
+      "away_team": "Cádiz",
+      "home_logo": "https://img.sofascore.com/api/v1/team/2839/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/4488/image",
+      "venue": "",
+      "start": "2026-11-15T17:30:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "LaLiga 2",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/laliga-2.svg",
+      "title": "CD Eldense Vs CE Sabadell",
+      "home_team": "CD Eldense",
+      "away_team": "CE Sabadell",
+      "home_logo": "https://img.sofascore.com/api/v1/team/47321/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/24335/image",
+      "venue": "",
+      "start": "2026-11-15T17:30:00.000Z",
+      "channels": []
     },
     {
       "sport": "football",
@@ -557,6 +832,136 @@
       "channels": []
     },
     {
+      "sport": "football",
+      "league": "NFL",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nfl.svg",
+      "title": "Atlanta Falcons Vs Kansas City Chiefs",
+      "home_team": "Atlanta Falcons",
+      "away_team": "Kansas City Chiefs",
+      "home_logo": "https://img.sofascore.com/api/v1/team/4393/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/4422/image",
+      "venue": "",
+      "start": "2026-11-15T18:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "NFL",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nfl.svg",
+      "title": "Indianapolis Colts Vs Miami Dolphins",
+      "home_team": "Indianapolis Colts",
+      "away_team": "Miami Dolphins",
+      "home_logo": "https://img.sofascore.com/api/v1/team/4421/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/4287/image",
+      "venue": "",
+      "start": "2026-11-15T18:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "NFL",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nfl.svg",
+      "title": "Green Bay Packers Vs Minnesota Vikings",
+      "home_team": "Green Bay Packers",
+      "away_team": "Minnesota Vikings",
+      "home_logo": "https://img.sofascore.com/api/v1/team/4420/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/4423/image",
+      "venue": "",
+      "start": "2026-11-15T18:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "NFL",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nfl.svg",
+      "title": "Cleveland Browns Vs Houston Texans",
+      "home_team": "Cleveland Browns",
+      "away_team": "Houston Texans",
+      "home_logo": "https://img.sofascore.com/api/v1/team/4417/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/4324/image",
+      "venue": "",
+      "start": "2026-11-15T18:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "NFL",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nfl.svg",
+      "title": "Tennessee Titans Vs Jacksonville Jaguars",
+      "home_team": "Tennessee Titans",
+      "away_team": "Jacksonville Jaguars",
+      "home_logo": "https://img.sofascore.com/api/v1/team/4431/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/4386/image",
+      "venue": "",
+      "start": "2026-11-15T18:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "NFL",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nfl.svg",
+      "title": "New York Jets Vs Buffalo Bills",
+      "home_team": "New York Jets",
+      "away_team": "Buffalo Bills",
+      "home_logo": "https://img.sofascore.com/api/v1/team/4427/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/4414/image",
+      "venue": "",
+      "start": "2026-11-15T18:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "NFL",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nfl.svg",
+      "title": "New Orleans Saints Vs Carolina Panthers",
+      "home_team": "New Orleans Saints",
+      "away_team": "Carolina Panthers",
+      "home_logo": "https://img.sofascore.com/api/v1/team/4425/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/4415/image",
+      "venue": "",
+      "start": "2026-11-15T18:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "Liga 1 Te Apuesto",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/liga-1-te-apuesto.svg",
+      "title": "Comerciantes Unidos Vs Sport Boys",
+      "home_team": "Comerciantes Unidos",
+      "away_team": "Sport Boys",
+      "home_logo": "https://img.sofascore.com/api/v1/team/213609/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/2312/image",
+      "venue": "",
+      "start": "2026-11-15T18:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "basketball",
+      "league": "NBA",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nba.svg",
+      "title": "Philadelphia 76ers Vs Indiana Pacers",
+      "home_team": "Philadelphia 76ers",
+      "away_team": "Indiana Pacers",
+      "home_logo": "https://img.sofascore.com/api/v1/team/3420/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/3419/image",
+      "venue": "",
+      "start": "2026-11-15T18:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "hockey",
+      "league": "World Championship Women",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/world-championship-women.svg",
+      "title": "Canada Vs Sweden",
+      "home_team": "Canada",
+      "away_team": "Sweden",
+      "home_logo": "https://img.sofascore.com/api/v1/team/5721/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/5724/image",
+      "venue": "",
+      "start": "2026-11-15T18:00:00.000Z",
+      "channels": []
+    },
+    {
       "sport": "basketball",
       "league": "NCAA Men's Basketball",
       "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-men-s-basketball.svg",
@@ -610,6 +1015,19 @@
       ]
     },
     {
+      "sport": "football",
+      "league": "Copa do Brasil, Feminino",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/copa-do-brasil-feminino.svg",
+      "title": "Internacional Vs Flamengo",
+      "home_team": "Internacional",
+      "away_team": "Flamengo",
+      "home_logo": "https://img.sofascore.com/api/v1/team/311632/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/248722/image",
+      "venue": "",
+      "start": "2026-11-15T19:00:00.000Z",
+      "channels": []
+    },
+    {
       "sport": "soccer",
       "league": "Liga AUF Uruguaya",
       "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/liga-auf-uruguaya.svg",
@@ -621,6 +1039,76 @@
       "venue": "Jardines del Hipódromo",
       "start": "2026-11-15T19:30Z",
       "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "UEFA Nations League",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/uefa-nations-league.svg",
+      "title": "Spain Vs England",
+      "home_team": "Spain",
+      "away_team": "England",
+      "home_logo": "https://img.sofascore.com/api/v1/team/4698/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/4713/image",
+      "venue": "",
+      "start": "2026-11-15T19:45:00.000Z",
+      "channels": [
+        {
+          "id": "106",
+          "name": "SONY TEN 2",
+          "source": "epg"
+        }
+      ]
+    },
+    {
+      "sport": "football",
+      "league": "UEFA Nations League",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/uefa-nations-league.svg",
+      "title": "Croatia Vs Czechia",
+      "home_team": "Croatia",
+      "away_team": "Czechia",
+      "home_logo": "https://img.sofascore.com/api/v1/team/4715/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/4714/image",
+      "venue": "",
+      "start": "2026-11-15T19:45:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "UEFA Nations League",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/uefa-nations-league.svg",
+      "title": "France Vs Türkiye",
+      "home_team": "France",
+      "away_team": "Türkiye",
+      "home_logo": "https://img.sofascore.com/api/v1/team/4481/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/4700/image",
+      "venue": "",
+      "start": "2026-11-15T19:45:00.000Z",
+      "channels": [
+        {
+          "id": "105",
+          "name": "SONY TEN 1",
+          "source": "epg"
+        }
+      ]
+    },
+    {
+      "sport": "football",
+      "league": "UEFA Nations League",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/uefa-nations-league.svg",
+      "title": "Belgium Vs Italy",
+      "home_team": "Belgium",
+      "away_team": "Italy",
+      "home_logo": "https://img.sofascore.com/api/v1/team/4717/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/4707/image",
+      "venue": "",
+      "start": "2026-11-15T19:45:00.000Z",
+      "channels": [
+        {
+          "id": "109",
+          "name": "SONY TEN 5",
+          "source": "epg"
+        }
+      ]
     },
     {
       "sport": "basketball",
@@ -767,6 +1255,25 @@
       ]
     },
     {
+      "sport": "football",
+      "league": "NWSL",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nwsl.svg",
+      "title": "NJ/NY Gotham FC Vs Kansas City Current",
+      "home_team": "NJ/NY Gotham FC",
+      "away_team": "Kansas City Current",
+      "home_logo": "https://img.sofascore.com/api/v1/team/34718/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/377826/image",
+      "venue": "",
+      "start": "2026-11-15T20:00:00.000Z",
+      "channels": [
+        {
+          "id": "209",
+          "name": "TNT1UK SPORTS FHD",
+          "source": "epg"
+        }
+      ]
+    },
+    {
       "sport": "soccer",
       "league": "Peruvian Liga 1",
       "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/peruvian-liga-1.svg",
@@ -777,6 +1284,19 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21819.png",
       "venue": "Complejo Deportivo Juan Pablo II",
       "start": "2026-11-15T20:15Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "Liga 1 Te Apuesto",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/liga-1-te-apuesto.svg",
+      "title": "ACD Juan Pablo II Vs Deportivo Garcilaso",
+      "home_team": "ACD Juan Pablo II",
+      "away_team": "Deportivo Garcilaso",
+      "home_logo": "https://img.sofascore.com/api/v1/team/511206/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/458584/image",
+      "venue": "",
+      "start": "2026-11-15T20:15:00.000Z",
       "channels": []
     },
     {
@@ -832,6 +1352,19 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7369.png",
       "venue": "Estadio Antonio Toledo Valle",
       "start": "2026-11-15T21:00Z",
+      "channels": []
+    },
+    {
+      "sport": "basketball",
+      "league": "NBA",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nba.svg",
+      "title": "Phoenix Suns Vs Los Angeles Lakers",
+      "home_team": "Phoenix Suns",
+      "away_team": "Los Angeles Lakers",
+      "home_logo": "https://img.sofascore.com/api/v1/team/3416/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/3427/image",
+      "venue": "",
+      "start": "2026-11-15T21:00:00.000Z",
       "channels": []
     },
     {
@@ -894,6 +1427,32 @@
     },
     {
       "sport": "football",
+      "league": "NFL",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nfl.svg",
+      "title": "Arizona Cardinals Vs Los Angeles Rams",
+      "home_team": "Arizona Cardinals",
+      "away_team": "Los Angeles Rams",
+      "home_logo": "https://img.sofascore.com/api/v1/team/4412/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/4387/image",
+      "venue": "",
+      "start": "2026-11-15T21:05:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "NFL",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nfl.svg",
+      "title": "Las Vegas Raiders Vs Seattle Seahawks",
+      "home_team": "Las Vegas Raiders",
+      "away_team": "Seattle Seahawks",
+      "home_logo": "https://img.sofascore.com/api/v1/team/4390/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/4430/image",
+      "venue": "",
+      "start": "2026-11-15T21:05:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
       "league": "National Football League",
       "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/national-football-league.svg",
       "title": "San Francisco 49ers at Dallas Cowboys",
@@ -920,6 +1479,19 @@
           "source": "guess"
         }
       ]
+    },
+    {
+      "sport": "football",
+      "league": "NFL",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nfl.svg",
+      "title": "Dallas Cowboys Vs San Francisco 49ers",
+      "home_team": "Dallas Cowboys",
+      "away_team": "San Francisco 49ers",
+      "home_logo": "https://img.sofascore.com/api/v1/team/4392/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/4389/image",
+      "venue": "",
+      "start": "2026-11-15T21:25:00.000Z",
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -952,6 +1524,19 @@
     },
     {
       "sport": "basketball",
+      "league": "NBA",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nba.svg",
+      "title": "Los Angeles Clippers Vs Charlotte Hornets",
+      "home_team": "Los Angeles Clippers",
+      "away_team": "Charlotte Hornets",
+      "home_logo": "https://img.sofascore.com/api/v1/team/3425/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/3430/image",
+      "venue": "",
+      "start": "2026-11-15T21:30:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "basketball",
       "league": "National Basketball Association",
       "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/national-basketball-association.svg",
       "title": "San Antonio Spurs at Utah Jazz",
@@ -978,6 +1563,19 @@
           "source": "guess"
         }
       ]
+    },
+    {
+      "sport": "basketball",
+      "league": "NBA",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nba.svg",
+      "title": "Utah Jazz Vs San Antonio Spurs",
+      "home_team": "Utah Jazz",
+      "away_team": "San Antonio Spurs",
+      "home_logo": "https://img.sofascore.com/api/v1/team/3434/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/3429/image",
+      "venue": "",
+      "start": "2026-11-15T22:00:00.000Z",
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -1112,6 +1710,58 @@
       "channels": []
     },
     {
+      "sport": "football",
+      "league": "CONCACAF Nations League",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/concacaf-nations-league.svg",
+      "title": "Panama Vs Curaçao",
+      "home_team": "Panama",
+      "away_team": "Curaçao",
+      "home_logo": "https://img.sofascore.com/api/v1/team/5164/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/55827/image",
+      "venue": "",
+      "start": "2026-11-15T23:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "basketball",
+      "league": "NBA",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nba.svg",
+      "title": "Boston Celtics Vs Dallas Mavericks",
+      "home_team": "Boston Celtics",
+      "away_team": "Dallas Mavericks",
+      "home_logo": "https://img.sofascore.com/api/v1/team/3422/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/3411/image",
+      "venue": "",
+      "start": "2026-11-15T23:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "basketball",
+      "league": "NBA",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nba.svg",
+      "title": "Toronto Raptors Vs New York Knicks",
+      "home_team": "Toronto Raptors",
+      "away_team": "New York Knicks",
+      "home_logo": "https://img.sofascore.com/api/v1/team/3433/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/3421/image",
+      "venue": "",
+      "start": "2026-11-15T23:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "CFL",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/cfl.svg",
+      "title": "Edmonton Elks Vs Montreal Alouettes",
+      "home_team": "Edmonton Elks",
+      "away_team": "Montreal Alouettes",
+      "home_logo": "https://img.sofascore.com/api/v1/team/4434/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/4439/image",
+      "venue": "",
+      "start": "2026-11-15T23:00:00.000Z",
+      "channels": []
+    },
+    {
       "sport": "soccer",
       "league": "Guatemalan Liga Nacional",
       "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/guatemalan-liga-nacional.svg",
@@ -1212,6 +1862,19 @@
       ]
     },
     {
+      "sport": "basketball",
+      "league": "NBA",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nba.svg",
+      "title": "Washington Wizards Vs Houston Rockets",
+      "home_team": "Washington Wizards",
+      "away_team": "Houston Rockets",
+      "home_logo": "https://img.sofascore.com/api/v1/team/3431/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/3412/image",
+      "venue": "",
+      "start": "2026-11-16T00:00:00.000Z",
+      "channels": []
+    },
+    {
       "sport": "hockey",
       "league": "National Hockey League",
       "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/national-hockey-league.svg",
@@ -1239,6 +1902,19 @@
           "source": "guess"
         }
       ]
+    },
+    {
+      "sport": "hockey",
+      "league": "NHL",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nhl.svg",
+      "title": "Philadelphia Flyers Vs Edmonton Oilers",
+      "home_team": "Philadelphia Flyers",
+      "away_team": "Edmonton Oilers",
+      "home_logo": "https://img.sofascore.com/api/v1/team/3699/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/3686/image",
+      "venue": "",
+      "start": "2026-11-16T00:30:00.000Z",
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -1328,6 +2004,45 @@
       ]
     },
     {
+      "sport": "hockey",
+      "league": "NHL",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nhl.svg",
+      "title": "Anaheim Ducks Vs Calgary Flames",
+      "home_team": "Anaheim Ducks",
+      "away_team": "Calgary Flames",
+      "home_logo": "https://img.sofascore.com/api/v1/team/3675/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/3679/image",
+      "venue": "",
+      "start": "2026-11-16T01:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "hockey",
+      "league": "NHL",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nhl.svg",
+      "title": "Dallas Stars Vs Florida Panthers",
+      "home_team": "Dallas Stars",
+      "away_team": "Florida Panthers",
+      "home_logo": "https://img.sofascore.com/api/v1/team/3684/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/3687/image",
+      "venue": "",
+      "start": "2026-11-16T01:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "basketball",
+      "league": "NBA",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nba.svg",
+      "title": "Milwaukee Bucks Vs Atlanta Hawks",
+      "home_team": "Milwaukee Bucks",
+      "away_team": "Atlanta Hawks",
+      "home_logo": "https://img.sofascore.com/api/v1/team/3410/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/3423/image",
+      "venue": "",
+      "start": "2026-11-16T01:00:00.000Z",
+      "channels": []
+    },
+    {
       "sport": "football",
       "league": "National Football League",
       "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/national-football-league.svg",
@@ -1355,6 +2070,19 @@
           "source": "guess"
         }
       ]
+    },
+    {
+      "sport": "football",
+      "league": "NFL",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nfl.svg",
+      "title": "Cincinnati Bengals Vs Pittsburgh Steelers",
+      "home_team": "Cincinnati Bengals",
+      "away_team": "Pittsburgh Steelers",
+      "home_logo": "https://img.sofascore.com/api/v1/team/4416/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/4345/image",
+      "venue": "",
+      "start": "2026-11-16T01:20:00.000Z",
+      "channels": []
     },
     {
       "sport": "basketball",
@@ -1442,6 +2170,118 @@
           "source": "guess"
         }
       ]
+    },
+    {
+      "sport": "hockey",
+      "league": "NHL",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nhl.svg",
+      "title": "San Jose Sharks Vs Nashville Predators",
+      "home_team": "San Jose Sharks",
+      "away_team": "Nashville Predators",
+      "home_logo": "https://img.sofascore.com/api/v1/team/3696/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/3705/image",
+      "venue": "",
+      "start": "2026-11-16T02:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "hockey",
+      "league": "NHL",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nhl.svg",
+      "title": "Vegas Golden Knights Vs Vancouver Canucks",
+      "home_team": "Vegas Golden Knights",
+      "away_team": "Vancouver Canucks",
+      "home_logo": "https://img.sofascore.com/api/v1/team/257523/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/3692/image",
+      "venue": "",
+      "start": "2026-11-16T02:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "basketball",
+      "league": "NBA",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/nba.svg",
+      "title": "Sacramento Kings Vs Oklahoma City Thunder",
+      "home_team": "Sacramento Kings",
+      "away_team": "Oklahoma City Thunder",
+      "home_logo": "https://img.sofascore.com/api/v1/team/3413/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/3418/image",
+      "venue": "",
+      "start": "2026-11-16T02:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "cricket",
+      "league": "Test Series",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/test-series.svg",
+      "title": "Afghanistan Vs Zimbabwe",
+      "home_team": "Afghanistan",
+      "away_team": "Zimbabwe",
+      "home_logo": "https://img.sofascore.com/api/v1/team/187575/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/187745/image",
+      "venue": "",
+      "start": "2026-11-16T05:00:00.000Z",
+      "channels": [
+        {
+          "id": "103",
+          "name": "SKY CRICKET FHD",
+          "source": "guess"
+        },
+        {
+          "id": "112",
+          "name": "STAR SPORTS HD",
+          "source": "guess"
+        },
+        {
+          "id": "113",
+          "name": "STAR SPORTS HD 2",
+          "source": "guess"
+        },
+        {
+          "id": "114",
+          "name": "STAR SPORTS HD 3",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "football",
+      "league": "Africa Cup of Nations Qual.",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/africa-cup-of-nations-qual.svg",
+      "title": "Namibia Vs Cameroon",
+      "home_team": "Namibia",
+      "away_team": "Cameroon",
+      "home_logo": "https://img.sofascore.com/api/v1/team/4832/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/4751/image",
+      "venue": "",
+      "start": "2026-11-16T13:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "Africa Cup of Nations Qual.",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/africa-cup-of-nations-qual.svg",
+      "title": "Zimbabwe Vs Equatorial Guinea",
+      "home_team": "Zimbabwe",
+      "away_team": "Equatorial Guinea",
+      "home_logo": "https://img.sofascore.com/api/v1/team/4719/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/8032/image",
+      "venue": "",
+      "start": "2026-11-16T13:00:00.000Z",
+      "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "Africa Cup of Nations Qual.",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/africa-cup-of-nations-qual.svg",
+      "title": "Sudan Vs Senegal",
+      "home_team": "Sudan",
+      "away_team": "Senegal",
+      "home_logo": "https://img.sofascore.com/api/v1/team/4734/image",
+      "away_logo": "https://img.sofascore.com/api/v1/team/4739/image",
+      "venue": "",
+      "start": "2026-11-16T13:00:00.000Z",
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -1631,6 +2471,25 @@
         {
           "id": "205",
           "name": "Fox Sports 1 USA",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "mma",
+      "league": "Monday Night RAW",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/monday-night-raw.svg",
+      "title": "Monday Night RAW Vs Monday Night RAW",
+      "home_team": "Monday Night RAW",
+      "away_team": "Monday Night RAW",
+      "home_logo": "https://i.ibb.co/4R6j8XK0/WWE-Logo-svg.png",
+      "away_logo": "https://i.ibb.co/4R6j8XK0/WWE-Logo-svg.png",
+      "venue": "",
+      "start": "2026-11-17T00:00:00.000Z",
+      "channels": [
+        {
+          "id": "221",
+          "name": "UFC TV FHD",
           "source": "guess"
         }
       ]
@@ -2384,6 +3243,25 @@
         {
           "id": "215",
           "name": "TSN3 SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "mma",
+      "league": "WWE NXT",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/wwe-nxt.svg",
+      "title": "WWE NXT Vs WWE NXT",
+      "home_team": "WWE NXT",
+      "away_team": "WWE NXT",
+      "home_logo": "https://i.ibb.co/jPMHTs55/20260310-202452.png",
+      "away_logo": "https://i.ibb.co/jPMHTs55/20260310-202452.png",
+      "venue": "",
+      "start": "2026-11-18T00:00:00.000Z",
+      "channels": [
+        {
+          "id": "221",
+          "name": "UFC TV FHD",
           "source": "guess"
         }
       ]
@@ -4472,6 +5350,19 @@
       "channels": []
     },
     {
+      "sport": "motorsport",
+      "league": "Formula 1",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/formula-1.svg",
+      "title": "Formula 1 Vs Formula 1",
+      "home_team": "Formula 1",
+      "away_team": "Formula 1",
+      "home_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Formula_One_logo.svg/1280px-Formula_One_logo.svg.png",
+      "away_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Formula_One_logo.svg/1280px-Formula_One_logo.svg.png",
+      "venue": "",
+      "start": "2026-11-20T00:30:00.000Z",
+      "channels": []
+    },
+    {
       "sport": "basketball",
       "league": "National Basketball Association",
       "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/national-basketball-association.svg",
@@ -4994,6 +5885,19 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131701.png",
       "venue": "Kobe Wing Stadium",
       "start": "2026-11-20T10:00Z",
+      "channels": []
+    },
+    {
+      "sport": "motorsport",
+      "league": "MotorGP",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/motorgp.svg",
+      "title": "MotorGP Vs MotorGP",
+      "home_team": "MotorGP",
+      "away_team": "MotorGP",
+      "home_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP_edH54wS35dUnT7EWMWImcprIRvpU0pFFJ0wArz-gQ&s=10",
+      "away_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP_edH54wS35dUnT7EWMWImcprIRvpU0pFFJ0wArz-gQ&s=10",
+      "venue": "",
+      "start": "2026-11-20T10:45:00.000Z",
       "channels": []
     },
     {
@@ -6763,35 +7667,6 @@
       "sport": "football",
       "league": "NCAA - Football",
       "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-football.svg",
-      "title": "Utah Utes at TCU Horned Frogs",
-      "home_team": "TCU Horned Frogs",
-      "away_team": "Utah Utes",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
-      "venue": "Amon G. Carter Stadium",
-      "start": "2026-11-21T05:00Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-football.svg",
       "title": "Virginia Tech Hokies at Miami Hurricanes",
       "home_team": "Miami Hurricanes",
       "away_team": "Virginia Tech Hokies",
@@ -6821,128 +7696,12 @@
       "sport": "football",
       "league": "NCAA - Football",
       "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-football.svg",
-      "title": "BYU Cougars at Kansas Jayhawks",
-      "home_team": "Kansas Jayhawks",
-      "away_team": "BYU Cougars",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
-      "venue": "David Booth Kansas Memorial Stadium",
-      "start": "2026-11-21T05:00Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-football.svg",
-      "title": "Texas Tech Red Raiders at Baylor Bears",
-      "home_team": "Baylor Bears",
-      "away_team": "Texas Tech Red Raiders",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
-      "venue": "McLane Stadium",
-      "start": "2026-11-21T05:00Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-football.svg",
       "title": "Wake Forest Demon Deacons at Georgia Tech Yellow Jackets",
       "home_team": "Georgia Tech Yellow Jackets",
       "away_team": "Wake Forest Demon Deacons",
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
       "venue": "Bobby Dodd Stadium",
-      "start": "2026-11-21T05:00Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-football.svg",
-      "title": "Houston Cougars at West Virginia Mountaineers",
-      "home_team": "West Virginia Mountaineers",
-      "away_team": "Houston Cougars",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
-      "venue": "Milan Puskar Stadium",
-      "start": "2026-11-21T05:00Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-football.svg",
-      "title": "Arizona Wildcats at Kansas State Wildcats",
-      "home_team": "Kansas State Wildcats",
-      "away_team": "Arizona Wildcats",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
-      "venue": "Bill Snyder Family Stadium",
       "start": "2026-11-21T05:00Z",
       "channels": [
         {
@@ -7001,35 +7760,6 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
       "venue": "Yulman Stadium",
-      "start": "2026-11-21T05:00Z",
-      "channels": [
-        {
-          "id": "205",
-          "name": "Fox Sports 1 USA",
-          "source": "guess"
-        },
-        {
-          "id": "204",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        },
-        {
-          "id": "243",
-          "name": "CBS SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "football",
-      "league": "NCAA - Football",
-      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-football.svg",
-      "title": "UTSA Roadrunners at UAB Blazers",
-      "home_team": "UAB Blazers",
-      "away_team": "UTSA Roadrunners",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2636.png",
-      "venue": "Protective Stadium",
       "start": "2026-11-21T05:00Z",
       "channels": [
         {
@@ -7278,6 +8008,19 @@
           "source": "guess"
         }
       ]
+    },
+    {
+      "sport": "football",
+      "league": "College GameDay",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/college-gameday.svg",
+      "title": "College GameDay Vs College GameDay",
+      "home_team": "College GameDay",
+      "away_team": "College GameDay",
+      "home_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZAZLm4MEGcVg2M3e1d9NInswFDpDuffYBVGKPQbhlIw&s=10",
+      "away_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZAZLm4MEGcVg2M3e1d9NInswFDpDuffYBVGKPQbhlIw&s=10",
+      "venue": "",
+      "start": "2026-11-21T12:00:00.000Z",
+      "channels": []
     },
     {
       "sport": "soccer",
@@ -8433,6 +9176,35 @@
       "sport": "football",
       "league": "NCAA - Football",
       "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-football.svg",
+      "title": "BYU Cougars at Kansas Jayhawks",
+      "home_team": "Kansas Jayhawks",
+      "away_team": "BYU Cougars",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+      "venue": "David Booth Kansas Memorial Stadium",
+      "start": "2026-11-21T17:00Z",
+      "channels": [
+        {
+          "id": "205",
+          "name": "Fox Sports 1 USA",
+          "source": "guess"
+        },
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "243",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "football",
+      "league": "NCAA - Football",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-football.svg",
       "title": "Wofford Terriers at Ole Miss Rebels",
       "home_team": "Ole Miss Rebels",
       "away_team": "Wofford Terriers",
@@ -9019,6 +9791,35 @@
         {
           "id": "104",
           "name": "SKY SPORTS FOOTBALL",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "football",
+      "league": "NCAA - Football",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-football.svg",
+      "title": "Houston Cougars at West Virginia Mountaineers",
+      "home_team": "West Virginia Mountaineers",
+      "away_team": "Houston Cougars",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+      "venue": "Milan Puskar Stadium",
+      "start": "2026-11-21T18:00Z",
+      "channels": [
+        {
+          "id": "205",
+          "name": "Fox Sports 1 USA",
+          "source": "guess"
+        },
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "243",
+          "name": "CBS SPORTS FHD",
           "source": "guess"
         }
       ]
@@ -10020,6 +10821,35 @@
       "sport": "football",
       "league": "NCAA - Football",
       "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-football.svg",
+      "title": "Texas Tech Red Raiders at Baylor Bears",
+      "home_team": "Baylor Bears",
+      "away_team": "Texas Tech Red Raiders",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+      "venue": "McLane Stadium",
+      "start": "2026-11-21T20:30Z",
+      "channels": [
+        {
+          "id": "205",
+          "name": "Fox Sports 1 USA",
+          "source": "guess"
+        },
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "243",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "football",
+      "league": "NCAA - Football",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-football.svg",
       "title": "Samford Bulldogs at Auburn Tigers",
       "home_team": "Auburn Tigers",
       "away_team": "Samford Bulldogs",
@@ -10568,6 +11398,25 @@
       "sport": "hockey",
       "league": "NCAA Men's Ice Hockey",
       "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-men-s-ice-hockey.svg",
+      "title": "UConn Huskies at New Hampshire Wildcats",
+      "home_team": "New Hampshire Wildcats",
+      "away_team": "UConn Huskies",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
+      "venue": "Whittemore Center",
+      "start": "2026-11-21T22:00Z",
+      "channels": [
+        {
+          "id": "213",
+          "name": "TSN1 SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "hockey",
+      "league": "NCAA Men's Ice Hockey",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-men-s-ice-hockey.svg",
       "title": "Notre Dame Fighting Irish at Ohio State Buckeyes",
       "home_team": "Ohio State Buckeyes",
       "away_team": "Notre Dame Fighting Irish",
@@ -10992,6 +11841,35 @@
       "sport": "football",
       "league": "NCAA - Football",
       "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-football.svg",
+      "title": "Arizona Wildcats at Kansas State Wildcats",
+      "home_team": "Kansas State Wildcats",
+      "away_team": "Arizona Wildcats",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
+      "venue": "Bill Snyder Family Stadium",
+      "start": "2026-11-22T00:00Z",
+      "channels": [
+        {
+          "id": "205",
+          "name": "Fox Sports 1 USA",
+          "source": "guess"
+        },
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "243",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
+      "sport": "football",
+      "league": "NCAA - Football",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-football.svg",
       "title": "UNLV Rebels at San José State Spartans",
       "home_team": "San José State Spartans",
       "away_team": "UNLV Rebels",
@@ -11363,25 +12241,6 @@
       "sport": "hockey",
       "league": "NCAA Men's Ice Hockey",
       "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-men-s-ice-hockey.svg",
-      "title": "UConn Huskies at New Hampshire Wildcats",
-      "home_team": "New Hampshire Wildcats",
-      "away_team": "UConn Huskies",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
-      "venue": "Whittemore Center",
-      "start": "2026-11-22T00:00Z",
-      "channels": [
-        {
-          "id": "213",
-          "name": "TSN1 SPORTS FHD",
-          "source": "guess"
-        }
-      ]
-    },
-    {
-      "sport": "hockey",
-      "league": "NCAA Men's Ice Hockey",
-      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-men-s-ice-hockey.svg",
       "title": "Clarkson Golden Knights at Colgate Raiders ",
       "home_team": "Colgate Raiders",
       "away_team": "Clarkson Golden Knights",
@@ -11699,6 +12558,35 @@
       ]
     },
     {
+      "sport": "football",
+      "league": "NCAA - Football",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-football.svg",
+      "title": "UTSA Roadrunners at UAB Blazers",
+      "home_team": "UAB Blazers",
+      "away_team": "UTSA Roadrunners",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2636.png",
+      "venue": "Protective Stadium",
+      "start": "2026-11-22T01:00Z",
+      "channels": [
+        {
+          "id": "205",
+          "name": "Fox Sports 1 USA",
+          "source": "guess"
+        },
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "243",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        }
+      ]
+    },
+    {
       "sport": "basketball",
       "league": "National Basketball Association",
       "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/national-basketball-association.svg",
@@ -11891,6 +12779,35 @@
       "venue": null,
       "start": "2026-11-22T01:30Z",
       "channels": []
+    },
+    {
+      "sport": "football",
+      "league": "NCAA - Football",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-football.svg",
+      "title": "Utah Utes at TCU Horned Frogs",
+      "home_team": "TCU Horned Frogs",
+      "away_team": "Utah Utes",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
+      "venue": "Amon G. Carter Stadium",
+      "start": "2026-11-22T02:00Z",
+      "channels": [
+        {
+          "id": "205",
+          "name": "Fox Sports 1 USA",
+          "source": "guess"
+        },
+        {
+          "id": "204",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        },
+        {
+          "id": "243",
+          "name": "CBS SPORTS FHD",
+          "source": "guess"
+        }
+      ]
     },
     {
       "sport": "hockey",
