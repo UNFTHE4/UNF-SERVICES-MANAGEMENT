@@ -1,33 +1,7 @@
 {
-  "generated_at": "2026-11-15T14:29:38.774Z",
-  "total_upcoming": 528,
+  "generated_at": "2026-11-15T16:32:40.845Z",
+  "total_upcoming": 526,
   "events": [
-    {
-      "sport": "football",
-      "league": "National Football League",
-      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/national-football-league.svg",
-      "start_time_utc": "2026-11-15T14:30Z",
-      "name": "New England Patriots at Detroit Lions",
-      "short_name": "NE VS DET",
-      "venue": "FC Bayern Munich Stadium",
-      "home_team": "Detroit Lions",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
-      "away_team": "New England Patriots",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png"
-    },
-    {
-      "sport": "soccer",
-      "league": "Spanish LALIGA 2",
-      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/spanish-laliga-2.svg",
-      "start_time_utc": "2026-11-15T15:15Z",
-      "name": "Las Palmas at Granada",
-      "short_name": "LPA @ GRA",
-      "venue": "Nuevo Estadio de Los Cármenes",
-      "home_team": "Granada",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3747.png",
-      "away_team": "Las Palmas",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/98.png"
-    },
     {
       "sport": "basketball",
       "league": "NCAA Women's Basketball",
@@ -5922,6 +5896,19 @@
       "league": "NCAA Men's Ice Hockey",
       "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-men-s-ice-hockey.svg",
       "start_time_utc": "2026-11-21T22:00Z",
+      "name": "UConn Huskies at New Hampshire Wildcats",
+      "short_name": "CONN @ UNH",
+      "venue": "Whittemore Center",
+      "home_team": "New Hampshire Wildcats",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
+      "away_team": "UConn Huskies",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png"
+    },
+    {
+      "sport": "hockey",
+      "league": "NCAA Men's Ice Hockey",
+      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-men-s-ice-hockey.svg",
+      "start_time_utc": "2026-11-21T22:00Z",
       "name": "Notre Dame Fighting Irish at Ohio State Buckeyes",
       "short_name": "ND @ OSU",
       "venue": "Schottenstein Center",
@@ -6371,19 +6358,6 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/311.png",
       "away_team": "Boston College Eagles",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png"
-    },
-    {
-      "sport": "hockey",
-      "league": "NCAA Men's Ice Hockey",
-      "league_logo": "https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main/api/covers/ncaa-men-s-ice-hockey.svg",
-      "start_time_utc": "2026-11-22T00:00Z",
-      "name": "UConn Huskies at New Hampshire Wildcats",
-      "short_name": "CONN @ UNH",
-      "venue": "Whittemore Center",
-      "home_team": "New Hampshire Wildcats",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
-      "away_team": "UConn Huskies",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png"
     },
     {
       "sport": "hockey",
