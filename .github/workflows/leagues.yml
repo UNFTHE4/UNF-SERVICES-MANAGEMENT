@@ -139,8 +139,7 @@ jobs:
           // Add countries you want to REPLACE the flag for.
           // (Use the exact country name, and paste your image URL).
           const CUSTOM_FLAGS = {
-            // 'Palestine': 'https://your-website.com/custom-palestine-flag.png',
-            // 'France': 'https://your-website.com/custom-france-flag.png',
+             'India': 'https://i.ibb.co.com/WWNtBsmY/HW0-XCw-XW8-AAMxk-K.jpg',
           };
           // ============================================================
 
