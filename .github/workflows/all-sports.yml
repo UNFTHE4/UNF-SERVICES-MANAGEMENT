@@ -292,8 +292,18 @@ jobs:
             const map = {};
             for (const [name, m] of Object.entries(meta)) {
               const embedded = await toDataUri(m.logo);
-              const a = randColor();
-              let b = randColor(); while (b === a) b = randColor();
+  
+              let a, b;
+              if (name.toLowerCase().includes("formula 1") || name.toLowerCase().includes("f1")) {
+                // 🏎️ F1 CUSTOM COLORS HERE
+                a = "#e10600"; // F1 Red
+                b = "#15151e"; // F1 Dark Carbon
+              } else {
+                // Random for all other sports
+                a = randColor();
+                b = randColor();
+                while (b === a) b = randColor();
+              }
               const bg = m.solo
                 ? `<rect width="1080" height="1350" fill="${a}"/>`
                 : `<rect width="540" height="1350" fill="${a}"/><rect x="540" width="540" height="1350" fill="${b}"/>`;
