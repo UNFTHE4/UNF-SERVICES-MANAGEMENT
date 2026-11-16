@@ -128,9 +128,22 @@ jobs:
           const fs = require('fs');
           // Country flags from lipis/flag-icons (pinned commit — immutable).
           const FLAG_BASE = 'https://raw.githubusercontent.com/lipis/flag-icons/ac7e0eb3259eb62aa6100c435607e2fe03896a97/flags/1x1/';
-          // Country name -> ISO 3166-1 alpha-2 (or gb-eng / gb-sct / gb-wls / gb-nir).
-          // One row per country, sport="country" — biggbang.cjs ignores sport
-          // and matches by name, so these apply to ANY sport.
+
+          // ============================================================
+          // 🚨 EASY CUSTOMIZATION HERE 🚨
+          // Add countries you want to REMOVE entirely from the app.
+          const BLOCKED_COUNTRIES = [
+            // 'Israel',
+          ];
+
+          // Add countries you want to REPLACE the flag for.
+          // (Use the exact country name, and paste your image URL).
+          const CUSTOM_FLAGS = {
+            // 'Palestine': 'https://your-website.com/custom-palestine-flag.png',
+            // 'France': 'https://your-website.com/custom-france-flag.png',
+          };
+          // ============================================================
+
           const COUNTRIES = {
             'Afghanistan': 'af',
             'Albania': 'al', 'Algeria': 'dz', 'Andorra': 'ad', 'Angola': 'ao', 'Argentina': 'ar',
@@ -191,20 +204,27 @@ jobs:
             ({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&apos;'}[c]));
           const file = 'api/all-sports.xml';
           let xml = fs.readFileSync(file, 'utf8');
+          
           // Idempotent: remove existing country rows first
           xml = xml.replace(/^.*<team sport="country"[\s\S]*?<\/team>\n?/gm, '');
+          
           let i = 0;
           const rows = [];
           for (const [name, code] of Object.entries(COUNTRIES)) {
+            // Skip if blocked
+            if (BLOCKED_COUNTRIES.includes(name)) continue;
+            
             i++;
-            const logo = FLAG_BASE + code + '.svg';
+            // Use custom flag if exists, otherwise normal
+            const logo = CUSTOM_FLAGS[name] || (FLAG_BASE + code + '.svg');
             rows.push(`  <team sport="country" league="Countries" league_slug="countries" id="ctry-${i}"><name>${esc(name)}</name><logo>${esc(logo)}</logo></team>`);
           }
           i++;
           rows.push(`  <team sport="country" league="Countries" league_slug="countries" id="ctry-${i}"><name>West Indies</name><logo>${esc(WEST_INDIES)}</logo></team>`);
+          
           xml = xml.replace('</sports>', rows.join('\n') + '\n</sports>');
           fs.writeFileSync(file, xml);
-          console.log(`Re-wrote ${rows.length} country rows (${Object.keys(COUNTRIES).length} from lipis + West Indies) in ${file}`);
+          console.log(`Re-wrote ${rows.length} country rows in ${file}`);
           JS
 
       - name: Blacklist (remove teams / logo URLs)
@@ -214,22 +234,14 @@ jobs:
 
           // ============================================================
           // BLACKLIST — remove matching <team> rows from api/all-sports.xml
-          // so biggbang.cjs never indexes them. Works for ANY sport.
-          //
-          // NAMES : matched against <name> after the same normalize() as
-          //         biggbang.cjs. Substring. 'Pakistan' hides Pakistan +
-          //         Pakistan U19 + Pakistan Women.
-          // LOGOS : exact URL match against <logo>.
-          //
-          // Empty array = no-op.
+          // (Use this to block specific CLUBS like 'Arsenal' or 'Lakers')
           // ============================================================
           const BLACKLIST_NAMES = [
-            'Israel',
+            'Israel', // Blocks Israel clubs (if you didn't block the country above)
           ];
           const BLACKLIST_LOGOS = [
           ];
 
-          // Same normalize used in biggbang.cjs — keep in sync if you change it there.
           function normalize(s) {
             return String(s || '')
               .toLowerCase()
@@ -264,7 +276,7 @@ jobs:
 
           fs.writeFileSync(file, xml);
           const after = (xml.match(/<team\s/g) || []).length;
-          console.log(`Blacklist: removed ${before - after} of ${before} team rows (${BLACKLIST_NAMES.length} name rules, ${BLACKLIST_LOGOS.length} logo rules)`);
+          console.log(`Blacklist: removed ${before - after} of ${before} team rows`);
           JS
 
       - name: Commit
