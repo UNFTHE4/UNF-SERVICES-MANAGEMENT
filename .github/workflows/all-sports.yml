@@ -270,9 +270,13 @@ jobs:
               if (e.away_team) {
                 const aKey = normalize(e.away_team);
                 if (teamMap[aKey]) { e.away_logo = teamMap[aKey]; updated++; }
+              } 
+              if (e.league) {
+                const lKey = normalize(e.league);
+                if (teamMap[lKey]) { e.league_logo = teamMap[lKey]; updated++; }
               }
             }
-
+            
             fs.writeFileSync('api/schedule.json', JSON.stringify(data, null, 2));
             console.log(`✅ Synced official team logos: ${updated} updates.`);
           })();
@@ -344,15 +348,9 @@ jobs:
             for (const [name, m] of Object.entries(meta)) {
               const embedded = await toDataUri(m.logo);
   
-              let a, b;
-              if (name.toLowerCase().includes("formula 1") || name.toLowerCase().includes("f1")) {
-                a = "#e10600"; // F1 Red
-                b = "#15151e"; // F1 Dark Carbon
-              } else {
-                a = randColor();
-                b = randColor();
-                while (b === a) b = randColor();
-              }
+              let a = randColor();
+              let b = randColor();
+              while (b === a) b = randColor();
               const bg = m.solo
                 ? `<rect width="1080" height="1350" fill="${a}"/>`
                 : `<rect width="540" height="1350" fill="${a}"/><rect x="540" width="540" height="1350" fill="${b}"/>`;
