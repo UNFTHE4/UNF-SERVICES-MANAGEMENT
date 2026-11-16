@@ -140,6 +140,7 @@ jobs:
           // (Use the exact country name, and paste your image URL).
           const CUSTOM_FLAGS = {
              'India': 'https://i.ibb.co.com/WWNtBsmY/HW0-XCw-XW8-AAMxk-K.jpg',
+             'Israel': 'https://i0.wp.com/www.printmag.com/wp-content/uploads/2025/01/red-00.jpg?fit=1920%2C1080&quality=89&ssl=1'
           };
           // ============================================================
 
