@@ -225,6 +225,59 @@ jobs:
           })();
           JS
 
+      - name: Connect Official Logos from all-sports.xml
+        run: |
+          node --input-type=commonjs - <<'JS'
+          const fs = require('fs');
+          const data = JSON.parse(fs.readFileSync('api/schedule.json','utf8'));
+          const XML_URL = 'https://raw.githubusercontent.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/refs/heads/main/api/all-sports.xml';
+
+          // Same normalize function used in your other scripts
+          function normalize(s) {
+            return String(s || '')
+              .toLowerCase()
+              .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+              .replace(/\b(fc|afc|cf|sc|cd|ca|ac|as|us|sv|vfb|vfl|fsv|tsg|sd|ud|rcd|rc|club|deportivo|stade|de|of|the|united|city|town)\b/g, ' ')
+              .replace(/\b(u[\s-]?\d{1,2}|under[\s-]?\d{1,2}|women|womens|men|mens|emerging|academy|reserves?)\b/g, ' ')
+              .replace(/\s+a(?:\s+|$)/g, ' ')
+              .replace(/[^a-z0-9]/g, '');
+          }
+
+          (async () => {
+            let xml = '';
+            try {
+              const r = await fetch(XML_URL);
+              if (r.ok) xml = await r.text();
+            } catch (e) { console.warn("Failed to load XML: " + e.message); }
+            if (!xml) return;
+
+            // Parse the XML into a dictionary
+            const teamMap = {};
+            const re = /<team\s+[^>]*><name>([^<]+)<\/name><logo>([^<]+)<\/logo><\/team>/g;
+            let m;
+            while ((m = re.exec(xml)) !== null) {
+              const name = m[1].replace(/&amp;/g, '&').replace(/&apos;/g, "'");
+              const logo = m[2].trim();
+              if (logo) teamMap[normalize(name)] = logo;
+            }
+
+            let updated = 0;
+            for (const e of (data.events || [])) {
+              if (e.home_team) {
+                const hKey = normalize(e.home_team);
+                if (teamMap[hKey]) { e.home_logo = teamMap[hKey]; updated++; }
+              }
+              if (e.away_team) {
+                const aKey = normalize(e.away_team);
+                if (teamMap[aKey]) { e.away_logo = teamMap[aKey]; updated++; }
+              }
+            }
+
+            fs.writeFileSync('api/schedule.json', JSON.stringify(data, null, 2));
+            console.log(`✅ Synced official team logos: ${updated} updates.`);
+          })();
+          JS
+
       - name: Generate league cover images
         run: |
           node --input-type=commonjs - <<'JS'
@@ -261,7 +314,6 @@ jobs:
             fs.mkdirSync('api/covers', { recursive: true });
 
             const meta = {};
-            // 1. ESPN leagues first (authoritative)
             for (const e of (data.events || [])) {
               if (!e.league || !e.league_logo) continue;
               if (!meta[e.league]) meta[e.league] = {
@@ -270,7 +322,6 @@ jobs:
               };
             }
 
-            // 2. SofaScore (Monirul) — fills leagues ESPN doesn't have
             try {
               const r = await fetch(MONIRUL_URL);
               if (r.ok) {
@@ -295,11 +346,9 @@ jobs:
   
               let a, b;
               if (name.toLowerCase().includes("formula 1") || name.toLowerCase().includes("f1")) {
-                // 🏎️ F1 CUSTOM COLORS HERE
                 a = "#e10600"; // F1 Red
                 b = "#15151e"; // F1 Dark Carbon
               } else {
-                // Random for all other sports
                 a = randColor();
                 b = randColor();
                 while (b === a) b = randColor();
