@@ -156,6 +156,17 @@ jobs:
           const fs = require('fs');
           const data = JSON.parse(fs.readFileSync('api/schedule.json','utf8'));
           const MONIRUL_URL = 'https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/refs/heads/main/Sports_data.json';
+          const SOURCE_TZ = 'America/Chicago'; // the timezone the Monirul times are written in
+
+          function zonedToUtc(y, mo, d, h, mi, s, tz) {
+            const guess = Date.UTC(y, mo, d, h, mi, s);
+            const p = Object.fromEntries(new Intl.DateTimeFormat('en-US', {
+              timeZone: tz, hourCycle: 'h23', year: 'numeric', month: '2-digit', day: '2-digit',
+              hour: '2-digit', minute: '2-digit', second: '2-digit'
+            }).formatToParts(new Date(guess)).map(x => [x.type, +x.value]));
+            const asUtc = Date.UTC(p.year, p.month - 1, p.day, p.hour, p.minute, p.second);
+            return guess - (asUtc - guess);
+          }
 
           function parseTime(s) {
             if (!s) return null;
@@ -166,7 +177,7 @@ jobs:
               hh = parseInt(hh,10); ap = ap.toUpperCase();
               if (ap==='PM' && hh!==12) hh+=12;
               if (ap==='AM' && hh===12) hh=0;
-              return Date.UTC(+yyyy,+mm-1,+dd,hh-6,+min,+(ss||0));
+              return zonedToUtc(+yyyy,+mm-1,+dd,hh,+min,+(ss||0),SOURCE_TZ);
             }
             const t = Date.parse(clean);
             return isNaN(t) ? null : t;
@@ -178,7 +189,7 @@ jobs:
             if (!r.ok) return;
             const md = await r.json();
 
-            const seen = new Set((data.events||[]).map(e => e.name+'|'+e.start_time_utc));
+            const seen = new Set((data.events||[]).map(e => e.name+'|'+new Date(e.start_time_utc).toISOString()));
             let added = 0;
 
             for (const m of (md.matches || [])) {
