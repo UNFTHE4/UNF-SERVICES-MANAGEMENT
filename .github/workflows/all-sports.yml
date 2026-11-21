@@ -92,8 +92,13 @@ jobs:
                 const now = new Date();
 
                 for (const ev of events) {
-                  if (ev.status.type.state === 'post' || ev.status.type.state === 'in') continue;
-                  if (new Date(ev.date) <= now) continue;
+                  // Racing weekends have several sessions; use the Race session's own date and status
+                  const raceComp = sport === 'racing' ? (ev.competitions || []).find(c => c.type?.abbreviation === 'Race') : null;
+                  if (sport === 'racing' && !raceComp) continue;
+                  const when = raceComp ? raceComp.date : ev.date;
+                  const state = raceComp ? raceComp.status?.type?.state : ev.status.type.state;
+                  if (state === 'post' || state === 'in') continue;
+                  if (new Date(when) <= now) continue;
 
                   const comp = ev.competitions?.[0] || {};
                   const home = comp.competitors?.find(c => c.homeAway === 'home');
@@ -103,7 +108,7 @@ jobs:
                     sport,
                     league: data.leagues?.[0]?.name || league,
                     league_logo: data.leagues?.[0]?.logos?.[0]?.href || null,
-                    start_time_utc: ev.date,
+                    start_time_utc: when,
                     name: ev.name,
                     short_name: ev.shortName,
                     venue: comp.venue?.fullName || null,
@@ -156,7 +161,7 @@ jobs:
           const fs = require('fs');
           const data = JSON.parse(fs.readFileSync('api/schedule.json','utf8'));
           const MONIRUL_URL = 'https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/refs/heads/main/Sports_data.json';
-          const SOURCE_TZ = 'America/Chicago'; // the timezone the Monirul times are written in
+          const SOURCE_TZ = 'Asia/Dhaka'; // Monirul times are Bangladesh local time
 
           function zonedToUtc(y, mo, d, h, mi, s, tz) {
             const guess = Date.UTC(y, mo, d, h, mi, s);
@@ -191,9 +196,9 @@ jobs:
 
             const seen = new Set((data.events||[]).map(e => e.name+'|'+new Date(e.start_time_utc).toISOString()));
 
-            // Sports ESPN already provides (snapshot taken before any Monirul events are added)
+            // Snapshot of ESPN events taken before any Monirul events are added
+            const espnEvents = (data.events || []).slice();
             const sportKey = s => { s = String(s || '').toLowerCase(); if (s === 'racing') return 'motorsport'; if (s === 'soccer') return 'football'; return s; };
-            const espnSports = new Set((data.events || []).map(e => sportKey(e.sport)));
 
             let added = 0;
 
@@ -202,6 +207,7 @@ jobs:
               if (String(m.status||'').toUpperCase() === 'ENDED') continue;
               const start = parseTime(info.startTime);
               if (!start) continue;
+              if (start < Date.now() - 3 * 60 * 60 * 1000) continue; // skip Monirul matches that already ended
 
               const title = m.event_name || ((info.teamA||'')+' vs '+(info.teamB||''));
               const startIso = new Date(start).toISOString();
@@ -236,7 +242,12 @@ jobs:
                 : cat.includes('mma') || cat.includes('box') ? 'mma'
                 : 'football';
 
-              if (espnSports.has(sport)) continue;
+              // Skip Monirul only if ESPN has the same sport within 24 h of this match
+              const espnCovers = espnEvents.some(e =>
+                sportKey(e.sport) === sport &&
+                Math.abs(new Date(e.start_time_utc).getTime() - start) < 24 * 60 * 60 * 1000
+              );
+              if (espnCovers) continue;
 
               data.events.push({
                 sport,
