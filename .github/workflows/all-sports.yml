@@ -190,6 +190,11 @@ jobs:
             const md = await r.json();
 
             const seen = new Set((data.events||[]).map(e => e.name+'|'+new Date(e.start_time_utc).toISOString()));
+
+            // Sports ESPN already provides (snapshot taken before any Monirul events are added)
+            const sportKey = s => { s = String(s || '').toLowerCase(); if (s === 'racing') return 'motorsport'; if (s === 'soccer') return 'football'; return s; };
+            const espnSports = new Set((data.events || []).map(e => sportKey(e.sport)));
+
             let added = 0;
 
             for (const m of (md.matches || [])) {
@@ -203,7 +208,7 @@ jobs:
               const key = title+'|'+startIso;
               if (seen.has(key)) continue;
               seen.add(key);
-              
+
               // Dual events only: skip if ESPN already has the same two teams within 3 h.
               // Solo events (F1, etc.) are never skipped here.
               const tA = String(info.teamA || '').toLowerCase().replace(/[^a-z0-9]/g, '');
@@ -230,6 +235,8 @@ jobs:
                 : cat.includes('motor') || cat.includes('racing') ? 'motorsport'
                 : cat.includes('mma') || cat.includes('box') ? 'mma'
                 : 'football';
+
+              if (espnSports.has(sport)) continue;
 
               data.events.push({
                 sport,
@@ -299,13 +306,13 @@ jobs:
               if (e.away_team) {
                 const aKey = normalize(e.away_team);
                 if (teamMap[aKey]) { e.away_logo = teamMap[aKey]; updated++; }
-              } 
+              }
               if (e.league) {
                 const lKey = normalize(e.league);
                 if (teamMap[lKey]) { e.league_logo = teamMap[lKey]; updated++; }
               }
             }
-            
+
             fs.writeFileSync('api/schedule.json', JSON.stringify(data, null, 2));
             console.log(`✅ Synced official team logos: ${updated} updates.`);
           })();
@@ -376,7 +383,7 @@ jobs:
             const map = {};
             for (const [name, m] of Object.entries(meta)) {
               const embedded = await toDataUri(m.logo);
-  
+
               let a = randColor();
               let b = randColor();
               while (b === a) b = randColor();
