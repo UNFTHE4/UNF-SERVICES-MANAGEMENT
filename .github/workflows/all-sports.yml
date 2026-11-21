@@ -103,19 +103,20 @@ jobs:
                   const comp = ev.competitions?.[0] || {};
                   const home = comp.competitors?.find(c => c.homeAway === 'home');
                   const away = comp.competitors?.find(c => c.homeAway === 'away');
+                  const leagueLogo = data.leagues?.[0]?.logos?.[0]?.href || null;
 
                   allEvents.push({
                     sport,
                     league: data.leagues?.[0]?.name || league,
-                    league_logo: data.leagues?.[0]?.logos?.[0]?.href || null,
+                    league_logo: leagueLogo,
                     start_time_utc: when,
                     name: ev.name,
                     short_name: ev.shortName,
-                    venue: comp.venue?.fullName || null,
+                    venue: ev.circuit?.fullName || comp.venue?.fullName || null,
                     home_team: home?.team?.displayName || null,
-                    home_logo: home?.team?.logo || null,
+                    home_logo: home?.team?.logo || (sport === 'racing' ? leagueLogo : null),
                     away_team: away?.team?.displayName || null,
-                    away_logo: away?.team?.logo || null,
+                    away_logo: away?.team?.logo || (sport === 'racing' ? leagueLogo : null),
                   });
                 }
               } catch (e) {
@@ -337,6 +338,7 @@ jobs:
           const SOLO_SPORTS = new Set(['racing','mma','boxing','golf','tennis','cricket','rugby','lacrosse']);
           const REPO = 'https://rawcdn.githack.com/UNFTHE4/UNF-SERVICES-MANAGEMENT/main';
           const MONIRUL_URL = 'https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/refs/heads/main/Sports_data.json';
+          const DEFAULT_LOGO = 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f3c6.png';
 
           const randColor = () => {
             const h = Math.random()*360, s = (60 + Math.random()*30)/100, l = (25 + Math.random()*20)/100;
@@ -413,8 +415,17 @@ jobs:
             for (const e of (data.events || [])) {
               if (e.league && map[e.league]) e.league_logo = map[e.league];
             }
+
+            // Guarantee every event has a poster (league_logo) and team/home/away logos
+            let filled = 0;
+            for (const e of (data.events || [])) {
+              if (!e.league_logo) { e.league_logo = DEFAULT_LOGO; filled++; }
+              if (!e.home_logo) e.home_logo = e.league_logo;
+              if (!e.away_logo) e.away_logo = e.league_logo;
+            }
+
             fs.writeFileSync('api/schedule.json', JSON.stringify(data, null, 2));
-            console.log(`✅ Wrote ${Object.keys(map).length} league covers.`);
+            console.log(`✅ Wrote ${Object.keys(map).length} league covers. Filled ${filled} missing posters.`);
           })();
           JS
 
