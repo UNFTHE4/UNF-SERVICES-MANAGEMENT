@@ -203,6 +203,24 @@ jobs:
               const key = title+'|'+startIso;
               if (seen.has(key)) continue;
               seen.add(key);
+              
+              // Dual events only: skip if ESPN already has the same two teams within 3 h.
+              // Solo events (F1, etc.) are never skipped here.
+              const tA = String(info.teamA || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+              const tB = String(info.teamB || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+              const isSoloM = !tA || !tB || tA === tB;
+              if (!isSoloM) {
+                const pair = [tA, tB].sort().join('|');
+                const dupe = data.events.find(e => {
+                  if (!e.home_team || !e.away_team) return false;
+                  const eA = String(e.home_team).toLowerCase().replace(/[^a-z0-9]/g, '');
+                  const eB = String(e.away_team).toLowerCase().replace(/[^a-z0-9]/g, '');
+                  if (eA === eB) return false;
+                  return [eA, eB].sort().join('|') === pair &&
+                    Math.abs(new Date(e.start_time_utc).getTime() - start) < 3 * 60 * 60 * 1000;
+                });
+                if (dupe) continue;
+              }
 
               const cat = String(m.Category||'').toLowerCase();
               const sport = cat.includes('basket') ? 'basketball'
