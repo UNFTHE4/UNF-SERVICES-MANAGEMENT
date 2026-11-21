@@ -156,7 +156,7 @@ jobs:
           const fs = require('fs');
           const data = JSON.parse(fs.readFileSync('api/schedule.json','utf8'));
           const MONIRUL_URL = 'https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/refs/heads/main/Sports_data.json';
-          const SOURCE_TZ = 'America/Chicago'; // the timezone the Monirul times are written in
+          const SOURCE_TZ = 'America/Los_Angeles'; // the timezone the Monirul times are written in
 
           function zonedToUtc(y, mo, d, h, mi, s, tz) {
             const guess = Date.UTC(y, mo, d, h, mi, s);
